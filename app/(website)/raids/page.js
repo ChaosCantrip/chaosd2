@@ -2,6 +2,10 @@ import Link from "next/link";
 
 import layout from "@/styles/modules/layout.module.css";
 
+export const metadata = {
+    "title": "Raids",
+}
+
 export default function Raids() {
     return (
         <div>

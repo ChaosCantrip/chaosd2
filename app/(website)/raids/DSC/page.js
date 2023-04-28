@@ -1,6 +1,10 @@
 import layout from "@/styles/modules/layout.module.css";
 
-export default function DeepStoneCrypt() {
+export const metadata = {
+    "title": "Deep Stone Crypt",
+}
+
+    export default function DeepStoneCrypt() {
     return (
         <div>
             <h1>Deep Stone Crypt</h1>

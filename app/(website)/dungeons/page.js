@@ -1,7 +1,11 @@
 import Link from "next/link";
 import layout from "@/styles/modules/layout.module.css";
 
-export default function DungeonsPage() {
+export const metadata = {
+    "title": "Dungeons",
+}
+
+    export default function DungeonsPage() {
     return (
         <div>
             <h1>Dungeons</h1>

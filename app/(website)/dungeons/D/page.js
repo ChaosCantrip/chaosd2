@@ -1,6 +1,10 @@
 import layout from "@/styles/modules/layout.module.css";
 
-export default function Duality() {
+export const metadata = {
+    "title": "Duality",
+}
+
+    export default function Duality() {
     return (
         <div>
             <h1>Duality</h1>

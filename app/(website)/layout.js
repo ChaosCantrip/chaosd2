@@ -3,7 +3,10 @@ import Footer from "@/app/(website)/Footer";
 import "@/styles/global/master.css";
 
 export const metadata = {
-  title: "Destiny 2"
+  title: {
+      template: "%s | ChaosCantrip",
+      default: "ChaosCantrip"
+  }
 }
  
 export default function RootLayout({ children }) {

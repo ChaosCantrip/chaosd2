@@ -1,6 +1,10 @@
 import layout from "@/styles/modules/layout.module.css";
 
-export default function Prophecy() {
+export const metadata = {
+    "title": "Prophecy",
+}
+
+    export default function Prophecy() {
     return (
         <div>
             <h1>Prophecy</h1>
