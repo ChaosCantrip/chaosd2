@@ -3,6 +3,9 @@ import layout from "@/styles/modules/layout.module.css";
 
 export default function PitOfHeresy() {
     return (
-        <UnderConstruction/>
+        <div>
+            <h1>Pit of Heresy</h1>
+            <p>Page Under Construction</p>
+        </div>
     )
 }

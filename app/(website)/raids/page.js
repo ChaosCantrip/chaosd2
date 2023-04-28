@@ -1,8 +1,11 @@
 import UnderConstruction from "@/lib/placeholders/UnderConstruction";
 import layout from "@/styles/modules/layout.module.css";
 
-export default function RaidsPage() {
+export default function Raids() {
     return (
-        <UnderConstruction/>
+        <div>
+            <h1>Raids</h1>
+            <p>Page Under Construction</p>
+        </div>
     )
 }
