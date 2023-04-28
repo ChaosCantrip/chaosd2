@@ -1,0 +1,12 @@
+:root {
+    --header-font-family: 'Roboto', sans-serif;
+    --text-font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: var(--text-font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font-family);
+}
