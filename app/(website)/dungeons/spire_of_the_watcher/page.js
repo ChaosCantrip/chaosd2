@@ -1,4 +1,5 @@
 import layout from "@/styles/modules/layout.module.css";
+import TitleWithBack from "@/lib/components/TitleWithBack";
 
 export const metadata = {
     "title": "Spire of the Watcher",
@@ -7,7 +8,7 @@ export const metadata = {
 export default function SpireOfTheWatcher() {
     return (
         <div className={layout.page}>
-            <h1 className={layout.page_title}>Spire of the Watcher</h1>
+            <TitleWithBack title={"Spire of the Watcher"}/>
             <p>Page Under Construction</p>
         </div>
     )

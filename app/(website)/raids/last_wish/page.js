@@ -1,4 +1,5 @@
 import layout from "@/styles/modules/layout.module.css";
+import TitleWithBack from "@/lib/components/TitleWithBack";
 
 export const metadata = {
     "title": "Last Wish",
@@ -7,7 +8,7 @@ export const metadata = {
 export default function LastWish() {
     return (
         <div className={layout.page}>
-            <h1 className={layout.page_title}>Last Wish</h1>
+            <TitleWithBack title={"Last Wish"}/>
             <p>Page Under Construction</p>
         </div>
     )

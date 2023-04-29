@@ -1,4 +1,5 @@
 import layout from "@/styles/modules/layout.module.css";
+import TitleWithBack from "@/lib/components/TitleWithBack";
 
 export const metadata = {
     "title": "Vow of the Disciple",
@@ -7,7 +8,7 @@ export const metadata = {
 export default function VowOfTheDisciple() {
     return (
         <div className={layout.page}>
-            <h1 className={layout.page_title}>Vow of the Disciple</h1>
+            <TitleWithBack title={"Vow of the Disciple"}/>
             <p>Page Under Construction</p>
         </div>
     )

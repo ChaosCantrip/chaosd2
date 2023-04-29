@@ -1,4 +1,5 @@
 import layout from "@/styles/modules/layout.module.css";
+import TitleWithBack from "@/lib/components/TitleWithBack";
 
 export const metadata = {
     "title": "Root of Nightmares",
@@ -7,7 +8,7 @@ export const metadata = {
 export default function RootOfNightmares() {
     return (
         <div className={layout.page}>
-            <h1 className={layout.page_title}>Root of Nightmares</h1>
+            <TitleWithBack title={"Root of Nightmares"}/>
             <p>Page Under Construction</p>
         </div>
     )
