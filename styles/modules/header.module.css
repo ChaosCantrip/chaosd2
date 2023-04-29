@@ -11,9 +11,23 @@
     margin: 0 auto;
 }
 
-.title {
-    font-size: 24px;
-    font-weight: 700;
+.logo {
+    height: 5rem;
+    width: 5rem;
+    transition: box-shadow 0.2s;
+}
+
+.logo:hover {
+    box-shadow: 3px 3px orangered;
+}
+
+.logo_link {
+    text-decoration: none;
+    padding: 0;
+}
+
+.logo_link:hover {
+    background: none;
 }
 
 .nav {
