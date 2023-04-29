@@ -4,8 +4,8 @@ import "@/styles/global/master.css";
 
 export const metadata = {
   title: {
-      template: "%s | ChaosCantrip",
-      default: "ChaosCantrip"
+      template: "%s | chaosd2",
+      default: "chaosd2"
   }
 }
  
