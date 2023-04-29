@@ -90,6 +90,20 @@ const encounter_dictionary = {
                 "boss"
             ],
         }
+    },
+    "dungeons": {
+        "duality": {
+            "1": [
+                "gahlran",
+            ],
+            "2": [
+                "vault",
+            ],
+            "3": [
+                "boss",
+                "caiatl",
+            ],
+        }
     }
 }
 
