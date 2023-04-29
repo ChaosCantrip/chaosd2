@@ -10,3 +10,9 @@
     border-bottom: orangered 1px solid;
     margin-bottom: 1rem;
 }
+
+.full_image {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
