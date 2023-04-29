@@ -9,3 +9,11 @@
 .footer a {
     color: #ffffff;
 }
+
+.link {
+    text-shadow: orangered 2px 2px 4px;
+}
+
+.link:hover {
+    text-shadow: white 2px 2px 4px;
+}
