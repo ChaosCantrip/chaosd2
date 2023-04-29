@@ -6,14 +6,24 @@
 .page_title_wrapper {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     border-bottom: orangered 1px solid;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
 }
 
+.back_title_wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .page_title {
     font-size: 2rem;
     font-weight: bold;
+}
+
+.page_title_icon {
+    height: 3rem;
 }
 
 .full_image {
