@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background: black;
+    color: white;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.text {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.link {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button {
+    background: orangered;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    aspect-ratio: 1 / 1;
+    margin: 0.5rem;
+}
+
+.button:hover {
+    background: black;
+    color: orangered;
+}
