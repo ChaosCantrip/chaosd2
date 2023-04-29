@@ -3,20 +3,24 @@
     justify-content: space-between;
     align-items: center;
     font-family: var(--header-font-family);
+    cursor: pointer;
 }
 
 .button {
     background: none;
     color: white;
-    cursor: pointer;
     padding: 1rem;
     font-size: large;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn_open {
+    transform: rotate(-90deg);
 }
 
 .title {
     font-size: x-large;
     font-weight: bold;
-    cursor: pointer;
 }
 
 .top:hover > * {
@@ -29,7 +33,7 @@
 }
 
 .open {
-    max-height: 1000px;
+    max-height: 10000px;
 }
 
 .closed {
