@@ -8,7 +8,7 @@ export default function Header() {
             <nav className={styles.nav}>
                 <ul>
                     <li><Link href={"/"}>Home</Link></li>
-                    <li>
+                    <li className={styles.menu}>
                         <Link href={"/raids"}>Raids</Link>
                         <ul className={styles.sub_menu}>
                             <li><Link href={"/raids/RoN"}>Root of Nightmares</Link></li>
@@ -20,7 +20,7 @@ export default function Header() {
                             <li><Link href={"/raids/LW"}>Last Wish</Link></li>
                         </ul>
                     </li>
-                    <li>
+                    <li className={styles.menu}>
                         <Link href={"/dungeons"}>Dungeons</Link>
                         <ul className={styles.sub_menu}>
                             <li><Link href={"/dungeons/SotW"}>Spire of the Watcher</Link></li>

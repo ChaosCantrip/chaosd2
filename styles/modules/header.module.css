@@ -25,3 +25,7 @@
 .sub_menu {
     display: none;
 }
+
+.menu:hover .sub_menu {
+    display: block;
+}
