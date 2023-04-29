@@ -2,6 +2,7 @@ import layout from "@/styles/modules/layout.module.css";
 import Link from "next/link";
 import QuickLink from "@/lib/components/QuickLink";
 import BackButton from "@/lib/components/BackButton";
+import TitleWithBack from "@/lib/components/TitleWithBack";
 
 export const metadata = {
     "title": "Duality",
@@ -10,10 +11,7 @@ export const metadata = {
 export default function Duality() {
     return (
         <div className={layout.page}>
-            <div className={layout.page_title_wrapper}>
-                <BackButton />
-                <h1 className={layout.page_title}>Duality</h1>
-            </div>
+            <TitleWithBack title={"Duality"}/>
             <div className={layout.content}>
                 <Link href={"/dungeons/duality/1"}>
                     <h2>Encounter 1 - Nightmare of Galrann</h2>
