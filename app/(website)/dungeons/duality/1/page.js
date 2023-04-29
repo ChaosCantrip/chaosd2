@@ -1,5 +1,5 @@
 import layout from "@/styles/modules/layout.module.css";
-import EncounterMap from "@/public/images/dungeons/duality/1.jpg";
+import EncounterMap from "@/public/images/dungeons/duality/1.png";
 import Image from "next/image";
 import QuickLink from "@/lib/components/QuickLink";
 import BackButton from "@/lib/components/BackButton";
@@ -11,7 +11,7 @@ export default function Encounter1() {
             <h2 className={layout.page_subtitle}>Encounter 1 - Nightmare of Gahlran</h2>
             <div className={layout.content}>
                 <QuickLink href={"/duality/1/i"}/>
-                <Image className={layout.full_image} src={EncounterMap} alt={<a href={"/images/dungeons/duality/1.jpg"}>Encounter 1 Map</a>}/>
+                <Image className={layout.full_image} src={EncounterMap} alt={<a href={"/images/dungeons/duality/1.png"}>Encounter 1 Map</a>}/>
             </div>
         </div>
     )

@@ -175,12 +175,12 @@ const nextConfig = {
             ...build_redirects(),
             {
                 source: "/:path*/img",
-                destination: "/images/:path*.jpg",
+                destination: "/images/:path*.png",
                 permanent: true,
             },
             {
                 source: "/:path*/i",
-                destination: "/images/:path*.jpg",
+                destination: "/images/:path*.png",
                 permanent: true,
             }
         ]
