@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
 
 :root {
-    --header-font-family: 'Righteous', monospace;
+    --header-font-family: 'Montserrat', sans-serif;
     --text-font-family: 'Roboto', sans-serif;
 }
 
