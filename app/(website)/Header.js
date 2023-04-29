@@ -10,7 +10,7 @@ export default function Header() {
                     <li><Link href={"/"}>Home</Link></li>
                     <li>
                         <Link href={"/raids"}>Raids</Link>
-                        <ul>
+                        <ul className={styles.sub_menu}>
                             <li><Link href={"/raids/RoN"}>Root of Nightmares</Link></li>
                             <li><Link href={"/raids/KF"}>King's Fall</Link></li>
                             <li><Link href={"/raids/VotD"}>Vow of the Disciple</Link></li>
@@ -22,7 +22,7 @@ export default function Header() {
                     </li>
                     <li>
                         <Link href={"/dungeons"}>Dungeons</Link>
-                        <ul>
+                        <ul className={styles.sub_menu}>
                             <li><Link href={"/dungeons/SotW"}>Spire of the Watcher</Link></li>
                             <li><Link href={"/dungeons/D"}>Duality</Link></li>
                             <li><Link href={"/dungeons/GoA"}>Grasp of Avarice</Link></li>

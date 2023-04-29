@@ -21,3 +21,7 @@
 .nav > * {
     margin-left: 20px;
 }
+
+.sub_menu {
+    display: none;
+}
