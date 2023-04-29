@@ -3,12 +3,17 @@
     margin: 0 auto;
 }
 
+.page_title_wrapper {
+    display: flex;
+    align-items: center;
+    border-bottom: orangered 1px solid;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
 .page_title {
     font-size: 2rem;
     font-weight: bold;
-    padding: 1rem;
-    border-bottom: orangered 1px solid;
-    margin-bottom: 1rem;
 }
 
 .full_image {
