@@ -15,6 +15,11 @@ const nextConfig = {
         destination: "/dungeons/:slug*",
         permanent: true,
       },
+      {
+        source: "/:path*/img",
+        destination: "/images/:path*.jpg",
+        permanent: true,
+      }
     ]
   }
 }
