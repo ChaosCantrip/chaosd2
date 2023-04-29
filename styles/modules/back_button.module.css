@@ -1,0 +1,12 @@
+.button {
+    color: orangered;
+    display: inline;
+    font-size: 2rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: white;
+}
