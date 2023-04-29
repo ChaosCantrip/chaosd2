@@ -11,24 +11,24 @@ export default function Header() {
                     <div>
                         <Link className={styles.link} href={"/raids"}>Raids</Link>
                         <div className={styles.sub_menu}>
-                            <Link href={"/raids/RoN"}>Root of Nightmares</Link>
-                            <Link href={"/raids/KF"}>King's Fall</Link>
-                            <Link href={"/raids/VotD"}>Vow of the Disciple</Link>
-                            <Link href={"/raids/VoG"}>Vault of Glass</Link>
-                            <Link href={"/raids/DSC"}>Deep Stone Crypt</Link>
-                            <Link href={"/raids/GoS"}>Garden of Salvation</Link>
-                            <Link href={"/raids/LW"}>Last Wish</Link>
+                            <Link href={"/raids/root_of_nightmares"}>Root of Nightmares</Link>
+                            <Link href={"/raids/kings_fall"}>King's Fall</Link>
+                            <Link href={"/raids/vow_of_the_disciple"}>Vow of the Disciple</Link>
+                            <Link href={"/raids/vault_of_glass"}>Vault of Glass</Link>
+                            <Link href={"/raids/deep_stone_crypt"}>Deep Stone Crypt</Link>
+                            <Link href={"/raids/garden_of_salvation"}>Garden of Salvation</Link>
+                            <Link href={"/raids/last_wish"}>Last Wish</Link>
                         </div>
                     </div>
                     <div>
                         <Link className={styles.link} href={"/dungeons"}>Dungeons</Link>
                         <div className={styles.sub_menu}>
-                            <Link href={"/dungeons/SotW"}>Spire of the Watcher</Link>
-                            <Link href={"/dungeons/D"}>Duality</Link>
-                            <Link href={"/dungeons/GoA"}>Grasp of Avarice</Link>
-                            <Link href={"/dungeons/P"}>Prophecy</Link>
-                            <Link href={"/dungeons/PoH"}>Pit of Heresy</Link>
-                            <Link href={"/dungeons/SH"}>Shattered Throne</Link>
+                            <Link href={"/dungeons/spire_of_the_watcher"}>Spire of the Watcher</Link>
+                            <Link href={"/dungeons/duality"}>Duality</Link>
+                            <Link href={"/dungeons/grasp_of_avarice"}>Grasp of Avarice</Link>
+                            <Link href={"/dungeons/prophecy"}>Prophecy</Link>
+                            <Link href={"/dungeons/pit_of_heresy"}>Pit of Heresy</Link>
+                            <Link href={"/dungeons/shattered_throne"}>Shattered Throne</Link>
                         </div>
                     </div>
                 </nav>

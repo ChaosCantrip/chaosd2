@@ -12,13 +12,13 @@ export default function Raids() {
             <h1>Raids</h1>
             <p>Page Under Construction</p>
             <ul>
-                <li><Link href={"/raids/RoN"}>Root of Nightmares</Link></li>
-                <li><Link href={"/raids/KF"}>King's Fall</Link></li>
-                <li><Link href={"/raids/VoG"}>Vow of the Disciple</Link></li>
-                <li><Link href={"/raids/VoG"}>Vault of Glass</Link></li>
-                <li><Link href={"/raids/DSC"}>Deep Stone Crypt</Link></li>
-                <li><Link href={"/raids/GoS"}>Garden of Salvation</Link></li>
-                <li><Link href={"/raids/LW"}>Last Wish</Link></li>
+                <li><Link href={"/raids/root_of_nightmares"}>Root of Nightmares</Link></li>
+                <li><Link href={"/raids/kings_fall"}>King's Fall</Link></li>
+                <li><Link href={"/raids/vow_of_the_disciple"}>Vow of the Disciple</Link></li>
+                <li><Link href={"/raids/vault_of_glass"}>Vault of Glass</Link></li>
+                <li><Link href={"/raids/deep_stone_crypt"}>Deep Stone Crypt</Link></li>
+                <li><Link href={"/raids/garden_of_salvation"}>Garden of Salvation</Link></li>
+                <li><Link href={"/raids/last_wish"}>Last Wish</Link></li>
             </ul>
         </div>
     )
