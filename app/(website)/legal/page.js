@@ -1,3 +1,5 @@
+import layout from '@/styles/modules/layout.module.css';
+
 export default function LegalPage() {
     return (
         <div className={layout.page}>
