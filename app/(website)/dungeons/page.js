@@ -1,5 +1,6 @@
 import Link from "next/link";
 import layout from "@/styles/modules/layout.module.css";
+import Title from "@/lib/components/Title";
 
 export const metadata = {
     "title": "Dungeons",
@@ -8,7 +9,7 @@ export const metadata = {
 export default function DungeonsPage() {
     return (
         <div className={layout.page}>
-            <h1 className={layout.page_title}>Dungeons</h1>
+            <Title title={"Dungeons"}/>
             <p>Page Under Construction</p>
             <ul>
                 <li><Link href={"/dungeons/spire_of_the_watcher"}>Spire of the Watcher</Link></li>

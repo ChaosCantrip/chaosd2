@@ -1,7 +1,10 @@
+import layout from "@/styles/modules/layout.module.css";
+import Title from "@/lib/components/Title";
+
 export default function Loading() {
     return (
-        <div>
-            <h1>Loading...</h1>
+        <div className={layout.page}>
+            <Title title="Loading..."/>
         </div>
     )
 }

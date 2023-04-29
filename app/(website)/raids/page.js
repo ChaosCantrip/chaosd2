@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Title from "@/lib/components/Title";
 
 import layout from "@/styles/modules/layout.module.css";
 
@@ -9,7 +10,7 @@ export const metadata = {
 export default function Raids() {
     return (
         <div className={layout.page}>
-            <h1 className={layout.page_title}>Raids</h1>
+            <Title title={"Raids"}/>
             <p>Page Under Construction</p>
             <ul>
                 <li><Link href={"/raids/root_of_nightmares"}>Root of Nightmares</Link></li>

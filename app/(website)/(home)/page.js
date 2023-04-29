@@ -1,4 +1,5 @@
 import layout from "@/styles/modules/layout.module.css";
+import Title from "@/lib/components/Title";
 
 export const metadata = {
     "title": "Home",
@@ -7,7 +8,7 @@ export const metadata = {
 export default function HomePage(){
     return (
         <div className={layout.page}>
-            <h1 className={layout.page_title}>Home Page</h1>
+            <Title title={"Home"}/>
             <div className={layout.content}>
                 <p>Website very much under construction</p>
             </div>
