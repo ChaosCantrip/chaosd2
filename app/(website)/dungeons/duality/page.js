@@ -10,7 +10,10 @@ export const metadata = {
 export default function Duality() {
     return (
         <div className={layout.page}>
-            <h1 className={layout.page_title}><BackButton/>Duality</h1>
+            <div className={layout.page_title_wrapper}>
+                <BackButton />
+                <h1 className={layout.page_title}>Duality</h1>
+            </div>
             <div className={layout.content}>
                 <Link href={"/dungeons/duality/1"}>
                     <h2>Encounter 1 - Nightmare of Galrann</h2>
