@@ -8,6 +8,9 @@ export default function HomePage(){
     return (
         <div className={layout.page}>
             <h1 className={layout.page_title}>Home Page</h1>
+            <div className={layout.content}>
+                <p>Website very much under construction</p>
+            </div>
         </div>
     )
 }
