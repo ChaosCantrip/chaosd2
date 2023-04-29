@@ -23,31 +23,27 @@
     font-family: var(--header-font-family);
 }
 
-.nav a {
-    text-decoration: none;
-    color: red;
-}
-
 .link {
     position: relative;
     margin: 0 10px;
     padding: 10px;
-    color: #000;
     border-radius: 5px;
-}
-
-.link:hover {
-    background-color: #e0e0e0;
+    color: orangered;
+    text-decoration: none;
 }
 
 div:hover > .link {
-    background-color: #e0e0e0;
+    background-color: orangered;
+    color: black;
 }
 
 .sub_menu {
     display: none;
     position: absolute;
     flex-direction: column;
+    background: orangered;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
 }
 
 div:hover > .sub_menu {
@@ -55,13 +51,12 @@ div:hover > .sub_menu {
 }
 
 .sub_menu > * {
-    margin: 0;
     padding: 10px;
-    background-color: #fff;
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
+    color: black;
+    text-decoration: none;
 }
 
 .sub_menu > *:hover {
-    background-color: #e0e0e0;
+    background-color: black;
+    color: orangered;
 }
