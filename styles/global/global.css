@@ -29,3 +29,27 @@ footer {
     margin-top: auto;
     flex: 0 1 auto;
 }
+
+code {
+    font-family: 'Roboto Mono', monospace;
+    padding: 0.2rem;
+    background: gray;
+    border-radius: 0.5rem;
+}
+
+p {
+    padding-block: 0.2rem;
+}
+
+a {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+}
+
+a:hover {
+    color: black;
+    background: orangered;
+}
