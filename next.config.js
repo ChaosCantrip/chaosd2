@@ -16,10 +16,20 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/raid/:slug*",
+        destination: "/raids/:slug*",
+        permanent: true,
+      },
+      {
+        source: "/dungeon/:slug*",
+        destination: "/dungeons/:slug*",
+        permanent: true,
+      },
+      {
         source: "/:path*/img",
         destination: "/images/:path*.jpg",
         permanent: true,
-      }
+      },
     ]
   }
 }
