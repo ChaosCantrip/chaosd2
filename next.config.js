@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const dictionary = {
+const activity_dictionary = {
     "raids": {
         "root_of_nightmares": [
             "ron",
@@ -70,9 +70,32 @@ const dictionary = {
     }
 }
 
-function get_redirects() {
+const encounter_dictionary = {
+    "raids": {
+        "root_of_nightmares": {
+            "1": [
+                "cataclysm",
+            ],
+            "2": [
+                "scission",
+            ],
+            "3": [
+                "macrocosm",
+                "planets",
+                "planet"
+            ],
+            "4": [
+                "nez",
+                "nezarec",
+                "boss"
+            ],
+        }
+    }
+}
+
+function build_redirects() {
     let redirects = []
-    for (const [type, activities] of Object.entries(dictionary)) {
+    for (const [type, activities] of Object.entries(activity_dictionary)) {
         for (const [activity, shortcuts] of Object.entries(activities)) {
             redirects.push({
                 source: `/${activity}/:slug*`,
@@ -90,6 +113,19 @@ function get_redirects() {
                     destination: `/${type}/${activity}/:slug*`,
                     permanent: true,
                 })
+            }
+        }
+    }
+    for (const [type, activities] of Object.entries(encounter_dictionary)) {
+        for (const [activity, encounters] of Object.entries(activities)) {
+            for (const [encounter, shortcuts] of Object.entries(encounters)) {
+                for (const shortcut of shortcuts) {
+                    redirects.push({
+                        source: `/${type}/${activity}/${shortcut}/:slug*`,
+                        destination: `/${type}/${activity}/${encounter}/:slug*`,
+                        permanent: true,
+                    })
+                }
             }
         }
     }
@@ -122,7 +158,7 @@ const nextConfig = {
                 destination: "/dungeons/:slug*",
                 permanent: true,
             },
-            ...get_redirects(),
+            ...build_redirects(),
             {
                 source: "/:path*/img",
                 destination: "/images/:path*.jpg",
