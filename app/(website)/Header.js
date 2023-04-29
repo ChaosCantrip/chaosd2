@@ -6,32 +6,30 @@ export default function Header() {
         <header className={styles.header}>
             <h1 className={styles.title}>destiny.chaoscantrip.com</h1>
             <nav className={styles.nav}>
-                <ul>
-                    <li><Link href={"/"}>Home</Link></li>
-                    <li className={styles.menu}>
+                <div><Link href={"/"}>Home</Link></div>
+                <div className={styles.menu}>
                         <Link href={"/raids"}>Raids</Link>
-                        <ul className={styles.sub_menu}>
-                            <li><Link href={"/raids/RoN"}>Root of Nightmares</Link></li>
-                            <li><Link href={"/raids/KF"}>King's Fall</Link></li>
-                            <li><Link href={"/raids/VotD"}>Vow of the Disciple</Link></li>
-                            <li><Link href={"/raids/VoG"}>Vault of Glass</Link></li>
-                            <li><Link href={"/raids/DoS"}>Deep Stone Crypt</Link></li>
-                            <li><Link href={"/raids/GoS"}>Garden of Salvation</Link></li>
-                            <li><Link href={"/raids/LW"}>Last Wish</Link></li>
-                        </ul>
-                    </li>
-                    <li className={styles.menu}>
-                        <Link href={"/dungeons"}>Dungeons</Link>
-                        <ul className={styles.sub_menu}>
-                            <li><Link href={"/dungeons/SotW"}>Spire of the Watcher</Link></li>
-                            <li><Link href={"/dungeons/D"}>Duality</Link></li>
-                            <li><Link href={"/dungeons/GoA"}>Grasp of Avarice</Link></li>
-                            <li><Link href={"/dungeons/P"}>Prophecy</Link></li>
-                            <li><Link href={"/dungeons/PoH"}>Pit of Heresy</Link></li>
-                            <li><Link href={"/dungeons/SH"}>Shattered Throne</Link></li>
-                        </ul>
-                    </li>
-                </ul>
+                        <div className={styles.sub_menu}>
+                            <Link href={"/raids/RoN"}>Root of Nightmares</Link>
+                            <Link href={"/raids/KF"}>King's Fall</Link>
+                            <Link href={"/raids/VotD"}>Vow of the Disciple</Link>
+                            <Link href={"/raids/VoG"}>Vault of Glass</Link>
+                            <Link href={"/raids/DoS"}>Deep Stone Crypt</Link>
+                            <Link href={"/raids/GoS"}>Garden of Salvation</Link>
+                            <Link href={"/raids/LW"}>Last Wish</Link>
+                        </div>
+                </div>
+                <div className={styles.menu}>
+                    <Link href={"/dungeons"}>Dungeons</Link>
+                    <div className={styles.sub_menu}>
+                        <Link href={"/dungeons/SotW"}>Spire of the Watcher</Link>
+                        <Link href={"/dungeons/D"}>Duality</Link>
+                        <Link href={"/dungeons/GoA"}>Grasp of Avarice</Link>
+                        <Link href={"/dungeons/P"}>Prophecy</Link>
+                        <Link href={"/dungeons/PoH"}>Pit of Heresy</Link>
+                        <Link href={"/dungeons/SH"}>Shattered Throne</Link>
+                    </div>
+                </div>
             </nav>
         </header>
     )
