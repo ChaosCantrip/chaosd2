@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.content}>
-                <h1 className={styles.title}>destiny.chaoscantrip.com</h1>
+                <h1 className={styles.title}>chaosd2</h1>
                 <nav className={styles.nav}>
                     <div><Link className={styles.link} href={"/"}>Home</Link></div>
                     <div>
