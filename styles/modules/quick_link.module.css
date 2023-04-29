@@ -20,6 +20,7 @@
 }
 
 .button {
+    position: relative;
     background: orangered;
     color: white;
     padding: 0.5rem;
@@ -33,4 +34,28 @@
 .button:hover {
     background: black;
     color: orangered;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    background: grey;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.tooltip > p {
+
+    text-wrap: none;
+}
+
+.button:hover .tooltip {
+    opacity: 1;
 }
