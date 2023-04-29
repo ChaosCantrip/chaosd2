@@ -55,8 +55,7 @@ div:hover > .link {
     display: none;
     position: absolute;
     flex-direction: column;
-    background-color: orangered;
-    border-radius: 0.4rem;
+    background-color: black;
     margin-top: 0.5rem;
     z-index: 3;
 }
@@ -65,15 +64,25 @@ div:hover > .sub_menu {
     display: flex;
 }
 
-.sub_menu > * {
+.header a {
+    color: orangered;
+    font-family: var(--header-font-family);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+.sub_menu a {
     padding: 10px;
     color: black;
+    background: orangered;
     text-decoration: none;
-    border-radius: 0 !important;
-    transition: box-shadow 0.2s;
+    border-radius: 0;
 }
 
 .sub_menu > *:hover {
     color: orangered;
     background: black;
+    text-shadow: none;
+    border-radius: 0;
 }

@@ -41,15 +41,16 @@ p {
     padding-block: 0.2rem;
 }
 
-a {
+main a {
     color: orangered;
     font-weight: bold;
     text-decoration: none;
     padding: 0.2rem;
     border-radius: 0.5rem;
+    transition: all 0.1s ease-in-out;
 }
 
-a:hover {
-    color: black;
-    background: orangered;
+main a:hover {
+    color: white;
+    text-shadow: orangered 2px 2px ;
 }
