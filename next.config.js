@@ -104,13 +104,13 @@ function get_redirects() {
     for (const [activity, shortcuts] of Object.entries(activities)) {
       for (const shortcut of shortcuts) {
         redirects.push({
-          source: `/${shortcut}`,
-          destination: `/${type}/${activity}`,
+          source: `/${shortcut}/:slug*`,
+          destination: `/${type}/${activity}/:slug*`,
           permanent: true,
         })
         redirects.push({
-            source: `/${type}/${shortcut}`,
-            destination: `/${type}/${activity}`,
+            source: `/${type}/${shortcut}/:slug*`,
+            destination: `/${type}/${activity}/:slug*`,
             permanent: true,
         })
       }
@@ -145,12 +145,18 @@ const nextConfig = {
         destination: "/dungeons/:slug*",
         permanent: true,
       },
+        ...get_redirects(),
       {
         source: "/:path*/img",
         destination: "/images/:path*.jpg",
         permanent: true,
       },
-    ].concat(get_redirects())
+      {
+        source: "/:path*/i",
+        destination: "/images/:path*.jpg",
+        permanent: true,
+      }
+    ]
   }
 }
 
