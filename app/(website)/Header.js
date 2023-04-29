@@ -15,7 +15,7 @@ export default function Header() {
                             <Link href={"/raids/KF"}>King's Fall</Link>
                             <Link href={"/raids/VotD"}>Vow of the Disciple</Link>
                             <Link href={"/raids/VoG"}>Vault of Glass</Link>
-                            <Link href={"/raids/DoS"}>Deep Stone Crypt</Link>
+                            <Link href={"/raids/DSC"}>Deep Stone Crypt</Link>
                             <Link href={"/raids/GoS"}>Garden of Salvation</Link>
                             <Link href={"/raids/LW"}>Last Wish</Link>
                         </div>
