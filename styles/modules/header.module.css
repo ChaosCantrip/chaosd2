@@ -55,9 +55,10 @@ div:hover > .link {
     display: none;
     position: absolute;
     flex-direction: column;
-    background: orangered;
-    border-radius: 1rem;
+    background-color: orangered;
+    border-radius: 0.4rem;
     margin-top: 0.5rem;
+    z-index: 3;
 }
 
 div:hover > .sub_menu {
@@ -68,9 +69,11 @@ div:hover > .sub_menu {
     padding: 10px;
     color: black;
     text-decoration: none;
+    border-radius: 0 !important;
+    transition: box-shadow 0.2s;
 }
 
 .sub_menu > *:hover {
-    background-color: black;
     color: orangered;
+    background: black;
 }
