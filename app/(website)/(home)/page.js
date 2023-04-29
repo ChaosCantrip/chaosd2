@@ -6,8 +6,8 @@ export const metadata = {
 
 export default function HomePage(){
     return (
-        <div>
-            <h1>Home Page</h1>
+        <div className={layout.page}>
+            <h1 className={layout.page_title}>Home Page</h1>
         </div>
     )
 }

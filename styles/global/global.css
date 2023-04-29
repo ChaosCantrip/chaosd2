@@ -23,6 +23,7 @@ header {
 
 main {
     flex: 1 1 auto;
+    padding: 2rem;
 }
 
 footer {

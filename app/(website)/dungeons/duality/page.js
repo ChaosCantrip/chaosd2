@@ -4,10 +4,10 @@ export const metadata = {
     "title": "Duality",
 }
 
-    export default function Duality() {
+export default function Duality() {
     return (
-        <div>
-            <h1>Duality</h1>
+        <div className={layout.page}>
+            <h1 className={layout.page_title}>Duality</h1>
             <p>Page Under Construction</p>
         </div>
     )

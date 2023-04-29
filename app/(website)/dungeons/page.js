@@ -5,10 +5,10 @@ export const metadata = {
     "title": "Dungeons",
 }
 
-    export default function DungeonsPage() {
+export default function DungeonsPage() {
     return (
-        <div>
-            <h1>Dungeons</h1>
+        <div className={layout.page}>
+            <h1 className={layout.page_title}>Dungeons</h1>
             <p>Page Under Construction</p>
             <ul>
                 <li><Link href={"/dungeons/spire_of_the_watcher"}>Spire of the Watcher</Link></li>

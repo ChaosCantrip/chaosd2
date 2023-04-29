@@ -1,7 +1,7 @@
 export default function LegalPage() {
     return (
-        <div>
-            <h1>The Legal Stuff</h1>
+        <div className={layout.page}>
+            <h1 className={layout.page_title}>The Legal Stuff</h1>
             <p>idk much about legal stuff I'm just some dude</p>
             <p>I'm not associated with Destiny 2 or Bungie in any way</p>
             <p>I'm just a fan of the game that wanted to put together an easy way to find maps for encounters and stuff</p>

@@ -4,10 +4,10 @@ export const metadata = {
     "title": "Spire of the Watcher",
 }
 
-    export default function SpireOfTheWatcher() {
+export default function SpireOfTheWatcher() {
     return (
-        <div>
-            <h1>Spire of the Watcher</h1>
+        <div className={layout.page}>
+            <h1 className={layout.page_title}>Spire of the Watcher</h1>
             <p>Page Under Construction</p>
         </div>
     )

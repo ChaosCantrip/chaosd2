@@ -1,7 +1,9 @@
+import layout from "@/styles/modules/layout.module.css";
+
 export default function ReferencePage() {
     return (
-        <div>
-            <h1>Reference Page</h1>
+        <div className={layout.page}>
+            <h1 className={layout.page_title}>Reference Page</h1>
             <p>Page Under Construction</p>
             <p>
                 I made this site to make it easier to link images into Discord and other text apps, or to find images

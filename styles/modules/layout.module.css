@@ -1,0 +1,12 @@
+.page {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.page_title {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-bottom: orangered 1px solid;
+    margin-bottom: 1rem;
+}

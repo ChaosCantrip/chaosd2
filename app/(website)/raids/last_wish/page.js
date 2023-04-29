@@ -4,10 +4,10 @@ export const metadata = {
     "title": "Last Wish",
 }
 
-    export default function LastWish() {
+export default function LastWish() {
     return (
-        <div>
-            <h1>Last Wish</h1>
+        <div className={layout.page}>
+            <h1 className={layout.page_title}>Last Wish</h1>
             <p>Page Under Construction</p>
         </div>
     )

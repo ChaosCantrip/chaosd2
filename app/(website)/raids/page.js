@@ -8,8 +8,8 @@ export const metadata = {
 
 export default function Raids() {
     return (
-        <div>
-            <h1>Raids</h1>
+        <div className={layout.page}>
+            <h1 className={layout.page_title}>Raids</h1>
             <p>Page Under Construction</p>
             <ul>
                 <li><Link href={"/raids/root_of_nightmares"}>Root of Nightmares</Link></li>

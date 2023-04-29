@@ -4,10 +4,10 @@ export const metadata = {
     "title": "King's Fall",
 }
 
-    export default function KingsFall() {
+export default function KingsFall() {
     return (
-        <div>
-            <h1>King's Fall</h1>
+        <div className={layout.page}>
+            <h1 className={layout.page_title}>King's Fall</h1>
             <p>Page Under Construction</p>
         </div>
     )
