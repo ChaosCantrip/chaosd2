@@ -31,6 +31,7 @@ export default function Header() {
                             <Link href={"/dungeons/shattered_throne"}>Shattered Throne</Link>
                         </div>
                     </div>
+                    <div><Link href={"/reference"}>Reference</Link></div>
                 </nav>
             </div>
         </header>
