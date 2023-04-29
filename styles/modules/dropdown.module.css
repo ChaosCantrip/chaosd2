@@ -1,0 +1,37 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--header-font-family);
+}
+
+.button {
+    background: none;
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: large;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.top:hover > * {
+    color: orangered;
+}
+
+.content {
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.open {
+    max-height: 1000px;
+}
+
+.closed {
+    max-height: 0;
+}

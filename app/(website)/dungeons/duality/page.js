@@ -1,8 +1,12 @@
 import layout from "@/styles/modules/layout.module.css";
-import Link from "next/link";
 import QuickLink from "@/lib/components/QuickLink";
-import BackButton from "@/lib/components/BackButton";
 import TitleWithBack from "@/lib/components/TitleWithBack";
+import Dropdown from "@/lib/components/Dropdown";
+import Image from "next/image";
+
+import Encounter1Map from "@/public/images/dungeons/duality/1.png";
+import Encounter2Map from "@/public/images/dungeons/duality/2.png";
+import Encounter3Map from "@/public/images/dungeons/duality/3.png";
 
 export const metadata = {
     "title": "Duality",
@@ -13,18 +17,25 @@ export default function Duality() {
         <div className={layout.page}>
             <TitleWithBack title={"Duality"}/>
             <div className={layout.content}>
-                <Link href={"/dungeons/duality/1"}>
-                    <h2>Encounter 1 - Nightmare of Galrann</h2>
-                </Link>
-                <QuickLink href={"/duality/1/i"}/>
-                <Link href={"/dungeons/duality/2"}>
-                    <h2>Encounter 2 - Vault</h2>
-                </Link>
-                <QuickLink href={"/duality/2/i"}/>
-                <Link href={"/dungeons/duality/3"}>
-                    <h2>Encounter 3 - Nightmare of Caiatl</h2>
-                </Link>
-                <QuickLink href={"/duality/3/i"}/>
+                <Dropdown title={"Encounter 1 - Nightmare of Galrann"}>
+                    <div>
+                        <QuickLink href={"/duality/1/i"}/>
+                        <Image src={Encounter1Map} alt={<a href={"/duality/1/i"}>Encounter 1 Map</a>}/>
+                    </div>
+                </Dropdown>
+                <Dropdown title={"Encounter 2 - Vault"}>
+                    <div>
+                        <QuickLink href={"/duality/2/i"}/>
+                        <Image src={Encounter2Map} alt={<a href={"/duality/2/i"}>Encounter 2 Map</a>}/>
+                    </div>
+                </Dropdown>
+                <Dropdown title={"Encounter 3 - Nightmare of Caiatl"}>
+                    <div>
+                        <QuickLink href={"/duality/3/i"}/>
+                        <Image src={Encounter3Map} alt={<a href={"/duality/3/i"}>Encounter 3 Map</a>}/>
+                    </div>
+                </Dropdown>
+
             </div>
         </div>
     )
