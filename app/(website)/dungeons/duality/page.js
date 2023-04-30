@@ -7,6 +7,7 @@ import Image from "next/image";
 import Encounter1Map from "@/public/images/dungeons/duality/1.png";
 import Encounter2Map from "@/public/images/dungeons/duality/2.png";
 import Encounter3Map from "@/public/images/dungeons/duality/3.png";
+import {BungieIcons} from "@/lib/BungieIcons";
 
 export const metadata = {
     "title": "Duality",
@@ -15,7 +16,7 @@ export const metadata = {
 export default function Duality() {
     return (
         <div className={layout.page}>
-            <TitleWithBack title={"Duality"}/>
+            <TitleWithBack title={"Duality"} icon_url={BungieIcons.dungeons.duality}/>
             <div className={layout.content}>
                 <Dropdown title={"Encounter 1 - Nightmare of Galrann"}>
                     <div>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Title from "@/lib/components/Title";
 
 import layout from "@/styles/modules/layout.module.css";
+import {BungieIcons} from "@/lib/BungieIcons";
 
 export const metadata = {
     "title": "Raids",
@@ -10,7 +11,7 @@ export const metadata = {
 export default function Raids() {
     return (
         <div className={layout.page}>
-            <Title title={"Raids"}/>
+            <Title title={"Raids"} icon_url={BungieIcons.raid_icon}/>
             <p>Page Under Construction</p>
             <ul>
                 <li><Link href={"/raids/root_of_nightmares"}>Root of Nightmares</Link></li>

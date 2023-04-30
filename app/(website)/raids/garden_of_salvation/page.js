@@ -1,5 +1,6 @@
 import layout from "@/styles/modules/layout.module.css";
 import TitleWithBack from "@/lib/components/TitleWithBack";
+import {BungieIcons} from "@/lib/BungieIcons";
 
 export const metadata = {
     "title": "Garden of Salvation",
@@ -8,7 +9,7 @@ export const metadata = {
 export default function GardenOfSalvation() {
     return (
         <div className={layout.page}>
-            <TitleWithBack title={"Garden of Salvation"}/>
+            <TitleWithBack title={"Garden of Salvation"} icon_url={BungieIcons.raids.gos}/>
             <p>Page Under Construction</p>
         </div>
     )
