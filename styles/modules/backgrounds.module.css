@@ -1,0 +1,117 @@
+.duality {
+    --background: url('../../public/images/backgrounds/duality.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.spire {
+    --background: url('../../public/images/backgrounds/spire.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.dsc {
+    --background: url('../../public/images/backgrounds/dsc.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.kf {
+    --background: url('../../public/images/backgrounds/kf.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.last_wish {
+    --background: url('../../public/images/backgrounds/last_wish.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.root {
+    --background: url('../../public/images/backgrounds/root.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.vog {
+    --background: url('../../public/images/backgrounds/vog.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.vow {
+    --background: url('../../public/images/backgrounds/vow.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.garden {
+    --background: url('../../public/images/backgrounds/garden.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.grasp {
+    --background: url('../../public/images/backgrounds/grasp.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.prophecy {
+    --background: url('../../public/images/backgrounds/prophecy.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.pit {
+    --background: url('../../public/images/backgrounds/pit.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.st {
+    --background: url('../../public/images/backgrounds/st.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.raid {
+    --background: url('../../public/images/backgrounds/raid.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.dungeon {
+    --background: url('../../public/images/backgrounds/dungeon.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.home {
+    --background: url('../../public/images/backgrounds/home.jpg');
+    --background-filter: blur(8px);
+    --background-opacity: 0.5;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: var(--background-filter);
+    opacity: var(--background-opacity);
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
