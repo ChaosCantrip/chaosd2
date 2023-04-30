@@ -6,7 +6,6 @@ export default function Encounter1() {
     return (
         <EncounterPage
             image_ql="/duality/1/i"
-            activity_name="Duality"
             encounter_name="Encounter 1 - Nightmare of Galhran"
             map={EncounterMap}
         />

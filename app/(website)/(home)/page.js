@@ -9,7 +9,7 @@ export default function HomePage(){
     return (
         <div className={layout.page}>
             <Title title={"Home"} show_back_button={false}/>
-            <div className={layout.content}>
+            <div className={layout.page_content}>
                 <p>Website very much under construction</p>
             </div>
         </div>

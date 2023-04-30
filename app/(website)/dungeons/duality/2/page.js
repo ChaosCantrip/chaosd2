@@ -5,7 +5,6 @@ export default function Encounter2() {
     return (
         <EncounterPage
             image_ql="/duality/2/i"
-            activity_name="Duality"
             encounter_name="Encounter 2 - Vault"
             map={EncounterMap}
         />
