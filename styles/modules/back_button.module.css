@@ -6,28 +6,12 @@
     text-decoration: none;
     cursor: pointer;
     position: relative;
+    border-right: 3px solid orangered;
+    padding-right: 1rem;
 }
 
 .button:hover {
     color: white;
-}
-
-.subtitle {
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 3;
-    color: white;
-    font-size: 1.5rem;
-    background-color: orangered;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.button:hover .subtitle {
-    opacity: 1;
-    transform: translateX(-50%) translateY(-0.5rem);
+    border-right: 3px solid white;
+    text-shadow: 2px 2px orangered;
 }
