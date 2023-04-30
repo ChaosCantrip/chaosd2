@@ -10,7 +10,7 @@ export const metadata = {
 export default function DungeonsPage() {
     return (
         <div className={layout.page}>
-            <Title title={"Dungeons"} icon_url={BungieIcons.dungeon_icon}/>
+            <Title title={"Dungeons"} icon_url={BungieIcons.dungeon_icon} show_back_button={false}/>
             <p>Page Under Construction</p>
             <ul>
                 <li><Link href={"/dungeons/spire_of_the_watcher"}>Spire of the Watcher</Link></li>

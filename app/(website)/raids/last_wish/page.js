@@ -1,11 +1,11 @@
 import layout from "@/styles/modules/layout.module.css";
-import TitleWithBack from "@/lib/components/TitleWithBack";
+import Title from "@/lib/components/Title";
 import {BungieIcons} from "@/lib/BungieIcons"
 
 export default function LastWish() {
     return (
         <div className={layout.page}>
-            <TitleWithBack title={"Last Wish"} icon_url={BungieIcons.raids.lw}/>
+            <Title title={"Last Wish"} icon_url={BungieIcons.raids.lw}/>
             <p>Page Under Construction</p>
         </div>
     )

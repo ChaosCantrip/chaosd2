@@ -4,7 +4,7 @@ import Title from "@/lib/components/Title";
 export default function ReferencePage() {
     return (
         <div className={layout.page}>
-            <Title title="Reference"/>
+            <Title title="Reference" show_back_button={false}/>
             <p>Page Under Construction</p>
             <p>
                 I made this site to make it easier to link images into Discord and other text apps, or to find images

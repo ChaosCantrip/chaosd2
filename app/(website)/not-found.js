@@ -1,9 +1,11 @@
 import layout from "@/styles/modules/layout.module.css";
+import Title from "@/lib/components/Title";
 
 export default function NotFound() {
     return (
         <div className={layout.page}>
-            <h1 className={layout.page_title}>Page not found</h1>
+            <Title title="404 Not Found" show_back_button={false}/>
+            <p>Page not found</p>
         </div>
     )
 }

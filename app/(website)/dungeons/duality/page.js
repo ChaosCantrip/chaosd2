@@ -1,6 +1,6 @@
 import layout from "@/styles/modules/layout.module.css";
 import QuickLink from "@/lib/components/QuickLink";
-import TitleWithBack from "@/lib/components/TitleWithBack";
+import Title from "@/lib/components/Title";
 import Dropdown from "@/lib/components/Dropdown";
 import Image from "next/image";
 
@@ -12,7 +12,7 @@ import {BungieIcons} from "@/lib/BungieIcons"
 export default function Duality() {
     return (
         <div className={layout.page}>
-            <TitleWithBack title={"Duality"} icon_url={BungieIcons.dungeons.duality}/>
+            <Title title={"Duality"} icon_url={BungieIcons.dungeons.duality}/>
             <div className={layout.content}>
                 <Dropdown title={"Encounter 1 - Nightmare of Galrann"}>
                     <div>

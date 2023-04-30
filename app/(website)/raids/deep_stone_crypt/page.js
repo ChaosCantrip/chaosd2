@@ -1,11 +1,11 @@
 import layout from "@/styles/modules/layout.module.css";
-import TitleWithBack from "@/lib/components/TitleWithBack";
+import Title from "@/lib/components/Title";
 import {BungieIcons} from "@/lib/BungieIcons"
 
 export default function DeepStoneCrypt() {
     return (
         <div className={layout.page}>
-            <TitleWithBack title={"Deep Stone Crypt"} icon_url={BungieIcons.raids.dsc}/>
+            <Title title={"Deep Stone Crypt"} icon_url={BungieIcons.raids.dsc}/>
             <p>Page Under Construction</p>
         </div>
     )

@@ -11,7 +11,7 @@ export const metadata = {
 export default function Raids() {
     return (
         <div className={layout.page}>
-            <Title title={"Raids"} icon_url={BungieIcons.raid_icon}/>
+            <Title title={"Raids"} icon_url={BungieIcons.raid_icon} show_back_button={false}/>
             <p>Page Under Construction</p>
             <ul>
                 <li><Link href={"/raids/root_of_nightmares"}>Root of Nightmares</Link></li>
