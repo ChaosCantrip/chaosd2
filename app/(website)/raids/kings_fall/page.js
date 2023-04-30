@@ -2,10 +2,6 @@ import layout from "@/styles/modules/layout.module.css";
 import TitleWithBack from "@/lib/components/TitleWithBack";
 import {BungieIcons} from "@/lib/BungieIcons";
 
-export const metadata = {
-    "title": "King's Fall",
-}
-
 export default function KingsFall() {
     return (
         <div className={layout.page}>

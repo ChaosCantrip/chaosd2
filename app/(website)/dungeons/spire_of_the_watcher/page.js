@@ -1,10 +1,6 @@
 import layout from "@/styles/modules/layout.module.css";
 import TitleWithBack from "@/lib/components/TitleWithBack";
-import {BungieIcons} from "@/lib/BungieIcons";
-
-export const metadata = {
-    "title": "Spire of the Watcher",
-}
+import {BungieIcons} from "@/lib/BungieIcons"
 
 export default function SpireOfTheWatcher() {
     return (

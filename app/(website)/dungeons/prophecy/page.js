@@ -1,10 +1,6 @@
 import layout from "@/styles/modules/layout.module.css";
 import TitleWithBack from "@/lib/components/TitleWithBack";
-import {BungieIcons} from "@/lib/BungieIcons";
-
-export const metadata = {
-    "title": "Prophecy",
-}
+import {BungieIcons} from "@/lib/BungieIcons"
 
 export default function Prophecy() {
     return (

@@ -7,11 +7,7 @@ import Image from "next/image";
 import Encounter1Map from "@/public/images/dungeons/duality/1.png";
 import Encounter2Map from "@/public/images/dungeons/duality/2.png";
 import Encounter3Map from "@/public/images/dungeons/duality/3.png";
-import {BungieIcons} from "@/lib/BungieIcons";
-
-export const metadata = {
-    "title": "Duality",
-}
+import {BungieIcons} from "@/lib/BungieIcons"
 
 export default function Duality() {
     return (

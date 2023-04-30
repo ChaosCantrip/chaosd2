@@ -1,10 +1,6 @@
 import layout from "@/styles/modules/layout.module.css";
 import TitleWithBack from "@/lib/components/TitleWithBack";
-import {BungieIcons} from "@/lib/BungieIcons";
-
-export const metadata = {
-    "title": "Root of Nightmares",
-}
+import {BungieIcons} from "@/lib/BungieIcons"
 
 export default function RootOfNightmares() {
     return (
