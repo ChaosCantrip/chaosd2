@@ -97,3 +97,32 @@ div:hover > .sub_menu {
     height: 2rem;
     width: 2rem;
 }
+
+@keyframes ghost_anim {
+    0% {
+        filter: drop-shadow(0 0 0.5rem red);
+    }
+    25% {
+        filter: drop-shadow(0 0 0.5rem yellow);
+    }
+    50% {
+        filter: drop-shadow(0 0 0.5rem blue);
+    }
+    75% {
+        filter: drop-shadow(0 0 0.5rem green);
+    }
+    100% {
+        filter: drop-shadow(0 0 0.5rem red);
+    }
+}
+
+.ghost_icon {
+    margin-left: 10rem;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.ghost_icon:hover {
+    opacity: 1;
+    animation: ghost_anim 1s linear infinite;
+}
