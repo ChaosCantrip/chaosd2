@@ -150,6 +150,15 @@ const nextConfig = {
     experimental: {
         appDir: true,
     },
+    images: {
+        remotePatterns: [
+            {
+                protocol: "https",
+                hostname: "www.bungie.net",
+                pathname: "/common/destiny2_content/**",
+            }
+        ]
+    },
     async redirects() {
         return [
             {
