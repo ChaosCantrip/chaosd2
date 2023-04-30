@@ -10,19 +10,19 @@ import Encounter3Map from "@/public/images/dungeons/duality/3.png";
 export default function Duality() {
     return (
         <div className={layout.page_content}>
-            <Dropdown title={"Encounter 1 - Nightmare of Galrann"}>
+            <Dropdown title={"Encounter 1 - Nightmare of Galrann"} href={"/duality/1"}>
                 <div>
                     <QuickLink href={"/duality/1/i"}/>
                     <Image src={Encounter1Map} alt={<a href={"/duality/1/i"}>Encounter 1 Map</a>}/>
                 </div>
             </Dropdown>
-            <Dropdown title={"Encounter 2 - Vault"}>
+            <Dropdown title={"Encounter 2 - Vault"} href={"/duality/2"}>
                 <div>
                     <QuickLink href={"/duality/2/i"}/>
                     <Image src={Encounter2Map} alt={<a href={"/duality/2/i"}>Encounter 2 Map</a>}/>
                 </div>
             </Dropdown>
-            <Dropdown title={"Encounter 3 - Nightmare of Caiatl"}>
+            <Dropdown title={"Encounter 3 - Nightmare of Caiatl"} href={"/duality/3"}>
                 <div>
                     <QuickLink href={"/duality/3/i"}/>
                     <Image src={Encounter3Map} alt={<a href={"/duality/3/i"}>Encounter 3 Map</a>}/>

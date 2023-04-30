@@ -3,7 +3,16 @@
     justify-content: space-between;
     align-items: center;
     font-family: var(--header-font-family);
+}
+
+.left {
+    display: flex;
+    align-items: center;
     cursor: pointer;
+}
+
+.left:hover > * {
+    color: orangered;
 }
 
 .button {
@@ -11,20 +20,16 @@
     color: white;
     padding: 1rem;
     font-size: large;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-out;
 }
 
 .btn_open {
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
 }
 
 .title {
     font-size: x-large;
     font-weight: bold;
-}
-
-.top:hover > * {
-    color: orangered;
 }
 
 .content {
@@ -38,4 +43,13 @@
 
 .closed {
     max-height: 0;
+}
+
+.link_icon {
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.link_icon:hover {
+    color: orangered;
 }
