@@ -12,6 +12,15 @@
     gap: 1rem;
 }
 
+.any_item {
+    border: 2px solid white;
+    padding-left: 1rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .icons_wrapper {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
