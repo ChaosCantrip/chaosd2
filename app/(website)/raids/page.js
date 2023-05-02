@@ -36,13 +36,13 @@ export default function Raids() {
                 <Title title={"Raids"} icon_url={BungieIcons.raid_icon} show_back_button={false}/>
                 <div className={layout.page_content}>
                     <div className={layout.activity_grid}>
-                        <ActivityGridItem href={"/raids/root_of_nightmares"} name={"Root of Nightmares"} icon={BungieIcons.raids.ron} banner={RootOfNightmares}/>
-                        <ActivityGridItem href={"/raids/kings_fall"} name={"King's Fall"} icon={BungieIcons.raids.kf} banner={KingsFall}/>
-                        <ActivityGridItem href={"/raids/vow_of_the_disciple"} name={"Vow of the Disciple"} icon={BungieIcons.raids.votd} banner={VowOfTheDisciple}/>
-                        <ActivityGridItem href={"/raids/vault_of_glass"} name={"Vault of Glass"} icon={BungieIcons.raids.vog} banner={VaultOfGlass}/>
-                        <ActivityGridItem href={"/raids/deep_stone_crypt"} name={"Deep Stone Crypt"} icon={BungieIcons.raids.dsc} banner={DeepStoneCrypt}/>
-                        <ActivityGridItem href={"/raids/garden_of_salvation"} name={"Garden of Salvation"} icon={BungieIcons.raids.gos} banner={GardenOfSalvation}/>
-                        <ActivityGridItem href={"/raids/last_wish"} name={"Last Wish"} icon={BungieIcons.raids.lw} banner={LastWish}/>
+                        <ActivityGridItem href={"/raids/root_of_nightmares"} name={"Root of Nightmares"} icon={BungieIcons.raids.ron} banner={RootOfNightmares} description={"A sinister threat has taken root."}/>
+                        <ActivityGridItem href={"/raids/kings_fall"} name={"King's Fall"} icon={BungieIcons.raids.kf} banner={KingsFall} description={"Long live the King."}/>
+                        <ActivityGridItem href={"/raids/vow_of_the_disciple"} name={"Vow of the Disciple"} icon={BungieIcons.raids.votd} banner={VowOfTheDisciple} description={"The Disciple beckons."}/>
+                        <ActivityGridItem href={"/raids/vault_of_glass"} name={"Vault of Glass"} icon={BungieIcons.raids.vog} banner={VaultOfGlass} description={"Beneath Venus, evil stirs."}/>
+                        <ActivityGridItem href={"/raids/deep_stone_crypt"} name={"Deep Stone Crypt"} icon={BungieIcons.raids.dsc} banner={DeepStoneCrypt} description={"The chains of legacy must be broken."}/>
+                        <ActivityGridItem href={"/raids/garden_of_salvation"} name={"Garden of Salvation"} icon={BungieIcons.raids.gos} banner={GardenOfSalvation} description={"The Garden calls out to you."}/>
+                        <ActivityGridItem href={"/raids/last_wish"} name={"Last Wish"} icon={BungieIcons.raids.lw} banner={LastWish} description={"The opportunity of a lifetime."}/>
                     </div>
                 </div>
             </div>
