@@ -7,6 +7,20 @@
     border-radius: 0.5rem;
 }
 
+.name_wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 0.2rem;
+    width: 100%;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
 .armor_images {
     display: flex;
     align-items: center;
@@ -18,4 +32,25 @@
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
+    flex: 1;
+}
+
+.icon_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.ammo_icon {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+
+.damage_type_icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
 }
