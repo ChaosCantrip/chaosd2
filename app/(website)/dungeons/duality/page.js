@@ -6,6 +6,7 @@ import Image from "next/image";
 import Encounter1Map from "@/public/images/dungeons/duality/1.png";
 import Encounter2Map from "@/public/images/dungeons/duality/2.png";
 import Encounter3Map from "@/public/images/dungeons/duality/3.png";
+import LootTable from "@/public/images/dungeons/duality/loot.png";
 
 export default function Duality() {
     return (
@@ -26,6 +27,12 @@ export default function Duality() {
                 <div>
                     <QuickLink href={"/duality/3/i"}/>
                     <Image src={Encounter3Map} alt={<a href={"/duality/3/i"}>Encounter 3 Map</a>}/>
+                </div>
+            </Dropdown>
+            <Dropdown title={"Loot Table"} href={"/duality/loot"}>
+                <div>
+                    <QuickLink href={"/duality/loot/i"}/>
+                    <Image src={LootTable} alt={<a href={"/duality/loot/i"}>Loot Table</a>}/>
                 </div>
             </Dropdown>
         </div>
