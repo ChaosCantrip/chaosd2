@@ -8,7 +8,7 @@ import LootTable from "@/public/images/dungeons/grasp_of_avarice/loot.png";
 export default function GraspOfAvarice() {
     return (
         <div className={layout.page_content}>
-            <Dropdown title={"Loot Table"} href={"/spire/loot"}>
+            <Dropdown title={"Loot Table"} href={"/grasp/loot"}>
                 <div>
                     <QuickLink href={"/grasp/loot"}/>
                     <Link href={"/grasp/loot/i"}>
