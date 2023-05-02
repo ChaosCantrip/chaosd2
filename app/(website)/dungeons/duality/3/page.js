@@ -2,7 +2,10 @@ import EncounterMap from "@/public/images/dungeons/duality/3.png";
 import EncounterPage from "@/lib/components/EncounterPage";
 
 export const metadata = {
-    description: "Encounter 3 - Nightmare of Caiatl"
+    description: "Encounter 3 - Nightmare of Caiatl",
+    openGraph: {
+        images: "/duality/3/i"
+    }
 }
 
 export default function Encounter3() {

@@ -3,6 +3,9 @@ import EncounterPage from "@/lib/components/EncounterPage";
 
 export const metadata = {
     description: "Encounter 2 - Vault",
+    openGraph: {
+        images: "/duality/2/i"
+    }
 }
 export default function Encounter2() {
     return (

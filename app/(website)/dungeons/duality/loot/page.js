@@ -3,8 +3,10 @@ import EncounterMap from "@/public/images/dungeons/duality/loot.png";
 import EncounterPage from "@/lib/components/EncounterPage";
 
 export const metadata = {
-    title: "Duality Loot Table | chaosd2",
-    description: "Loot table for the Duality raid."
+    description: "Loot table for the Duality raid.",
+    openGraph: {
+        images: "/duality/loot/i"
+    }
 }
 
 export default function LootPage() {
