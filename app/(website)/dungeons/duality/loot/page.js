@@ -12,7 +12,7 @@ export const metadata = {
 export default function LootPage() {
     return (
         <EncounterPage
-            image_ql="/duality/loot/i"
+            image_ql="/duality/loot"
             encounter_name="Loot Table"
             map={EncounterMap}
         />

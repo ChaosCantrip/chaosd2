@@ -13,26 +13,26 @@ export default function Duality() {
         <div className={layout.page_content}>
             <Dropdown title={"Encounter 1 - Nightmare of Galrann"} href={"/duality/1"}>
                 <div>
-                    <QuickLink href={"/duality/1/i"}/>
-                    <Image src={Encounter1Map} alt={<a href={"/duality/1/i"}>Encounter 1 Map</a>}/>
+                    <QuickLink href={"/duality/1"}/>
+                    <Image src={Encounter1Map} alt={<a href={"/duality/1/i"}>Encounter 1 Map</a>} className={layout.dropdown_image}/>
                 </div>
             </Dropdown>
             <Dropdown title={"Encounter 2 - Vault"} href={"/duality/2"}>
                 <div>
-                    <QuickLink href={"/duality/2/i"}/>
-                    <Image src={Encounter2Map} alt={<a href={"/duality/2/i"}>Encounter 2 Map</a>}/>
+                    <QuickLink href={"/duality/2"}/>
+                    <Image src={Encounter2Map} alt={<a href={"/duality/2/i"}>Encounter 2 Map</a>} className={layout.dropdown_image}/>
                 </div>
             </Dropdown>
             <Dropdown title={"Encounter 3 - Nightmare of Caiatl"} href={"/duality/3"}>
                 <div>
-                    <QuickLink href={"/duality/3/i"}/>
-                    <Image src={Encounter3Map} alt={<a href={"/duality/3/i"}>Encounter 3 Map</a>}/>
+                    <QuickLink href={"/duality/3"}/>
+                    <Image src={Encounter3Map} alt={<a href={"/duality/3/i"}>Encounter 3 Map</a>} className={layout.dropdown_image}/>
                 </div>
             </Dropdown>
             <Dropdown title={"Loot Table"} href={"/duality/loot"}>
                 <div>
-                    <QuickLink href={"/duality/loot/i"}/>
-                    <Image src={LootTable} alt={<a href={"/duality/loot/i"}>Loot Table</a>}/>
+                    <QuickLink href={"/duality/loot"}/>
+                    <Image src={LootTable} alt={<a href={"/duality/loot/i"}>Loot Table</a>} className={layout.dropdown_image}/>
                 </div>
             </Dropdown>
         </div>

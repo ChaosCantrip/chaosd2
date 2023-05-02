@@ -10,7 +10,7 @@ export const metadata = {
 export default function Encounter2() {
     return (
         <EncounterPage
-            image_ql="/duality/2/i"
+            image_ql="/duality/2"
             encounter_name="Encounter 2 - Vault"
             map={EncounterMap}
         />

@@ -12,7 +12,7 @@ export const metadata = {
 export default function Encounter1() {
     return (
         <EncounterPage
-            image_ql="/duality/1/i"
+            image_ql="/duality/1"
             encounter_name="Encounter 1 - Nightmare of Galhran"
             map={EncounterMap}
         />

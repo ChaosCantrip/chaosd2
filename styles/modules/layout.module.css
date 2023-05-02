@@ -15,3 +15,10 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
 }
+
+.dropdown_image {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
