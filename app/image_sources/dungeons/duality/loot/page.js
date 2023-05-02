@@ -10,8 +10,11 @@ export default async function LootPage() {
                 <div className={styles.header}>
                     <img className={styles.logo} src={BungieIcons.dungeons.duality} alt={""}/>
                     <div className={styles.header_text}>
-                        <h1 className={styles.title}>Duality</h1>
-                        <p className={styles.subtitle}>Loot Table</p>
+                            <h1 className={styles.title}>Duality</h1>
+                            <p className={styles.subtitle}>Loot Table</p>
+                    </div>
+                    <div className={styles.watermark}>
+                        <h2>chaosd2.com/duality/loot</h2>
                     </div>
                 </div>
                 <div className={styles.content}>
