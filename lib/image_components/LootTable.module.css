@@ -7,7 +7,7 @@
 
 .main::before {
     content: "";
-    background-image: url("../../public/images/backgrounds/spire.jpg");
+    background-image: url("../../public/images/backgrounds/grasp.jpg");
     background-size: 110%;
     background-position: center;
     background-attachment: fixed;
