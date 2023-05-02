@@ -7,6 +7,22 @@
     border-radius: 0.5rem;
 }
 
+.any_armour {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.icons_wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0.5rem;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
 .name_wrapper {
     display: flex;
     align-content: center;
