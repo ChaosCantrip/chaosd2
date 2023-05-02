@@ -1,5 +1,6 @@
 import LootTable from "@/lib/image_components/LootTable";
 import {BungieIcons} from "@/lib/BungieIcons";
+import Background from "@/public/images/backgrounds/spire.jpg";
 
 const data = {
     encounters: [
@@ -73,5 +74,5 @@ const data = {
 
 
 export default function SpireLoot() {
-    return <LootTable activity="Spire of the Watcher" href="chaosd2.com/spire/loot" data={data} icon={BungieIcons.dungeons.sotw}/>
+    return <LootTable activity="Spire of the Watcher" href="chaosd2.com/spire/loot" data={data} icon={BungieIcons.dungeons.sotw} background={Background}/>
 }

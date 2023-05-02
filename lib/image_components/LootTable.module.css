@@ -5,10 +5,7 @@
     overflow: hidden;
 }
 
-.main::before {
-    content: "";
-    background-image: url("../../public/images/backgrounds/grasp.jpg");
-    background-size: 110%;
+.background {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;

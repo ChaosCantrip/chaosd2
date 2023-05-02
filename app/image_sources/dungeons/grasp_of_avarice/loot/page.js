@@ -1,5 +1,6 @@
 import LootTable from "@/lib/image_components/LootTable";
 import {BungieIcons} from "@/lib/BungieIcons";
+import Background from "@/public/images/backgrounds/grasp.jpg";
 
 const data = {
     encounters: [
@@ -69,5 +70,5 @@ const data = {
 
 
 export default function GraspLoot() {
-    return <LootTable activity="Grasp of Avarice" href="chaosd2.com/grasp/loot" data={data} icon={BungieIcons.dungeons.goa}/>
+    return <LootTable activity="Grasp of Avarice" href="chaosd2.com/grasp/loot" data={data} icon={BungieIcons.dungeons.goa} background={Background}/>
 }
