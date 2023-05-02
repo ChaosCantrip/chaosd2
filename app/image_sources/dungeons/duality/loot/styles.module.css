@@ -1,0 +1,77 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+}
+
+.main::before {
+    content: "";
+    background-image: url("../../../../../public/images/backgrounds/duality.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: blur(8px);
+    opacity: 0.5;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    padding: 3rem;
+    overflow: hidden;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.header_text {
+    margin-left: 2rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.encounter_name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo {
+    height: 6rem;
+    width: 6rem;
+    transition: box-shadow 0.2s;
+}
+
+.armor {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.item_extra {
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
