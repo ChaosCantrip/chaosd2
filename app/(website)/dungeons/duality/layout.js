@@ -4,7 +4,10 @@ import BackgroundWrapper from "@/lib/components/BackgroundWrapper";
 import backgrounds from "@/styles/modules/backgrounds.module.css";
 
 export const metadata = {
-    "title": "Duality",
+    title: "Duality",
+    twitter: {
+        card: "summary_large_image",
+    }
 }
 
 export default function DualityLayout({ children }) {

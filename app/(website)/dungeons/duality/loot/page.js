@@ -4,10 +4,7 @@ import EncounterPage from "@/lib/components/EncounterPage";
 
 export const metadata = {
     name: "Duality Loot Table | chaosd2",
-    description: "Loot table for the Duality raid.",
-    twitter: {
-        card: "summary_large_image",
-    }
+    description: "Loot table for the Duality raid."
 }
 
 export default function LootPage() {
