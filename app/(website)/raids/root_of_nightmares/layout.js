@@ -6,7 +6,7 @@ import backgrounds from "@/styles/modules/backgrounds.module.css";
 export const metadata = {
     "title": "Root of Nightmares",
     twitter: {
-        "cardType": "summary_large_image",
+        card: "summary_large_image",
     }
 }
 
