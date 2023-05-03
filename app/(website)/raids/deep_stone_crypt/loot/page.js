@@ -11,7 +11,7 @@ export const metadata = {
 export default function LootPage() {
     return (
         <EncounterPage
-            image_ql="/deep_stone_crypt/loot"
+            image_ql="/dsc/loot"
             encounter_name="Loot Table"
             map={EncounterMap}
         />
