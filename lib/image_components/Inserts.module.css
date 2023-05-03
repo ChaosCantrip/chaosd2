@@ -11,6 +11,7 @@
     flex-direction: column;
     gap: 1rem;
     border: 2px solid white;
+    grid-row: 3;
 }
 
 .any_item {
@@ -20,6 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    grid-row: 2;
 }
 
 .icons_wrapper {
@@ -102,4 +104,5 @@
     border: 2px solid white;
     padding: 1rem;
     font-size: 1.2rem;
+    grid-row: 2;
 }
