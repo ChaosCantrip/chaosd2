@@ -4,7 +4,10 @@ import BackgroundWrapper from "@/lib/components/BackgroundWrapper";
 import backgrounds from "@/styles/modules/backgrounds.module.css";
 
 export const metadata = {
-    "title": "Prophecy",
+    title: "Prophecy",
+    twitter: {
+        card: "summary_large_image",
+    }
 }
 
 export default function ProphecyLayout({children}) {
