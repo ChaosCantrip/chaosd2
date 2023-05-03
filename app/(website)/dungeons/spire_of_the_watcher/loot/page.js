@@ -11,7 +11,7 @@ export const metadata = {
 export default function LootPage() {
     return (
         <EncounterPage
-            image_ql="/spire_of_the_watcher/loot"
+            image_ql="/spire/loot"
             encounter_name="Loot Table"
             map={EncounterMap}
         />
