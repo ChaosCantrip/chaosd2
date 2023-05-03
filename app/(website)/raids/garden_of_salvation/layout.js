@@ -5,6 +5,9 @@ import backgrounds from "@/styles/modules/backgrounds.module.css";
 
 export const metadata = {
     "title": "Garden of Salvation",
+    twitter: {
+        card: "summary_large_image",
+    }
 }
 
 export default function GardenLayout({children}) {
