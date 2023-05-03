@@ -79,3 +79,20 @@
     height: 1.5rem;
     border-radius: 0.5rem;
 }
+
+.craftable_flag {
+    margin-top: 0.1rem;
+    display: flex;
+    align-items: center;
+}
+
+.craftable_icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.3rem;
+}
+
+.craftable_flag p {
+    color: #c20000;
+    font-weight: bold;
+}
