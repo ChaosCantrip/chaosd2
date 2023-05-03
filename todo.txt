@@ -1,5 +1,4 @@
 TODO: Pit Loot Table
-TODO: Prophecy Loot Table
 TODO: Shattered Throne Loot Table
 TODO: Garden Loot Table
 TODO: Kings Fall Loot Table
