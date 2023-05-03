@@ -8,16 +8,14 @@ import LootTable from "@/public/images/raids/deep_stone_crypt/loot.png";
 export default function DeepStoneCrypt() {
     return (
         <div className={layout.page_content}>
-            <div className={layout.page_content}>
-                <Dropdown title={"Loot Table"} href={"/dsc/loot"}>
-                    <div>
-                        <QuickLink href={"/dsc/loot"}/>
-                        <Link href={"/dsc/loot/i"}>
-                            <Image src={LootTable} alt={<a href={"/dsc/loot"}>Loot Table</a>} className={layout.dropdown_image}/>
-                        </Link>
-                    </div>
-                </Dropdown>
-            </div>
+            <Dropdown title={"Loot Table"} href={"/dsc/loot"}>
+                <div>
+                    <QuickLink href={"/dsc/loot"}/>
+                    <Link href={"/dsc/loot/i"}>
+                        <Image src={LootTable} alt={<a href={"/dsc/loot"}>Loot Table</a>} className={layout.dropdown_image}/>
+                    </Link>
+                </div>
+            </Dropdown>
         </div>
     )
 }
