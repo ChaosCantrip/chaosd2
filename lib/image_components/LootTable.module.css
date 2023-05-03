@@ -26,6 +26,7 @@
     display: grid;
     grid-template-rows: repeat(3, auto);
     gap: 1.5rem;
+    grid-auto-columns: 1fr;
 }
 
 .header {
