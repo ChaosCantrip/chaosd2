@@ -12,7 +12,7 @@ const data = {
                 "999767358"
             ],
             "armour": [
-                "Helmet",
+                "Head",
                 "Chest",
                 "Legs",
             ]
@@ -26,8 +26,8 @@ const data = {
                 "999767358"
             ],
             "armour": [
-                "Helmet",
-                "Gauntlets",
+                "Head",
+                "Arms",
                 "Class Item"
             ]
         },
@@ -38,8 +38,8 @@ const data = {
                 "768621510"
             ],
             "armour": [
-                "Helmet",
-                "Gauntlets",
+                "Head",
+                "Arms",
                 "Legs"
             ]
         },
@@ -51,8 +51,8 @@ const data = {
                 "2534546147"
             ],
             "armour": [
-                "Helmet",
-                "Gauntlets",
+                "Head",
+                "Arms",
                 "Class Item",
             ]
         }
@@ -60,12 +60,12 @@ const data = {
     armour: {
         set: "Resonant Fury",
         hashes: {
-            "Helmet": [
+            "Head": [
                 "362541459",
                 "1649346047",
                 "2316722050"
             ],
-            "Gauntlets": [
+            "Arms": [
                 "2150515362",
                 "1583213254",
                 "1656263403"

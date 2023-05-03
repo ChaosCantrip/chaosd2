@@ -11,8 +11,8 @@ const data = {
                 "2263839058"
             ],
             "armour": [
-                "Helmet",
-                "Gauntlets",
+                "Head",
+                "Arms",
                 "Legs",
             ]
         },
@@ -23,7 +23,7 @@ const data = {
                 "3652506829"
             ],
             "armour": [
-                "Gauntlets",
+                "Arms",
                 "Chest",
                 "Class Item"
             ]
@@ -42,12 +42,12 @@ const data = {
     armour: {
         set: "Deep Explorer Armour",
         hashes: {
-            "Helmet": [
+            "Head": [
                 "2610749098",
                 "3262689948",
                 "3326914239"
             ],
-            "Gauntlets": [
+            "Arms": [
                 "2616310259",
                 "322599957",
                 "3260781446"

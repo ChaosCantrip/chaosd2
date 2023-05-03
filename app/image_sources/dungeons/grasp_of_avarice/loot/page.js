@@ -20,7 +20,7 @@ const data = {
                 "2139640995",
             ],
             "armour": [
-                "Gauntlets",
+                "Arms",
                 "Chest"
             ]
         },
@@ -39,12 +39,12 @@ const data = {
     armour: {
         set: "Descending/Twisting/Corrupting Echo",
         hashes: {
-            "Helmet": [
+            "Head": [
                 "3473581026",
                 "2744480004",
                 "1832715465"
             ],
-            "Gauntlets": [
+            "Arms": [
                 "2771648715",
                 "2308793821",
                 "3536211008"

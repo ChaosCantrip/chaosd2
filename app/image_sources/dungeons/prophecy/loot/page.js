@@ -22,7 +22,7 @@ const data = {
                 "1626503676"
             ],
             "armour": [
-                "Gauntlets",
+                "Arms",
             ]
         },
         {
@@ -41,7 +41,7 @@ const data = {
                 "Apparently this counts as an encounter lol"
             ],
             "armour": [
-                "Helmet",
+                "Head",
                 "Chest",
                 "Class Item"
             ]
@@ -50,12 +50,12 @@ const data = {
     armour: {
         set: "Moonfang-X7",
         hashes: {
-            "Helmet": [
+            "Head": [
                 "2234240008",
                 "2623956730",
                 "2288398391"
             ],
-            "Gauntlets": [
+            "Arms": [
                 "1581574297",
                 "100226755",
                 "1361912510"

@@ -12,8 +12,8 @@ const data = {
                 "487205709"
             ],
             "armour": [
-                "Helmet",
-                "Gauntlets",
+                "Head",
+                "Arms",
                 "Legs",
             ]
         },
@@ -24,7 +24,7 @@ const data = {
                 "487205709",
             ],
             "armour": [
-                "Gauntlets",
+                "Arms",
                 "Chest",
                 "Class Item"
             ]
@@ -43,12 +43,12 @@ const data = {
     armour: {
         set: "Tex Mechanica Custom",
         hashes: {
-            "Helmet": [
+            "Head": [
                 "2976233114",
                 "2599025960",
                 "2014814167"
             ],
-            "Gauntlets": [
+            "Arms": [
                 "918537443",
                 "1480429241",
                 "1088225118"

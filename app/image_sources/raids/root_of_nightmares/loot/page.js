@@ -12,8 +12,8 @@ const data = {
                 "1491665733"
             ],
             "armour": [
-                "Helmet",
-                "Gauntlets",
+                "Head",
+                "Arms",
                 "Chest",
             ]
         },
@@ -26,7 +26,7 @@ const data = {
                 "2972949637"
             ],
             "armour": [
-                "Gauntlets",
+                "Arms",
                 "Chest",
                 "Legs"
             ]
@@ -52,7 +52,7 @@ const data = {
                 "any"
             ],
             "armour": [
-                "Helmet",
+                "Head",
                 "Legs",
                 "Class Item",
             ]
@@ -61,12 +61,12 @@ const data = {
     armour: {
         set: "Bug Lookin' Armour",
         hashes: {
-            "Helmet": [
+            "Head": [
                 "3475635982",
                 "3810243376",
                 "4123705451"
             ],
-            "Gauntlets": [
+            "Arms": [
                 "630432767",
                 "3608027009",
                 "2445962586"

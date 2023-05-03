@@ -10,7 +10,7 @@ const data = {
                 "1392919471",
             ],
             "armour": [
-                "Gauntlets",
+                "Arms",
                 "Legs",
                 "Class Item"
             ]
@@ -22,7 +22,7 @@ const data = {
                 "2990047042"
             ],
             "armour": [
-                "Gauntlets",
+                "Arms",
                 "Legs",
                 "Class Item"
             ]
@@ -33,7 +33,7 @@ const data = {
                 "3281285075",
             ],
             "armour": [
-                "Gauntlets",
+                "Arms",
                 "Chest",
                 "Class Item"
             ]
@@ -46,7 +46,7 @@ const data = {
                 "2399110176"
             ],
             "armour": [
-                "Helmet",
+                "Head",
                 "Chest",
                 "Legs",
             ]
@@ -55,12 +55,12 @@ const data = {
     armour: {
         set: "Legacy's Oath",
         hashes: {
-            "Helmet": [
+            "Head": [
                 "3015085684",
                 "893751566",
                 "1462908657"
             ],
-            "Gauntlets": [
+            "Arms": [
                 "1887490701",
                 "2343515647",
                 "79460168"
