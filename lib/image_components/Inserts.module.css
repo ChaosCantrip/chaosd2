@@ -10,6 +10,7 @@
 .any_armour {
     flex-direction: column;
     gap: 1rem;
+    border: 2px solid white;
 }
 
 .any_item {
@@ -95,4 +96,10 @@
 .craftable_flag p {
     color: #c20000;
     font-weight: bold;
+}
+
+.item_extra {
+    border: 2px solid white;
+    padding: 1rem;
+    font-size: 1.2rem;
 }
