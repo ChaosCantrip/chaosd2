@@ -1,4 +1,5 @@
 import { config } from '@fortawesome/fontawesome-svg-core'
+import { Analytics } from "@vercel/analytics/react";
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
