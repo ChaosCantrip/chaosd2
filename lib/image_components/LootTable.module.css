@@ -85,4 +85,13 @@
 .watermark {
     display: flex;
     margin-left: auto;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.date {
+    font-size: 1rem;
+    font-weight: bold;
+    color: lightgray;
+    margin-left: auto;
 }
