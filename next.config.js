@@ -181,6 +181,26 @@ const nextConfig = {
                 destination: "/dungeons/:slug*",
                 permanent: true,
             },
+            {
+                source: "/:path*/red_border",
+                destination: "/:path*/rb",
+                permanent: true,
+            },
+            {
+                source: "/:path*/chest",
+                destination: "/:path*/rb",
+                permanent: true,
+            },
+            {
+                source: "/:path*/red",
+                destination: "/:path*/rb",
+                permanent: true,
+            },
+            {
+                source: "/:path*/deepsight",
+                destination: "/:path*/rb",
+                permanent: true,
+            },
             ...build_redirects(),
             {
                 source: "/:path*/img",
