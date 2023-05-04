@@ -5,6 +5,9 @@ import backgrounds from "@/styles/modules/backgrounds.module.css";
 
 export const metadata = {
     "title": "King's Fall",
+    twitter: {
+        card: "summary_large_image",
+    }
 }
 
 export default function KingsFallLayout({children}) {
