@@ -44,6 +44,6 @@
 .image {
     margin-inline: auto;
     margin-top: 3rem;
-    width: 90%;
-    height: 90%;
+    height: 100%;
+    width: auto;
 }
