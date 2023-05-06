@@ -46,7 +46,7 @@ const data = {
         }
     ],
     armour: {
-        set: "Bug Lookin' Armour",
+        set: "Vex Armour",
         hashes: {
             "Head": [
                 "959087754",
