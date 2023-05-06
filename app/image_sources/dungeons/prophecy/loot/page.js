@@ -2,6 +2,13 @@ import LootTable from "@/lib/image_components/LootTable";
 import {BungieIcons} from "@/lib/BungieIcons";
 import Background from "@/public/images/backgrounds/prophecy.jpg";
 
+export const metadata = {
+    other: {
+        width: 1920,
+        height: 1080,
+    }
+}
+
 const data = {
     encounters: [
         {

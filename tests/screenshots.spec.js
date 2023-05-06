@@ -14,10 +14,16 @@ test("screenshot", async ({ page }) => {
         });
     });
     console.log(list_of_paths);
-    await page.setViewportSize({width: 1920, height: 1080});
 
     for (let i = 0; i < list_of_paths.length; i++) {
         await page.goto(`http://localhost:3000/image_sources/${list_of_paths[i]}`);
+        const metaWidth = await page.evaluate(() => {
+            return document.querySelector("meta[name=width]").content;
+        });
+        const metaHeight = await page.evaluate(() => {
+            return document.querySelector("meta[name=height]").content;
+        });
+        await page.setViewportSize({width: parseInt(metaWidth), height: parseInt(metaHeight)});
         await page.screenshot({path: `public/images/${list_of_paths[i]}.png`, clip: {x: 0, y: 0, width: 1920, height: 1080}});
         console.log(`Screenshot taken for ${list_of_paths[i]}`)
     }

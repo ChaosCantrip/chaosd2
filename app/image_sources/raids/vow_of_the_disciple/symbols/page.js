@@ -5,6 +5,13 @@ import Image from "next/image";
 import Background from "@/public/images/backgrounds/vow.jpg";
 import {VowSymbols} from "./VowSymbols";
 
+export const metadata = {
+    other: {
+        width: 1920,
+        height: 1080,
+    }
+}
+
 export default function VowSymbolsPage() {
     return (
         <body className={custom.body}>

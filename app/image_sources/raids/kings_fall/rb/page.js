@@ -13,6 +13,13 @@ import Icon9 from "@/public/images/icons/kings_fall/9.png";
 import Image from "next/image";
 import {BungieIcons} from "@/lib/BungieIcons";
 
+export const metadata = {
+    other: {
+        width: 1920,
+        height: 1080,
+    }
+}
+
 export default function KFRedBorder() {
     return (
         <body className={custom.body}>
