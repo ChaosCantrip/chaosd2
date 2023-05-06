@@ -12,7 +12,7 @@ export default function DeepStoneCrypt() {
                 <div>
                     <QuickLink href={"/dsc/loot"}/>
                     <Link href={"/dsc/loot/i"}>
-                        <Image src={LootTable} alt={<a href={"/dsc/loot"}>Loot Table</a>} className={layout.dropdown_image}/>
+                        <Image src={LootTable} alt={<a href={"/dsc/loot"}>Loot Table</a>} className={layout.dropdown_image} placeholder="blur"/>
                     </Link>
                 </div>
             </Dropdown>

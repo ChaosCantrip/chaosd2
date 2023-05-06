@@ -12,7 +12,7 @@ export default function Prophecy() {
                 <div>
                     <QuickLink href={"/prophecy/loot"}/>
                     <Link href={"/prophecy/loot/i"}>
-                        <Image src={LootTable} alt={<a href={"/prophecy/loot/i"}>Loot Table</a>} className={layout.dropdown_image}/>
+                        <Image src={LootTable} alt={<a href={"/prophecy/loot/i"}>Loot Table</a>} className={layout.dropdown_image} placeholder="blur"/>
                     </Link>
                 </div>
             </Dropdown>

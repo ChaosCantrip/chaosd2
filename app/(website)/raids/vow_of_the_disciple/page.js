@@ -13,7 +13,7 @@ export default function VowOfTheDisciple() {
                 <div>
                     <QuickLink href={"/vow/symbols"}/>
                     <Link href={"/vow/symbols/i"}>
-                        <Image src={SymbolsTable} alt={<a href={"/vow/symbols"}>Symbols Table</a>} className={layout.dropdown_image}/>
+                        <Image src={SymbolsTable} alt={<a href={"/vow/symbols"}>Symbols Table</a>} className={layout.dropdown_image} placeholder="blur"/>
                     </Link>
                 </div>
             </Dropdown>
@@ -21,7 +21,7 @@ export default function VowOfTheDisciple() {
                 <div>
                     <QuickLink href={"/vow/loot"}/>
                     <Link href={"/vow/loot/i"}>
-                        <Image src={LootTable} alt={<a href={"/vow/loot"}>Loot Table</a>} className={layout.dropdown_image}/>
+                        <Image src={LootTable} alt={<a href={"/vow/loot"}>Loot Table</a>} className={layout.dropdown_image} placeholder="blur"/>
                     </Link>
                 </div>
             </Dropdown>

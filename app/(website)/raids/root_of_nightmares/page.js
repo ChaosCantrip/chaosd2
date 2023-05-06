@@ -12,7 +12,7 @@ export default function RootOfNightmares() {
                 <div>
                     <QuickLink href={"/root/loot"}/>
                     <Link href={"/root/loot/i"}>
-                        <Image src={LootTable} alt={<a href={"/root/loot"}>Loot Table</a>} className={layout.dropdown_image}/>
+                        <Image src={LootTable} alt={<a href={"/root/loot"}>Loot Table</a>} className={layout.dropdown_image} placeholder="blur"/>
                     </Link>
                 </div>
             </Dropdown>

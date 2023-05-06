@@ -12,7 +12,7 @@ export default function GraspOfAvarice() {
                 <div>
                     <QuickLink href={"/grasp/loot"}/>
                     <Link href={"/grasp/loot/i"}>
-                        <Image src={LootTable} alt={<a href={"/grasp/loot"}>Loot Table</a>} className={layout.dropdown_image}/>
+                        <Image src={LootTable} alt={<a href={"/grasp/loot"}>Loot Table</a>} className={layout.dropdown_image} placeholder="blur"/>
                     </Link>
                 </div>
             </Dropdown>

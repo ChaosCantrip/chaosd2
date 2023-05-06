@@ -12,7 +12,7 @@ export default function KingsFall() {
                 <div>
                     <QuickLink href={"/kf/rb"}/>
                     <Link href={"/kf/rb/i"}>
-                        <Image src={LootTable} alt={<a href={"/kf/rb"}>Red Border Chest</a>} className={layout.dropdown_image}/>
+                        <Image src={LootTable} alt={<a href={"/kf/rb"}>Red Border Chest</a>} className={layout.dropdown_image} placeholder="blur"/>
                     </Link>
                 </div>
             </Dropdown>

@@ -12,7 +12,7 @@ export default function SpireOfTheWatcher() {
                 <div>
                     <QuickLink href={"/spire/loot"}/>
                     <Link href={"/spire/loot/i"}>
-                        <Image src={LootTable} alt={<a href={"/spire/loot"}>Loot Table</a>} className={layout.dropdown_image}/>
+                        <Image src={LootTable} alt={<a href={"/spire/loot"}>Loot Table</a>} className={layout.dropdown_image} placeholder="blur"/>
                     </Link>
                 </div>
             </Dropdown>

@@ -12,7 +12,7 @@ export default function GardenOfSalvation() {
                 <div>
                     <QuickLink href={"/garden/loot"}/>
                     <Link href={"/garden/loot/i"}>
-                        <Image src={LootTable} alt={<a href={"/garden/loot"}>Loot Table</a>} className={layout.dropdown_image}/>
+                        <Image src={LootTable} alt={<a href={"/garden/loot"}>Loot Table</a>} className={layout.dropdown_image} placeholder="blur"/>
                     </Link>
                 </div>
             </Dropdown>
