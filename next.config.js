@@ -89,6 +89,13 @@ const encounter_dictionary = {
                 "nezarec",
                 "boss"
             ],
+        },
+        "vow_of_the_disciple": {
+            "symbols": [
+                "s",
+                "symbol",
+                "icon"
+            ]
         }
     },
     "dungeons": {
