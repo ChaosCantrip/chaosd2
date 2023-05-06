@@ -7,7 +7,7 @@
 .main {
     width: 100%;
     height: 100%;
-    padding: 2rem;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
 }
@@ -64,10 +64,21 @@
     background: orangered;
 }
 
-.text h1 {
+.text {
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+    margin-right: 2rem;
+    border-right: rgba(255, 255, 255, 0.5) solid 1px;
+}
+
+.text h2 {
     font-size: 2rem;
     font-family: Roboto, sans-serif;
-    margin-bottom: 2rem;
+}
+
+.challenges {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .text p {
