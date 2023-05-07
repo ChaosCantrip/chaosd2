@@ -4,6 +4,7 @@ import Image from "next/image";
 import Background from "@/public/images/backgrounds/root.jpg";
 import {BungieIcons} from "@/lib/BungieIcons";
 import Map from "./map.png";
+import ImageHeader from "@/lib/image_components/ImageHeader";
 
 export const metadata = {
     other: {
@@ -17,17 +18,7 @@ export default function MacrocosmMap() {
         <body className={custom.body}>
             <Image src={Background} alt={""} className={styles.background}/>
             <main className={custom.main}>
-                <div className={styles.header}>
-                    <img className={styles.logo} src={BungieIcons.raids.ron} alt={""}/>
-                    <div className={styles.header_text}>
-                        <h1 className={styles.title}>Root of Nightmares</h1>
-                        <p className={styles.subtitle}>Encounter 3 - Macrocosm (Planet Explicator)</p>
-                    </div>
-                    <div className={styles.watermark}>
-                        <h2>chaosd2.com/root/3</h2>
-                        <p className={styles.date}>Updated {new Date().toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric"})}</p>
-                    </div>
-                </div>
+                <ImageHeader title={"Root of Nightmares"} subtitle={"Encounter 3 - Macrocosm"} icon={BungieIcons.raids.ron} href={"chaosd2.com/root/3"}/>
                 <div className={custom.content}>
                     <div className={custom.image_card}>
                         <div className={custom.text}>

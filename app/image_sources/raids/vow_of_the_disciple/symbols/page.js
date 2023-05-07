@@ -4,6 +4,7 @@ import {BungieIcons} from "@/lib/BungieIcons";
 import Image from "next/image";
 import Background from "@/public/images/backgrounds/vow.jpg";
 import {VowSymbols} from "./VowSymbols";
+import ImageHeader from "@/lib/image_components/ImageHeader";
 
 export const metadata = {
     other: {
@@ -17,16 +18,7 @@ export default function VowSymbolsPage() {
         <body className={custom.body}>
             <Image className={custom.background} src={Background} alt={""}/>
             <main className={custom.main}>
-                <div className={styles.header}>
-                    <img className={styles.logo} src={BungieIcons.raids.votd} alt={""}/>
-                    <div className={styles.header_text}>
-                        <h1 className={styles.title}>Vow of the Disciple</h1>
-                        <p className={styles.subtitle}>Symbols</p>
-                    </div>
-                    <div className={styles.watermark}>
-                        <h2>chaosd2.com/vow/symbols</h2>
-                    </div>
-                </div>
+                <ImageHeader title={"Vow of the Disciple"} subtitle={"Symbols"} icon={BungieIcons.raids.votd} href={"chaosd2.com/vow/symbols"}/>
                 <div className={custom.content}>
                     <div className={custom.grid}>
                         <div className={custom.grid_row}>

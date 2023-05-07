@@ -12,6 +12,7 @@ import Icon8 from "@/public/images/icons/kings_fall/8.png";
 import Icon9 from "@/public/images/icons/kings_fall/9.png";
 import Image from "next/image";
 import {BungieIcons} from "@/lib/BungieIcons";
+import ImageHeader from "@/lib/image_components/ImageHeader";
 
 export const metadata = {
     other: {
@@ -25,16 +26,7 @@ export default function KFRedBorder() {
         <body className={custom.body}>
             <Image src={Background} alt={""} className={custom.background}/>
             <main className={custom.main}>
-                <div className={styles.header}>
-                    <img className={styles.logo} src={BungieIcons.raids.kf} alt={""}/>
-                    <div className={styles.header_text}>
-                        <h1 className={styles.title}>King's Fall</h1>
-                        <p className={styles.subtitle}>Red Border Chest Puzzle</p>
-                    </div>
-                    <div className={styles.watermark}>
-                        <h2>chaosd2.com/kf/rb</h2>
-                    </div>
-                </div>
+                <ImageHeader title={"King's Fall"} subtitle={"Red Border Chest"} icon={BungieIcons.raids.kf} href={"chaosd2.com/kf/rb"}/>
                 <div className={custom.content}>
                     <div className={custom.grid}>
                         <RBLocation number={"1"} location={"Swinging Pendulums"} image={Icon1} text={"Jump onto the pendulums and turn around. The symbol is just beneath the platform you jumped from."}/>

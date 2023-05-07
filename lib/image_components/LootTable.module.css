@@ -29,43 +29,11 @@
     grid-auto-columns: 1fr;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-.title {
-    font-size: 4rem;
-    font-weight: bold;
-}
-
-.header_text {
-    margin-left: 2rem;
-}
-
-.subtitle {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.encounter_name {
-    grid-row: 1;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
 .items {
     grid-row: 2;
     display: flex;
     flex-direction: column;
     gap: 0.1rem;
-}
-
-.logo {
-    height: 6rem;
-    width: 6rem;
-    transition: box-shadow 0.2s;
 }
 
 .armor {
@@ -82,16 +50,8 @@
     margin-bottom: 1rem;
 }
 
-.watermark {
-    display: flex;
-    margin-left: auto;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.date {
-    font-size: 1rem;
+.encounter_name {
+    grid-row: 1;
+    font-size: 1.5rem;
     font-weight: bold;
-    color: lightgray;
-    margin-left: auto;
 }

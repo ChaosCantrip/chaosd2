@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.header_text {
+    margin-left: 2rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo {
+    height: 6rem;
+    width: 6rem;
+    transition: box-shadow 0.2s;
+}
+
+.date {
+    font-size: 1rem;
+    font-weight: bold;
+    color: lightgray;
+    margin-left: auto;
+}
+
+.watermark {
+    display: flex;
+    margin-left: auto;
+    flex-direction: column;
+    gap: 0.5rem;
+}
