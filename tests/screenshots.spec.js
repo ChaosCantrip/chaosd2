@@ -2,6 +2,7 @@ import { test, expect } from "@playwright/test";
 const fs = require('fs');
 
 test("screenshot", async ({ page }) => {
+    test.setTimeout(1200000);
     const list_of_paths = [];
     fs.readdirSync('app/image_sources/dungeons').forEach(dir => {
         fs.readdirSync(`app/image_sources/dungeons/${dir}`).forEach(file => {
@@ -18,13 +19,13 @@ test("screenshot", async ({ page }) => {
     for (let i = 0; i < list_of_paths.length; i++) {
         await page.goto(`http://localhost:3000/image_sources/${list_of_paths[i]}`);
         const metaWidth = await page.evaluate(() => {
-            return document.querySelector("meta[name=width]").content;
+            return parseInt(document.querySelector("meta[name=width]").content);
         });
         const metaHeight = await page.evaluate(() => {
-            return document.querySelector("meta[name=height]").content;
+            return parseInt(document.querySelector("meta[name=height]").content);
         });
-        await page.setViewportSize({width: parseInt(metaWidth), height: parseInt(metaHeight)});
-        await page.screenshot({path: `public/images/${list_of_paths[i]}.png`, clip: {x: 0, y: 0, width: 1920, height: 1080}});
+        await page.setViewportSize({width: metaWidth, height: metaHeight});
+        await page.screenshot({path: `public/images/${list_of_paths[i]}.png`, clip: {x: 0, y: 0, width: metaWidth, height: metaHeight}});
         console.log(`Screenshot taken for '${list_of_paths[i]}' (${metaWidth}x${metaHeight}) [${i+1}/${list_of_paths.length}]`)
     }
 });
