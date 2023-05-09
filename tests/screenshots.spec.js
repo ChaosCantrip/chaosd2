@@ -25,6 +25,6 @@ test("screenshot", async ({ page }) => {
         });
         await page.setViewportSize({width: parseInt(metaWidth), height: parseInt(metaHeight)});
         await page.screenshot({path: `public/images/${list_of_paths[i]}.png`, clip: {x: 0, y: 0, width: 1920, height: 1080}});
-        console.log(`Screenshot taken for ${list_of_paths[i]}`)
+        console.log(`Screenshot taken for '${list_of_paths[i]}' (${metaWidth}x${metaHeight}) [${i+1}/${list_of_paths.length}]`)
     }
 });
