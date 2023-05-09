@@ -13,7 +13,7 @@ export const metadata = {
     }
 }
 
-export default function MacrocosmMap() {
+export default function RootEncounter3() {
     return (
         <body className={custom.body}>
             <Image src={Background} alt={""} className={styles.background}/>

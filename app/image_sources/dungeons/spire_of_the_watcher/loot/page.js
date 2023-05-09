@@ -37,7 +37,7 @@ const data = {
             ]
         },
         {
-            name: "Persys, Primorial Ruin",
+            name: "Persys, Primordial Ruin",
             "items": [
                 "3138208275",
                 "2306182339",

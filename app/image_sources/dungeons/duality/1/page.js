@@ -13,7 +13,7 @@ export const metadata = {
     }
 }
 
-export default function Duality1() {
+export default function DualityEncounter1() {
     return (
         <body className={custom.body}>
             <Image src={Background} alt={""} className={custom.background}/>
