@@ -11,7 +11,7 @@ import Icon7 from "@images/icons/kings_fall/7.png";
 import Icon8 from "@images/icons/kings_fall/8.png";
 import Icon9 from "@images/icons/kings_fall/9.png";
 import Image from "next/image";
-import {BungieIcons} from "@/src/lib/BungieIcons";
+import {BungieIcons} from "@components/BungieIcons";
 import ImageHeader from "@image_components/ImageHeader";
 
 export const metadata = {

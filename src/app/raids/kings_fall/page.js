@@ -1,4 +1,4 @@
-import layout from "@/src/styles/modules/layout.module.css";
+import layout from "@src/styles/modules/layout.module.css";
 import Dropdown from "@components/Dropdown";
 import QuickLink from "@components/QuickLink";
 import Link from "next/link";

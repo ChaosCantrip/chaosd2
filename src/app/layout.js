@@ -3,9 +3,9 @@ import { Analytics } from "@vercel/analytics/react";
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
-import Header from "@/src/app/Header";
-import Footer from "@/src/app/Footer";
-import "@/src/styles/global/master.css";
+import Header from "@src/app/Header";
+import Footer from "@src/app/Footer";
+import "@src/styles/global/master.css";
 
 export const metadata = {
     title: {

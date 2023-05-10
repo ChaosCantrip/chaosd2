@@ -1,5 +1,5 @@
-import Title from "@/src/lib/components/Title";
-import layout from "@/src/styles/modules/layout.module.css";
+import Title from "@components/Title";
+import layout from "@styles/modules/layout.module.css";
 
 export default function ActivityLayout({ title, icon_url = null, children }) {
     return (

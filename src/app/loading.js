@@ -1,6 +1,6 @@
-import layout from "@/src/styles/modules/layout.module.css";
+import layout from "@src/styles/modules/layout.module.css";
 import Title from "@components/Title";
-import {BungieIcons} from "@/src/lib/BungieIcons";
+import {BungieIcons} from "@components/BungieIcons";
 
 export default function Loading() {
     return (

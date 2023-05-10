@@ -1,8 +1,8 @@
-import styles from "@/src/styles/modules/header.module.css";
+import styles from "@src/styles/modules/header.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@images/logo.png";
-import {BungieIcons} from "@/src/lib/BungieIcons";
+import {BungieIcons} from "@components/BungieIcons";
 
 export default function Header() {
     return (

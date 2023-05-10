@@ -2,7 +2,7 @@ import styles from "@image_components/LootTable.module.css";
 import custom from "./styles.module.css";
 import Image from "next/image";
 import Background from "@backgrounds/duality.jpg";
-import {BungieIcons} from "@/src/lib/BungieIcons";
+import {BungieIcons} from "@components/BungieIcons";
 import Diagram from "./diagram.png";
 import ImageHeader from "@image_components/ImageHeader";
 

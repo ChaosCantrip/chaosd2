@@ -1,6 +1,6 @@
 import custom from "./styles.module.css";
 import styles from "@image_components/LootTable.module.css";
-import {BungieIcons} from "@/src/lib/BungieIcons";
+import {BungieIcons} from "@components/BungieIcons";
 import Image from "next/image";
 import Background from "@backgrounds/vow.jpg";
 import {VowSymbols} from "./VowSymbols";

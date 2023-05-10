@@ -1,5 +1,5 @@
 import styles from "./Inserts.module.css";
-import {get_damage_definition} from "@/src/lib/bungie/APIHandler";
+import {get_damage_definition} from "@lib/bungie/APIHandler";
 
 const ammo_icons = {
     1: "https://www.bungie.net/common/destiny2_content/icons/dc4bb9bcdd4ae8a83fb9007a51d7d711.png",

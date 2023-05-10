@@ -1,5 +1,5 @@
 import LootTable from "@image_components/LootTable";
-import {BungieIcons} from "@/src/lib/BungieIcons";
+import {BungieIcons} from "@components/BungieIcons";
 import Background from "@backgrounds/spire.jpg";
 
 export const metadata = {

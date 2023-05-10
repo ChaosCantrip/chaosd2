@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "@/src/styles/modules/dropdown.module.css";
+import styles from "@styles/modules/dropdown.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight, faFile } from "@fortawesome/free-solid-svg-icons";
 

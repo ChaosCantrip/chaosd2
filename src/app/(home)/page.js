@@ -1,7 +1,7 @@
 
 import Title from "@components/Title";
 import BackgroundImage from "@components/BackgroundImage";
-import layout from "@/src/styles/modules/layout.module.css";
+import layout from "@src/styles/modules/layout.module.css";
 import Background from "@backgrounds/home.jpg";
 
 export const metadata = {

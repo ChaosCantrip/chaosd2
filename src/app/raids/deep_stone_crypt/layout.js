@@ -1,7 +1,7 @@
-import {BungieIcons} from "@/src/lib/BungieIcons";
+import {BungieIcons} from "@components/BungieIcons";
 import ActivityLayout from "@components/ActivityLayout";
 import BackgroundImage from "@components/BackgroundImage";
-import layout from "@/src/styles/modules/layout.module.css";
+import layout from "@src/styles/modules/layout.module.css";
 import Background from "@backgrounds/dsc.jpg";
 
 export const metadata = {

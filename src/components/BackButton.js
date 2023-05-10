@@ -2,7 +2,7 @@
 
 import { useRouter, usePathname } from "next/navigation";
 
-import styles from "@/src/styles/modules/back_button.module.css";
+import styles from "@styles/modules/back_button.module.css";
 
 
 export default function BackButton({ subtitle = null }) {
