@@ -1,19 +1,23 @@
 import { test, expect } from "@playwright/test";
 const fs = require('fs');
 
+const list_of_paths = [
+];
+
 test("screenshot", async ({ page }) => {
     test.setTimeout(1200000);
-    const list_of_paths = [];
-    fs.readdirSync('src/app/image_sources/dungeons').forEach(dir => {
-        fs.readdirSync(`src/app/image_sources/dungeons/${dir}`).forEach(file => {
-            list_of_paths.push(`dungeons/${dir}/${file}`);
+    if (list_of_paths.length === 0) {
+        fs.readdirSync('src/app/image_sources/dungeons').forEach(dir => {
+            fs.readdirSync(`src/app/image_sources/dungeons/${dir}`).forEach(file => {
+                list_of_paths.push(`dungeons/${dir}/${file}`);
+            });
         });
-    });
-    fs.readdirSync('src/app/image_sources/raids').forEach(dir => {
-        fs.readdirSync(`src/app/image_sources/raids/${dir}`).forEach(file => {
-            list_of_paths.push(`raids/${dir}/${file}`);
+        fs.readdirSync('src/app/image_sources/raids').forEach(dir => {
+            fs.readdirSync(`src/app/image_sources/raids/${dir}`).forEach(file => {
+                list_of_paths.push(`raids/${dir}/${file}`);
+            });
         });
-    });
+    }
     console.log(list_of_paths);
 
     for (let i = 0; i < list_of_paths.length; i++) {
