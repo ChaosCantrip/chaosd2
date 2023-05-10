@@ -1,4 +1,3 @@
-import styles from "@image_components/LootTable.module.css";
 import custom from "./styles.module.css";
 import Image from "next/image";
 import Background from "@backgrounds/duality.jpg";

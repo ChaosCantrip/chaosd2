@@ -1,5 +1,4 @@
 import custom from "./styles.module.css";
-import styles from "@image_components/LootTable.module.css";
 import Background from "@backgrounds/kf.jpg";
 import Icon1 from "@images/icons/kings_fall/1.png";
 import Icon2 from "@images/icons/kings_fall/2.png";
