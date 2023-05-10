@@ -1,4 +1,4 @@
-import "@/app/image_sources/image_sources.css";
+import "@/src/app/image_sources/image_sources.css";
  
 export default function RootLayout({ children }) {
  return (
