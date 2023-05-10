@@ -7,7 +7,7 @@
     }
 }
 
-main > * {
+main {
     position: relative;
     animation: main_anim;
     animation-fill-mode: backwards;
