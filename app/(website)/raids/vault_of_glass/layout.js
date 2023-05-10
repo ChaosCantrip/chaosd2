@@ -1,7 +1,8 @@
 import {BungieIcons} from "@/lib/BungieIcons";
 import ActivityLayout from "@/lib/components/ActivityLayout";
-import BackgroundWrapper from "@/lib/components/BackgroundWrapper";
-import backgrounds from "@/styles/modules/backgrounds.module.css";
+import BackgroundImage from "@/lib/components/BackgroundImage";
+import layout from "@/styles/modules/layout.module.css";
+import Background from "@/public/images/backgrounds/vog.jpg";
 
 export const metadata = {
     "title": "Vault of Glass"
@@ -9,10 +10,11 @@ export const metadata = {
 
 export default function VaultLayout({children}) {
     return (
-        <BackgroundWrapper background={backgrounds.vog}>
+        <div className={layout.page_wrapper}>
+            <BackgroundImage src={Background}/>
             <ActivityLayout title={"Vault of Glass"} icon_url={BungieIcons.raids.vog}>
                 {children}
             </ActivityLayout>
-        </BackgroundWrapper>
+        </div>
     )
 }

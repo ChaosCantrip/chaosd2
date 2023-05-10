@@ -1,7 +1,8 @@
 import {BungieIcons} from "@/lib/BungieIcons";
 import ActivityLayout from "@/lib/components/ActivityLayout";
-import BackgroundWrapper from "@/lib/components/BackgroundWrapper";
-import backgrounds from "@/styles/modules/backgrounds.module.css";
+import BackgroundImage from "@/lib/components/BackgroundImage";
+import layout from "@/styles/modules/layout.module.css";
+import Background from "@/public/images/backgrounds/grasp.jpg";
 
 export const metadata = {
     title: "Duality",
@@ -12,10 +13,11 @@ export const metadata = {
 
 export default function GraspLayout({children}) {
     return (
-        <BackgroundWrapper background={backgrounds.grasp}>
+        <div className={layout.page_wrapper}>
+            <BackgroundImage src={Background}/>
             <ActivityLayout title={"Grasp of Avarice"} icon_url={BungieIcons.dungeons.goa}>
                 {children}
             </ActivityLayout>
-        </BackgroundWrapper>
+        </div>
     )
 }

@@ -1,10 +1,9 @@
-import Link from "next/link";
-import Title from "@/lib/components/Title";
 
-import layout from "@/styles/modules/layout.module.css";
+import Title from "@/lib/components/Title";
 import {BungieIcons} from "@/lib/BungieIcons";
-import BackgroundWrapper from "@/lib/components/BackgroundWrapper";
-import backgrounds from "@/styles/modules/backgrounds.module.css";
+import BackgroundImage from "@/lib/components/BackgroundImage";
+import layout from "@/styles/modules/layout.module.css";
+import Background from "@/public/images/backgrounds/raid.jpg";
 import ActivityGridItem from "@/lib/components/ActivityGridItem";
 
 import RootOfNightmares from "@/public/images/backgrounds/root.jpg";
@@ -31,7 +30,8 @@ Last Wish
 
 export default function Raids() {
     return (
-        <BackgroundWrapper background={backgrounds.raid}>
+        <div className={layout.page_wrapper}>
+            <BackgroundImage src={Background}/>
             <div className={layout.page}>
                 <Title title={"Raids"} icon_url={BungieIcons.raid_icon} show_back_button={false}/>
                 <div className={layout.page_content}>
@@ -46,6 +46,6 @@ export default function Raids() {
                     </div>
                 </div>
             </div>
-        </BackgroundWrapper>
+        </div>
     )
 }

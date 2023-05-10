@@ -1,7 +1,8 @@
 import {BungieIcons} from "@/lib/BungieIcons";
 import ActivityLayout from "@/lib/components/ActivityLayout";
-import BackgroundWrapper from "@/lib/components/BackgroundWrapper";
-import backgrounds from "@/styles/modules/backgrounds.module.css";
+import BackgroundImage from "@/lib/components/BackgroundImage";
+import layout from "@/styles/modules/layout.module.css";
+import Background from "@/public/images/backgrounds/vow.jpg";
 
 export const metadata = {
     "title": "Vow of the Disciple",
@@ -12,10 +13,11 @@ export const metadata = {
 
 export default function VowLayout({children}) {
     return (
-        <BackgroundWrapper background={backgrounds.vow}>
+        <div className={layout.page_wrapper}>
+            <BackgroundImage src={Background}/>
             <ActivityLayout title={"Vow of the Disciple"} icon_url={BungieIcons.raids.votd}>
                 {children}
             </ActivityLayout>
-        </BackgroundWrapper>
+        </div>
     )
 }

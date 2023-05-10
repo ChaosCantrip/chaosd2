@@ -1,7 +1,8 @@
 import {BungieIcons} from "@/lib/BungieIcons";
 import ActivityLayout from "@/lib/components/ActivityLayout";
-import BackgroundWrapper from "@/lib/components/BackgroundWrapper";
-import backgrounds from "@/styles/modules/backgrounds.module.css";
+import BackgroundImage from "@/lib/components/BackgroundImage";
+import layout from "@/styles/modules/layout.module.css";
+import Background from "@/public/images/backgrounds/duality.jpg";
 
 export const metadata = {
     title: "Duality",
@@ -12,8 +13,9 @@ export const metadata = {
 
 export default function DualityLayout({ children }) {
     return (
-        <BackgroundWrapper background={backgrounds.duality}>
+        <div className={layout.page_wrapper}>
+            <BackgroundImage src={Background}/>
             <ActivityLayout title={"Duality"} icon_url={BungieIcons.dungeons.duality}>{children}</ActivityLayout>
-        </BackgroundWrapper>
+        </div>
     )
 }

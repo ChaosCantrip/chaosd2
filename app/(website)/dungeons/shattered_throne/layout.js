@@ -1,7 +1,8 @@
 import {BungieIcons} from "@/lib/BungieIcons";
 import ActivityLayout from "@/lib/components/ActivityLayout";
-import BackgroundWrapper from "@/lib/components/BackgroundWrapper";
-import backgrounds from "@/styles/modules/backgrounds.module.css";
+import BackgroundImage from "@/lib/components/BackgroundImage";
+import layout from "@/styles/modules/layout.module.css";
+import Background from "@/public/images/backgrounds/st.jpg";
 
 export const metadata = {
     "title": "Shattered Throne",
@@ -9,10 +10,11 @@ export const metadata = {
 
 export default function ThroneLayout({children}) {
     return (
-        <BackgroundWrapper background={backgrounds.st}>
+        <div className={layout.page_wrapper}>
+            <BackgroundImage src={Background}/>
             <ActivityLayout title={"Shattered Throne"} icon_url={BungieIcons.dungeons.st}>
                 {children}
             </ActivityLayout>
-        </BackgroundWrapper>
+        </div>
     )
 }

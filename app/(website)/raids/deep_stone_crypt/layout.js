@@ -1,7 +1,8 @@
 import {BungieIcons} from "@/lib/BungieIcons";
 import ActivityLayout from "@/lib/components/ActivityLayout";
-import BackgroundWrapper from "@/lib/components/BackgroundWrapper";
-import backgrounds from "@/styles/modules/backgrounds.module.css";
+import BackgroundImage from "@/lib/components/BackgroundImage";
+import layout from "@/styles/modules/layout.module.css";
+import Background from "@/public/images/backgrounds/dsc.jpg";
 
 export const metadata = {
     "title": "Deep Stone Crypt",
@@ -12,10 +13,11 @@ export const metadata = {
 
 export default function DeepStoneLayout({children}) {
     return (
-        <BackgroundWrapper background={backgrounds.dsc}>
+        <div className={layout.page_wrapper}>
+            <BackgroundImage src={Background}/>
             <ActivityLayout title={"Deep Stone Crypt"} icon_url={BungieIcons.raids.dsc}>
                 {children}
             </ActivityLayout>
-        </BackgroundWrapper>
+        </div>
     )
 }

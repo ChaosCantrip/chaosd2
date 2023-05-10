@@ -1,9 +1,9 @@
-import Link from "next/link";
+
 import layout from "@/styles/modules/layout.module.css";
 import Title from "@/lib/components/Title";
 import { BungieIcons } from "@/lib/BungieIcons";
-import BackgroundWrapper from "@/lib/components/BackgroundWrapper";
-import backgrounds from "@/styles/modules/backgrounds.module.css";
+import BackgroundImage from "@/lib/components/BackgroundImage";
+import Background from "@/public/images/backgrounds/dungeon.jpg";
 import ActivityGridItem from "@/lib/components/ActivityGridItem";
 
 import SpireOfTheWatcher from "@/public/images/backgrounds/spire.jpg";
@@ -28,7 +28,8 @@ Shattered Throne
 
 export default function DungeonsPage() {
     return (
-        <BackgroundWrapper background={backgrounds.dungeon}>
+        <div className={layout.page_wrapper}>
+            <BackgroundImage src={Background}/>
             <div className={layout.page}>
                 <Title title={"Dungeons"} icon_url={BungieIcons.dungeon_icon} show_back_button={false}/>
                 <div className={layout.page_content}>
@@ -42,6 +43,6 @@ export default function DungeonsPage() {
                     </div>
                 </div>
             </div>
-        </BackgroundWrapper>
+        </div>
     )
 }

@@ -1,11 +1,12 @@
-import layout from "@/styles/modules/layout.module.css";
 import Title from "@/lib/components/Title";
-import BackgroundWrapper from "@/lib/components/BackgroundWrapper";
-import backgrounds from "@/styles/modules/backgrounds.module.css";
+import BackgroundImage from "@/lib/components/BackgroundImage";
+import layout from "@/styles/modules/layout.module.css";
+import Background from "@/public/images/backgrounds/home.jpg";
 
 export default function ReferencePage() {
     return (
-        <BackgroundWrapper background={backgrounds.home}>
+        <div className={layout.page_wrapper}>
+            <BackgroundImage src={Background}/>
             <div className={layout.page}>
                 <Title title="Reference" show_back_button={false}/>
                 <p>Page Under Construction</p>
@@ -31,6 +32,6 @@ export default function ReferencePage() {
                     Do note for Discord, the https:// is required, otherwise it will not embed the image. Just how discord works I'm afraid.
                 </p>
             </div>
-        </BackgroundWrapper>
+        </div>
     )
 }

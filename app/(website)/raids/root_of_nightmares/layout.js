@@ -1,7 +1,8 @@
 import {BungieIcons} from "@/lib/BungieIcons";
 import ActivityLayout from "@/lib/components/ActivityLayout";
-import BackgroundWrapper from "@/lib/components/BackgroundWrapper";
-import backgrounds from "@/styles/modules/backgrounds.module.css";
+import layout from "@/styles/modules/layout.module.css";
+import Background from "@/public/images/backgrounds/root.jpg";
+import BackgroundImage from "@/lib/components/BackgroundImage";
 
 export const metadata = {
     "title": "Root of Nightmares",
@@ -12,10 +13,11 @@ export const metadata = {
 
 export default function RootLayout({children}) {
     return (
-        <BackgroundWrapper background={backgrounds.root}>
+        <div className={layout.page_wrapper}>
+            <BackgroundImage src={Background}/>
             <ActivityLayout title={"Root of Nightmares"} icon_url={BungieIcons.raids.root}>
                 {children}
             </ActivityLayout>
-        </BackgroundWrapper>
+        </div>
     )
 }
