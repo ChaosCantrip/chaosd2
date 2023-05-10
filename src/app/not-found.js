@@ -1,4 +1,4 @@
-import layout from "@styles/modules/layout.module.css";
+import layout from "@/src/styles/modules/layout.module.css";
 import Title from "@components/Title";
 
 export default function NotFound() {

@@ -1,6 +1,6 @@
-import layout from "@styles/modules/layout.module.css";
+import layout from "@/src/styles/modules/layout.module.css";
 import Image from "next/image";
-import QuickLink from "@components/QuickLink";
+import QuickLink from "@/src/lib/components/QuickLink";
 import Link from "next/link";
 
 export default function EncounterPage({ image_ql, encounter_name, map }) {

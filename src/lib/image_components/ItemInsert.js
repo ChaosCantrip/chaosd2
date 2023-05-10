@@ -1,4 +1,4 @@
-import {get_item_definition} from "@lib/bungie/APIHandler";
+import {get_item_definition} from "@/src/lib/bungie/APIHandler";
 import styles from "./Inserts.module.css";
 import CombinedImage from "@image_components/CombinedImage";
 import ItemIcons from "@image_components/ItemIcons";

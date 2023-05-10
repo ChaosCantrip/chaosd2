@@ -2,10 +2,10 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./*"],
-      "@lib/*": ["./lib/*"],
-      "@components/*": ["./lib/components/*"],
-      "@image_components/*": ["./lib/components/image_components/*"],
-      "@styles/*": ["./styles/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@components/*": ["./src/lib/components/*"],
+      "@image_components/*": ["./src/lib/components/image_components/*"],
+      "@styles/*": ["./src/styles/*"],
       "@images/*": ["./public/images/*"],
       "@backgrounds/*": ["./public/images/backgrounds/*"]
     }

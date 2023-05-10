@@ -5,7 +5,7 @@ config.autoAddCss = false
 
 import Header from "@/src/app/Header";
 import Footer from "@/src/app/Footer";
-import "@styles/global/master.css";
+import "@/src/styles/global/master.css";
 
 export const metadata = {
     title: {

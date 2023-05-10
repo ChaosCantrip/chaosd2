@@ -1,7 +1,7 @@
 
-import layout from "@styles/modules/layout.module.css";
+import layout from "@/src/styles/modules/layout.module.css";
 import Title from "@components/Title";
-import { BungieIcons } from "@lib/BungieIcons";
+import { BungieIcons } from "@/src/lib/BungieIcons";
 import BackgroundImage from "@components/BackgroundImage";
 import Background from "@backgrounds/dungeon.jpg";
 import ActivityGridItem from "@components/ActivityGridItem";

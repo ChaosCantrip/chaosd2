@@ -1,5 +1,5 @@
-import layout from "@styles/modules/title.module.css";
-import BackButton from "@components/BackButton";
+import layout from "@/src/styles/modules/title.module.css";
+import BackButton from "@/src/lib/components/BackButton";
 
 export default function Title({ title, subtitle = null, icon_url = null, show_back_button = true }) {
     return (

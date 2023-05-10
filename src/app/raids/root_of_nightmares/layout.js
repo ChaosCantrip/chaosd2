@@ -1,6 +1,6 @@
-import {BungieIcons} from "@lib/BungieIcons";
+import {BungieIcons} from "@/src/lib/BungieIcons";
 import ActivityLayout from "@components/ActivityLayout";
-import layout from "@styles/modules/layout.module.css";
+import layout from "@/src/styles/modules/layout.module.css";
 import Background from "@backgrounds/root.jpg";
 import BackgroundImage from "@components/BackgroundImage";
 
