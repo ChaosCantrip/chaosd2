@@ -1,10 +1,10 @@
-import layout from "@/styles/modules/layout.module.css";
-import Dropdown from "@/lib/components/Dropdown";
-import QuickLink from "@/lib/components/QuickLink";
+import layout from "@styles/modules/layout.module.css";
+import Dropdown from "@components/Dropdown";
+import QuickLink from "@components/QuickLink";
 import Link from "next/link";
 import Image from "next/image";
-import LootTable from "@/public/images/raids/vow_of_the_disciple/loot.png";
-import SymbolsTable from "@/public/images/raids/vow_of_the_disciple/symbols.png";
+import LootTable from "@images/raids/vow_of_the_disciple/loot.png";
+import SymbolsTable from "@images/raids/vow_of_the_disciple/symbols.png";
 
 export default function VowOfTheDisciple() {
     return (

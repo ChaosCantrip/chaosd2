@@ -1,5 +1,5 @@
-import SymbolsTable from "@/public/images/raids/vow_of_the_disciple/symbols.png";
-import EncounterPage from "@/lib/components/EncounterPage";
+import SymbolsTable from "@images/raids/vow_of_the_disciple/symbols.png";
+import EncounterPage from "@components/EncounterPage";
 
 export const metadata = {
     description: "Symbols table for Vow of the Disciple.",

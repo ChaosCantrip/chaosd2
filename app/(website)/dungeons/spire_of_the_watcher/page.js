@@ -1,8 +1,8 @@
-import layout from "@/styles/modules/layout.module.css";
-import Dropdown from "@/lib/components/Dropdown";
-import QuickLink from "@/lib/components/QuickLink";
+import layout from "@styles/modules/layout.module.css";
+import Dropdown from "@components/Dropdown";
+import QuickLink from "@components/QuickLink";
 import Image from "next/image";
-import LootTable from "@/public/images/dungeons/spire_of_the_watcher/loot.png";
+import LootTable from "@images/dungeons/spire_of_the_watcher/loot.png";
 import Link from "next/link";
 
 export default function SpireOfTheWatcher() {

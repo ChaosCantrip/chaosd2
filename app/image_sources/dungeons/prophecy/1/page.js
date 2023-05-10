@@ -1,9 +1,9 @@
-import styles from "@/lib/image_components/LootTable.module.css";
-import ImageHeader from "@/lib/image_components/ImageHeader";
+import styles from "@image_components/LootTable.module.css";
+import ImageHeader from "@image_components/ImageHeader";
 import Image from "next/image";
-import Background from "@/public/images/backgrounds/prophecy.jpg";
-import {BungieIcons} from "@/lib/BungieIcons";
-import ImageUnderConstruction from "@/lib/image_components/ImageUnderConstruction";
+import Background from "@backgrounds/prophecy.jpg";
+import {BungieIcons} from "@lib/BungieIcons";
+import ImageUnderConstruction from "@image_components/ImageUnderConstruction";
 
 /* TODO: This is a placeholder page. */
 

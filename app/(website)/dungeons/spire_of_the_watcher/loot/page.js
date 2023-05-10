@@ -1,5 +1,5 @@
-import EncounterMap from "@/public/images/dungeons/spire_of_the_watcher/loot.png";
-import EncounterPage from "@/lib/components/EncounterPage";
+import EncounterMap from "@images/dungeons/spire_of_the_watcher/loot.png";
+import EncounterPage from "@components/EncounterPage";
 
 export const metadata = {
     description: "Loot table for the Spire of the Watcher.",

@@ -1,8 +1,8 @@
-import {BungieIcons} from "@/lib/BungieIcons";
-import ActivityLayout from "@/lib/components/ActivityLayout";
-import BackgroundImage from "@/lib/components/BackgroundImage";
-import layout from "@/styles/modules/layout.module.css";
-import Background from "@/public/images/backgrounds/last_wish.jpg";
+import {BungieIcons} from "@lib/BungieIcons";
+import ActivityLayout from "@components/ActivityLayout";
+import BackgroundImage from "@components/BackgroundImage";
+import layout from "@styles/modules/layout.module.css";
+import Background from "@backgrounds/last_wish.jpg";
 
 export const metadata = {
     "title": "Last Wish"

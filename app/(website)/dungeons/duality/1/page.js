@@ -1,6 +1,6 @@
 
-import EncounterMap from "@/public/images/dungeons/duality/1.png";
-import EncounterPage from "@/lib/components/EncounterPage";
+import EncounterMap from "@images/dungeons/duality/1.png";
+import EncounterPage from "@components/EncounterPage";
 
 export const metadata = {
     description: "Encounter 1 - Nightmare of Galhran",

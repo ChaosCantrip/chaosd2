@@ -1,10 +1,10 @@
-import styles from "@/lib/image_components/LootTable.module.css";
+import styles from "@image_components/LootTable.module.css";
 import custom from "./styles.module.css";
 import Image from "next/image";
-import Background from "@/public/images/backgrounds/duality.jpg";
-import {BungieIcons} from "@/lib/BungieIcons";
+import Background from "@backgrounds/duality.jpg";
+import {BungieIcons} from "@lib/BungieIcons";
 import Diagram from "./diagram.png";
-import ImageHeader from "@/lib/image_components/ImageHeader";
+import ImageHeader from "@image_components/ImageHeader";
 
 export const metadata = {
     other: {

@@ -1,5 +1,5 @@
-import Image from "@/public/images/raids/kings_fall/rb.png";
-import EncounterPage from "@/lib/components/EncounterPage";
+import Image from "@images/raids/kings_fall/rb.png";
+import EncounterPage from "@components/EncounterPage";
 
 export const metadata = {
     description: "Red Border Key for King's Fall.",

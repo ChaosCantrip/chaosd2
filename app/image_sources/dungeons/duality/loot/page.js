@@ -1,6 +1,6 @@
-import LootTable from "@/lib/image_components/LootTable";
-import {BungieIcons} from "@/lib/BungieIcons";
-import Background from "@/public/images/backgrounds/duality.jpg";
+import LootTable from "@image_components/LootTable";
+import {BungieIcons} from "@lib/BungieIcons";
+import Background from "@backgrounds/duality.jpg";
 
 export const metadata = {
     other: {

@@ -1,8 +1,8 @@
-import {BungieIcons} from "@/lib/BungieIcons";
-import ActivityLayout from "@/lib/components/ActivityLayout";
-import layout from "@/styles/modules/layout.module.css";
-import Background from "@/public/images/backgrounds/root.jpg";
-import BackgroundImage from "@/lib/components/BackgroundImage";
+import {BungieIcons} from "@lib/BungieIcons";
+import ActivityLayout from "@components/ActivityLayout";
+import layout from "@styles/modules/layout.module.css";
+import Background from "@backgrounds/root.jpg";
+import BackgroundImage from "@components/BackgroundImage";
 
 export const metadata = {
     "title": "Root of Nightmares",

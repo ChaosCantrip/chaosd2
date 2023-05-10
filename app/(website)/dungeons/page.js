@@ -1,17 +1,17 @@
 
-import layout from "@/styles/modules/layout.module.css";
-import Title from "@/lib/components/Title";
-import { BungieIcons } from "@/lib/BungieIcons";
-import BackgroundImage from "@/lib/components/BackgroundImage";
-import Background from "@/public/images/backgrounds/dungeon.jpg";
-import ActivityGridItem from "@/lib/components/ActivityGridItem";
+import layout from "@styles/modules/layout.module.css";
+import Title from "@components/Title";
+import { BungieIcons } from "@lib/BungieIcons";
+import BackgroundImage from "@components/BackgroundImage";
+import Background from "@backgrounds/dungeon.jpg";
+import ActivityGridItem from "@components/ActivityGridItem";
 
-import SpireOfTheWatcher from "@/public/images/backgrounds/spire.jpg";
-import Duality from "@/public/images/backgrounds/duality.jpg";
-import GraspOfAvarice from "@/public/images/backgrounds/grasp.jpg";
-import Prophecy from "@/public/images/backgrounds/prophecy.jpg";
-import PitOfHeresy from "@/public/images/backgrounds/pit.jpg";
-import ShatteredThrone from "@/public/images/backgrounds/st.jpg";
+import SpireOfTheWatcher from "@backgrounds/spire.jpg";
+import Duality from "@backgrounds/duality.jpg";
+import GraspOfAvarice from "@backgrounds/grasp.jpg";
+import Prophecy from "@backgrounds/prophecy.jpg";
+import PitOfHeresy from "@backgrounds/pit.jpg";
+import ShatteredThrone from "@backgrounds/st.jpg";
 
 export const metadata = {
     "title": "Dungeons",

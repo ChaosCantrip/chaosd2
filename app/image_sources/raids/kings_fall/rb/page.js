@@ -1,18 +1,18 @@
 import custom from "./styles.module.css";
-import styles from "@/lib/image_components/LootTable.module.css";
-import Background from "@/public/images/backgrounds/kf.jpg";
-import Icon1 from "@/public/images/icons/kings_fall/1.png";
-import Icon2 from "@/public/images/icons/kings_fall/2.png";
-import Icon3 from "@/public/images/icons/kings_fall/3.png";
-import Icon4 from "@/public/images/icons/kings_fall/4.png";
-import Icon5 from "@/public/images/icons/kings_fall/5.png";
-import Icon6 from "@/public/images/icons/kings_fall/6.png";
-import Icon7 from "@/public/images/icons/kings_fall/7.png";
-import Icon8 from "@/public/images/icons/kings_fall/8.png";
-import Icon9 from "@/public/images/icons/kings_fall/9.png";
+import styles from "@image_components/LootTable.module.css";
+import Background from "@backgrounds/kf.jpg";
+import Icon1 from "@images/icons/kings_fall/1.png";
+import Icon2 from "@images/icons/kings_fall/2.png";
+import Icon3 from "@images/icons/kings_fall/3.png";
+import Icon4 from "@images/icons/kings_fall/4.png";
+import Icon5 from "@images/icons/kings_fall/5.png";
+import Icon6 from "@images/icons/kings_fall/6.png";
+import Icon7 from "@images/icons/kings_fall/7.png";
+import Icon8 from "@images/icons/kings_fall/8.png";
+import Icon9 from "@images/icons/kings_fall/9.png";
 import Image from "next/image";
-import {BungieIcons} from "@/lib/BungieIcons";
-import ImageHeader from "@/lib/image_components/ImageHeader";
+import {BungieIcons} from "@lib/BungieIcons";
+import ImageHeader from "@image_components/ImageHeader";
 
 export const metadata = {
     other: {

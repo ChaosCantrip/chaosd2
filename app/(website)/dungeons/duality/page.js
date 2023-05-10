@@ -1,12 +1,12 @@
-import layout from "@/styles/modules/layout.module.css";
-import QuickLink from "@/lib/components/QuickLink";
-import Dropdown from "@/lib/components/Dropdown";
+import layout from "@styles/modules/layout.module.css";
+import QuickLink from "@components/QuickLink";
+import Dropdown from "@components/Dropdown";
 import Image from "next/image";
 
-import Encounter1Map from "@/public/images/dungeons/duality/1.png";
-import Encounter2Map from "@/public/images/dungeons/duality/2.png";
-import Encounter3Map from "@/public/images/dungeons/duality/3.png";
-import LootTable from "@/public/images/dungeons/duality/loot.png";
+import Encounter1Map from "@images/dungeons/duality/1.png";
+import Encounter2Map from "@images/dungeons/duality/2.png";
+import Encounter3Map from "@images/dungeons/duality/3.png";
+import LootTable from "@images/dungeons/duality/loot.png";
 import Link from "next/link";
 
 export default function Duality() {

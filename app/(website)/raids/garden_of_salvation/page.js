@@ -1,9 +1,9 @@
-import layout from "@/styles/modules/layout.module.css";
-import Dropdown from "@/lib/components/Dropdown";
-import QuickLink from "@/lib/components/QuickLink";
+import layout from "@styles/modules/layout.module.css";
+import Dropdown from "@components/Dropdown";
+import QuickLink from "@components/QuickLink";
 import Link from "next/link";
 import Image from "next/image";
-import LootTable from "@/public/images/raids/garden_of_salvation/loot.png";
+import LootTable from "@images/raids/garden_of_salvation/loot.png";
 
 export default function GardenOfSalvation() {
     return (

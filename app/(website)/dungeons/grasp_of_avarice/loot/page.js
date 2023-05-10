@@ -1,5 +1,5 @@
-import EncounterMap from "@/public/images/dungeons/grasp_of_avarice/loot.png";
-import EncounterPage from "@/lib/components/EncounterPage";
+import EncounterMap from "@images/dungeons/grasp_of_avarice/loot.png";
+import EncounterPage from "@components/EncounterPage";
 
 export const metadata = {
     description: "Loot table for the Grasp of Avarice.",

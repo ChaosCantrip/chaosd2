@@ -1,9 +1,9 @@
-import layout from "@/styles/modules/layout.module.css";
-import Dropdown from "@/lib/components/Dropdown";
-import QuickLink from "@/lib/components/QuickLink";
+import layout from "@styles/modules/layout.module.css";
+import Dropdown from "@components/Dropdown";
+import QuickLink from "@components/QuickLink";
 import Link from "next/link";
 import Image from "next/image";
-import LootTable from "@/public/images/raids/deep_stone_crypt/loot.png";
+import LootTable from "@images/raids/deep_stone_crypt/loot.png";
 
 export default function DeepStoneCrypt() {
     return (

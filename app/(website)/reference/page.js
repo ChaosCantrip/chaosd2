@@ -1,7 +1,7 @@
-import Title from "@/lib/components/Title";
-import BackgroundImage from "@/lib/components/BackgroundImage";
-import layout from "@/styles/modules/layout.module.css";
-import Background from "@/public/images/backgrounds/home.jpg";
+import Title from "@components/Title";
+import BackgroundImage from "@components/BackgroundImage";
+import layout from "@styles/modules/layout.module.css";
+import Background from "@backgrounds/home.jpg";
 
 export default function ReferencePage() {
     return (

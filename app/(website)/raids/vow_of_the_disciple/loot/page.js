@@ -1,5 +1,5 @@
-import EncounterMap from "@/public/images/raids/vow_of_the_disciple/loot.png";
-import EncounterPage from "@/lib/components/EncounterPage";
+import EncounterMap from "@images/raids/vow_of_the_disciple/loot.png";
+import EncounterPage from "@components/EncounterPage";
 
 export const metadata = {
     description: "Loot table for Vow of the Disciple.",

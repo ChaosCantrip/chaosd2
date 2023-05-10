@@ -1,6 +1,6 @@
 
-import EncounterMap from "@/public/images/dungeons/duality/loot.png";
-import EncounterPage from "@/lib/components/EncounterPage";
+import EncounterMap from "@images/dungeons/duality/loot.png";
+import EncounterPage from "@components/EncounterPage";
 
 export const metadata = {
     description: "Loot table for the Duality raid.",

@@ -4,6 +4,7 @@
       "@/*": ["./*"],
       "@lib/*": ["./lib/*"],
       "@components/*": ["./lib/components/*"],
+      "@image_components/*": ["./lib/components/image_components/*"],
       "@styles/*": ["./styles/*"],
       "@images/*": ["./public/images/*"],
       "@backgrounds/*": ["./public/images/backgrounds/*"]

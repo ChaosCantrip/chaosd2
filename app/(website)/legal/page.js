@@ -1,5 +1,5 @@
-import layout from '@/styles/modules/layout.module.css';
-import Title from "@/lib/components/Title";
+import layout from '@styles/modules/layout.module.css';
+import Title from "@components/Title";
 
 export default function LegalPage() {
     return (

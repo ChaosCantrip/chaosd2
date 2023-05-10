@@ -1,10 +1,10 @@
-import layout from "@/styles/modules/layout.module.css";
-import Dropdown from "@/lib/components/Dropdown";
-import QuickLink from "@/lib/components/QuickLink";
+import layout from "@styles/modules/layout.module.css";
+import Dropdown from "@components/Dropdown";
+import QuickLink from "@components/QuickLink";
 import Link from "next/link";
 import Image from "next/image";
-import LootTable from "@/public/images/raids/root_of_nightmares/loot.png";
-import Encounter3 from "@/public/images/raids/root_of_nightmares/3.png";
+import LootTable from "@images/raids/root_of_nightmares/loot.png";
+import Encounter3 from "@images/raids/root_of_nightmares/3.png";
 
 export default function RootOfNightmares() {
     return (

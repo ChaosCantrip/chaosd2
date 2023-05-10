@@ -1,5 +1,5 @@
-import EncounterMap from "@/public/images/raids/deep_stone_crypt/loot.png";
-import EncounterPage from "@/lib/components/EncounterPage";
+import EncounterMap from "@images/raids/deep_stone_crypt/loot.png";
+import EncounterPage from "@components/EncounterPage";
 
 export const metadata = {
     description: "Loot table for Deep Stone Crypt.",

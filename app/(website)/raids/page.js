@@ -1,18 +1,18 @@
 
-import Title from "@/lib/components/Title";
-import {BungieIcons} from "@/lib/BungieIcons";
-import BackgroundImage from "@/lib/components/BackgroundImage";
-import layout from "@/styles/modules/layout.module.css";
-import Background from "@/public/images/backgrounds/raid.jpg";
-import ActivityGridItem from "@/lib/components/ActivityGridItem";
+import Title from "@components/Title";
+import {BungieIcons} from "@lib/BungieIcons";
+import BackgroundImage from "@components/BackgroundImage";
+import layout from "@styles/modules/layout.module.css";
+import Background from "@backgrounds/raid.jpg";
+import ActivityGridItem from "@components/ActivityGridItem";
 
-import RootOfNightmares from "@/public/images/backgrounds/root.jpg";
-import KingsFall from "@/public/images/backgrounds/kf.jpg";
-import VowOfTheDisciple from "@/public/images/backgrounds/vow.jpg";
-import VaultOfGlass from "@/public/images/backgrounds/vog.jpg";
-import DeepStoneCrypt from "@/public/images/backgrounds/dsc.jpg";
-import GardenOfSalvation from "@/public/images/backgrounds/garden.jpg";
-import LastWish from "@/public/images/backgrounds/last_wish.jpg";
+import RootOfNightmares from "@backgrounds/root.jpg";
+import KingsFall from "@backgrounds/kf.jpg";
+import VowOfTheDisciple from "@backgrounds/vow.jpg";
+import VaultOfGlass from "@backgrounds/vog.jpg";
+import DeepStoneCrypt from "@backgrounds/dsc.jpg";
+import GardenOfSalvation from "@backgrounds/garden.jpg";
+import LastWish from "@backgrounds/last_wish.jpg";
 
 export const metadata = {
     "title": "Raids",

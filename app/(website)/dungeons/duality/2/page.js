@@ -1,5 +1,5 @@
-import EncounterMap from "@/public/images/dungeons/duality/2.png";
-import EncounterPage from "@/lib/components/EncounterPage";
+import EncounterMap from "@images/dungeons/duality/2.png";
+import EncounterPage from "@components/EncounterPage";
 
 export const metadata = {
     description: "Encounter 2 - Vault",
