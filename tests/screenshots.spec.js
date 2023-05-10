@@ -4,13 +4,13 @@ const fs = require('fs');
 test("screenshot", async ({ page }) => {
     test.setTimeout(1200000);
     const list_of_paths = [];
-    fs.readdirSync('app/image_sources/dungeons').forEach(dir => {
-        fs.readdirSync(`app/image_sources/dungeons/${dir}`).forEach(file => {
+    fs.readdirSync('src/app/image_sources/dungeons').forEach(dir => {
+        fs.readdirSync(`src/app/image_sources/dungeons/${dir}`).forEach(file => {
             list_of_paths.push(`dungeons/${dir}/${file}`);
         });
     });
-    fs.readdirSync('app/image_sources/raids').forEach(dir => {
-        fs.readdirSync(`app/image_sources/raids/${dir}`).forEach(file => {
+    fs.readdirSync('src/app/image_sources/raids').forEach(dir => {
+        fs.readdirSync(`src/app/image_sources/raids/${dir}`).forEach(file => {
             list_of_paths.push(`raids/${dir}/${file}`);
         });
     });
