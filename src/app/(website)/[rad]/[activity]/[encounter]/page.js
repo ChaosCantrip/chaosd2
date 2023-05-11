@@ -4,6 +4,7 @@ import QuickLink from "@components/QuickLink";
 import Link from "next/link";
 import {PathConfig} from "@components/PathConfig";
 import {image_sources} from "@components/ImageImports";
+import {notFound} from "next/navigation";
 
 export const dynamicParams = false;
 
@@ -28,6 +29,9 @@ export async function generateStaticParams() {
 export default function EncounterPage({ params }) {
     const { rad, activity, encounter } = params;
     const data = PathConfig[rad][activity].encounters[encounter];
+    if (data === undefined) {
+        notFound();
+    }
     const image = image_sources[rad][activity][encounter];
     const { name, ql } = data;
     return (
