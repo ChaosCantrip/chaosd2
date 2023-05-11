@@ -5,6 +5,26 @@ import Link from "next/link";
 import {PathConfig} from "@components/PathConfig";
 import {image_sources} from "@components/ImageImports";
 
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+    const params = [];
+    for (const rad in PathConfig) {
+        for (const activity in PathConfig[rad]) {
+            for (const encounter in PathConfig[rad][activity].encounters) {
+                params.push({
+                    params: {
+                        rad: rad,
+                        activity: activity,
+                        encounter: encounter,
+                    }
+                });
+            }
+        }
+    }
+    return params;
+}
+
 export default function EncounterPage({ params }) {
     const { rad, activity, encounter } = params;
     const data = PathConfig[rad][activity].encounters[encounter];
