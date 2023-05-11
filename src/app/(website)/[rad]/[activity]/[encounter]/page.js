@@ -14,11 +14,9 @@ export async function generateStaticParams() {
         for (const activity in PathConfig[rad]) {
             for (const encounter in PathConfig[rad][activity].encounters) {
                 params.push({
-                    params: {
-                        rad: rad,
-                        activity: activity,
-                        encounter: encounter,
-                    }
+                    rad: rad,
+                    activity: activity,
+                    encounter: encounter,
                 });
             }
         }
