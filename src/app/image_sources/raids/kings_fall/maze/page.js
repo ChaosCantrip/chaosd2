@@ -14,12 +14,12 @@ export const metadata = {
     }
 }
 
-export default function KFEncounter3() {
+export default function KFMaze() {
     return (
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"King's Fall"} subtitle={"Golgoroth"} icon={BungieIcons.raids.kf} href={"chaosd2.com/kf/3"}/>
+                <ImageHeader title={"King's Fall"} subtitle={"Golgoroth's Cellar"} icon={BungieIcons.raids.kf} href={"chaosd2.com/kf/maze"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>
