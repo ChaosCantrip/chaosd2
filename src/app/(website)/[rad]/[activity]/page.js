@@ -6,6 +6,21 @@ import Image from "next/image";
 import {PathConfig} from "@components/PathConfig";
 import {image_sources} from "@components/ImageImports";
 
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+    const params = [];
+    for (const rad in PathConfig) {
+        for (const activity in PathConfig[rad]) {
+            params.push({
+                rad: rad,
+                activity: activity,
+            });
+        }
+    }
+    return params;
+}
+
 export default function ActivityPage({ params }) {
     const { rad, activity } = params;
     const data = PathConfig[rad][activity];
