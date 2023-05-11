@@ -19,7 +19,7 @@ export default function STEncounter3() {
         <body className={styles.main}>
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
-            <ImageHeader title={"Shattered Throne"} subtitle={"Dul Incaru, the Eternal Return"} icon={BungieIcons.dungeons.st} href={"chaosd2.com/st/3"}/>
+            <ImageHeader title={"Shattered Throne"} subtitle={"Dul Incaru, the Eternal Return"} icon={BungieIcons.dungeons.shattered_throne} href={"chaosd2.com/st/3"}/>
             <div className={styles.content}>
                 <ImageUnderConstruction/>
             </div>

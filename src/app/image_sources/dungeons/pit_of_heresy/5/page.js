@@ -19,7 +19,7 @@ export default function PitEncounter5() {
         <body className={styles.main}>
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
-            <ImageHeader title={"Pit of Heresy"} subtitle={"Zulmak, Instrument of Torment"} icon={BungieIcons.dungeons.poh} href={"chaosd2.com/pit/5"}/>
+            <ImageHeader title={"Pit of Heresy"} subtitle={"Zulmak, Instrument of Torment"} icon={BungieIcons.dungeons.pit_of_heresy} href={"chaosd2.com/pit/5"}/>
             <div className={styles.content}>
                 <ImageUnderConstruction/>
             </div>

@@ -19,7 +19,7 @@ export default function GraspEncounter3() {
         <body className={styles.main}>
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
-            <ImageHeader title={"Grasp of Avarice"} subtitle={"Captain Avarokk, the Covetous"} icon={BungieIcons.dungeons.goa} href={"chaosd2.com/grasp/3"}/>
+            <ImageHeader title={"Grasp of Avarice"} subtitle={"Captain Avarokk, the Covetous"} icon={BungieIcons.dungeons.grasp_of_avarice} href={"chaosd2.com/grasp/3"}/>
             <div className={styles.content}>
                 <ImageUnderConstruction/>
             </div>

@@ -19,7 +19,7 @@ export default function STEncounter1() {
         <body className={styles.main}>
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
-            <ImageHeader title={"Shattered Throne"} subtitle={"Search for Safe Passage"} icon={BungieIcons.dungeons.st} href={"chaosd2.com/st/1"}/>
+            <ImageHeader title={"Shattered Throne"} subtitle={"Search for Safe Passage"} icon={BungieIcons.dungeons.shattered_throne} href={"chaosd2.com/st/1"}/>
             <div className={styles.content}>
                 <ImageUnderConstruction/>
             </div>

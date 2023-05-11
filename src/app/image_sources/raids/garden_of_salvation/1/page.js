@@ -19,7 +19,7 @@ export default function GardenEncounter1() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Garden of Salvation"} subtitle={"Embrace"} icon={BungieIcons.raids.gos} href={"chaosd2.com/gos/1"}/>
+                <ImageHeader title={"Garden of Salvation"} subtitle={"Embrace"} icon={BungieIcons.raids.garden_of_salvation} href={"chaosd2.com/gos/1"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

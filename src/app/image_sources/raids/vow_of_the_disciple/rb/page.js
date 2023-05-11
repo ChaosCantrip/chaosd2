@@ -19,7 +19,7 @@ export default function VowRedBorder() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Vow of the Disciple"} subtitle={"Red Border Chest"} icon={BungieIcons.raids.votd} href={"chaosd2.com/vow/rb"}/>
+                <ImageHeader title={"Vow of the Disciple"} subtitle={"Red Border Chest"} icon={BungieIcons.raids.vow_of_the_disciple} href={"chaosd2.com/vow/rb"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

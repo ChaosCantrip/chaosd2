@@ -19,7 +19,7 @@ export default function VowEncounter0() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Vow of the Disciple"} subtitle={"Disciple's Bog"} icon={BungieIcons.raids.votd} href={"chaosd2.com/vow/0"}/>
+                <ImageHeader title={"Vow of the Disciple"} subtitle={"Disciple's Bog"} icon={BungieIcons.raids.vow_of_the_disciple} href={"chaosd2.com/vow/0"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

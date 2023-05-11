@@ -86,5 +86,5 @@ const data = {
 
 
 export default function GardenLoot() {
-    return <LootTable activity="Garden of Salvation" href="chaosd2.com/garden/loot" data={data} icon={BungieIcons.raids.gos} background={Background}/>
+    return <LootTable activity="Garden of Salvation" href="chaosd2.com/garden/loot" data={data} icon={BungieIcons.raids.garden_of_salvation} background={Background}/>
 }

@@ -19,7 +19,7 @@ export default function VoGMaze() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Vault of Glass"} subtitle={"Gorgon's Maze"} icon={BungieIcons.raids.vog} href={"chaosd2.com/vog/maze"}/>
+                <ImageHeader title={"Vault of Glass"} subtitle={"Gorgon's Maze"} icon={BungieIcons.raids.vault_of_glass} href={"chaosd2.com/vog/maze"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

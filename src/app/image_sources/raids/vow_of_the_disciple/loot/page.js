@@ -99,5 +99,5 @@ const data = {
 
 
 export default function VowLoot() {
-    return <LootTable activity="Vow of the Disciple" href="chaosd2.com/vow/loot" data={data} icon={BungieIcons.raids.votd} background={Background}/>
+    return <LootTable activity="Vow of the Disciple" href="chaosd2.com/vow/loot" data={data} icon={BungieIcons.raids.vow_of_the_disciple} background={Background}/>
 }

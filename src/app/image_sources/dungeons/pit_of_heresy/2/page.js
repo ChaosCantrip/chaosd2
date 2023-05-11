@@ -19,7 +19,7 @@ export default function PitEncounter2() {
         <body className={styles.main}>
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
-            <ImageHeader title={"Pit of Heresy"} subtitle={"Tunnels of Despair"} icon={BungieIcons.dungeons.poh} href={"chaosd2.com/pit/2"}/>
+            <ImageHeader title={"Pit of Heresy"} subtitle={"Tunnels of Despair"} icon={BungieIcons.dungeons.pit_of_heresy} href={"chaosd2.com/pit/2"}/>
             <div className={styles.content}>
                 <ImageUnderConstruction/>
             </div>

@@ -19,7 +19,7 @@ export default function LWSymbols() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Last Wish"} subtitle={"Symbols"} icon={BungieIcons.raids.lw} href={"chaosd2.com/lw/symbols"}/>
+                <ImageHeader title={"Last Wish"} subtitle={"Symbols"} icon={BungieIcons.raids.last_wish} href={"chaosd2.com/lw/symbols"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

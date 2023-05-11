@@ -17,7 +17,7 @@ export default function VowSymbolsPage() {
         <body className={custom.body}>
             <Image className={custom.background} src={Background} alt={""}/>
             <main className={custom.main}>
-                <ImageHeader title={"Vow of the Disciple"} subtitle={"Symbols"} icon={BungieIcons.raids.votd} href={"chaosd2.com/vow/symbols"}/>
+                <ImageHeader title={"Vow of the Disciple"} subtitle={"Symbols"} icon={BungieIcons.raids.vow_of_the_disciple} href={"chaosd2.com/vow/symbols"}/>
                 <div className={custom.content}>
                     <div className={custom.grid}>
                         <div className={custom.grid_row}>

@@ -19,7 +19,7 @@ export default function LWEncounter6() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Last Wish"} subtitle={"Queenswalk"} icon={BungieIcons.raids.lw} href={"chaosd2.com/lw/6"}/>
+                <ImageHeader title={"Last Wish"} subtitle={"Queenswalk"} icon={BungieIcons.raids.last_wish} href={"chaosd2.com/lw/6"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

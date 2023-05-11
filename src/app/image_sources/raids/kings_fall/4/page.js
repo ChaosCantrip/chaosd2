@@ -19,7 +19,7 @@ export default function KFEncounter4() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"King's Fall"} subtitle={"Daughters of Oryx"} icon={BungieIcons.raids.kf} href={"chaosd2.com/kf/4"}/>
+                <ImageHeader title={"King's Fall"} subtitle={"Daughters of Oryx"} icon={BungieIcons.raids.kings_fall} href={"chaosd2.com/kf/4"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

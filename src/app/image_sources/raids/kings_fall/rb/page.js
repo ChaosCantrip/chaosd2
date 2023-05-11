@@ -25,7 +25,7 @@ export default function KFRedBorder() {
         <body className={custom.body}>
             <Image src={Background} alt={""} className={custom.background}/>
             <main className={custom.main}>
-                <ImageHeader title={"King's Fall"} subtitle={"Red Border Chest"} icon={BungieIcons.raids.kf} href={"chaosd2.com/kf/rb"}/>
+                <ImageHeader title={"King's Fall"} subtitle={"Red Border Chest"} icon={BungieIcons.raids.kings_fall} href={"chaosd2.com/kf/rb"}/>
                 <div className={custom.content}>
                     <div className={custom.grid}>
                         <RBLocation number={"1"} location={"Swinging Pendulums"} image={Icon1} text={"Jump onto the pendulums and turn around. The symbol is just beneath the platform you jumped from."}/>

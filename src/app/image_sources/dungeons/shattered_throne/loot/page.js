@@ -19,7 +19,7 @@ export default function STLoot() {
         <body className={styles.main}>
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
-            <ImageHeader title={"Shattered Throne"} subtitle={"Loot Table"} icon={BungieIcons.dungeons.st} href={"chaosd2.com/st/loot"}/>
+            <ImageHeader title={"Shattered Throne"} subtitle={"Loot Table"} icon={BungieIcons.dungeons.shattered_throne} href={"chaosd2.com/st/loot"}/>
             <div className={styles.content}>
                 <ImageUnderConstruction/>
             </div>

@@ -19,7 +19,7 @@ export default function STEncounter2() {
         <body className={styles.main}>
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
-            <ImageHeader title={"Shattered Throne"} subtitle={"Vorgeth, the Boundless Hunger"} icon={BungieIcons.dungeons.st} href={"chaosd2.com/st/2"}/>
+            <ImageHeader title={"Shattered Throne"} subtitle={"Vorgeth, the Boundless Hunger"} icon={BungieIcons.dungeons.shattered_throne} href={"chaosd2.com/st/2"}/>
             <div className={styles.content}>
                 <ImageUnderConstruction/>
             </div>

@@ -19,7 +19,7 @@ export default function LWEncounter5() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Last Wish"} subtitle={"Riven of a Thousand Voices"} icon={BungieIcons.raids.lw} href={"chaosd2.com/lw/5"}/>
+                <ImageHeader title={"Last Wish"} subtitle={"Riven of a Thousand Voices"} icon={BungieIcons.raids.last_wish} href={"chaosd2.com/lw/5"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

@@ -13,7 +13,7 @@ export const BungieIcons = {
     dungeons: {
         spire_of_the_watcher: "https://www.bungie.net/common/destiny2_content/icons/32a269aa0b3cbfcc97c6e48ca7229e23.png",
         duality: "https://www.bungie.net/common/destiny2_content/icons/dfc73de54b0ed12b55fdf09e1b3b9726.png",
-        garden_of_salvation: "https://www.bungie.net/common/destiny2_content/icons/80362442a7f4bee0beca7ad100e5dbbf.png",
+        grasp_of_avarice: "https://www.bungie.net/common/destiny2_content/icons/80362442a7f4bee0beca7ad100e5dbbf.png",
         prophecy: "https://www.bungie.net/common/destiny2_content/icons/04f067d372547155bd699d8887c7ccf5.png",
         pit_of_heresy: "https://www.bungie.net/common/destiny2_content/icons/58bf5b93ae8cfefc55852fe664179757.png",
         shattered_throne: "https://www.bungie.net/common/destiny2_content/icons/43541be45952e7eec59b7b57a0bf15a3.png",

@@ -18,7 +18,7 @@ export default function RootEncounter3() {
         <body className={custom.body}>
             <Image src={Background} alt={""} className={styles.background}/>
             <main className={custom.main}>
-                <ImageHeader title={"Root of Nightmares"} subtitle={"Encounter 3 - Macrocosm"} icon={BungieIcons.raids.ron} href={"chaosd2.com/root/3"}/>
+                <ImageHeader title={"Root of Nightmares"} subtitle={"Encounter 3 - Macrocosm"} icon={BungieIcons.raids.root_of_nightmares} href={"chaosd2.com/root/3"}/>
                 <div className={custom.content}>
                     <div className={custom.image_card}>
                         <div className={custom.text}>

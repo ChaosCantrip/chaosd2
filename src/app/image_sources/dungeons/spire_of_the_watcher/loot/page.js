@@ -81,5 +81,5 @@ const data = {
 
 
 export default function SpireLoot() {
-    return <LootTable activity="Spire of the Watcher" href="chaosd2.com/spire/loot" data={data} icon={BungieIcons.dungeons.sotw} background={Background}/>
+    return <LootTable activity="Spire of the Watcher" href="chaosd2.com/spire/loot" data={data} icon={BungieIcons.dungeons.spire_of_the_watcher} background={Background}/>
 }

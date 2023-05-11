@@ -99,5 +99,5 @@ const data = {
 
 
 export default function RootLoot() {
-    return <LootTable activity="Root of Nightmares" href="chaosd2.com/root/loot" data={data} icon={BungieIcons.raids.ron} background={Background}/>
+    return <LootTable activity="Root of Nightmares" href="chaosd2.com/root/loot" data={data} icon={BungieIcons.raids.root_of_nightmares} background={Background}/>
 }

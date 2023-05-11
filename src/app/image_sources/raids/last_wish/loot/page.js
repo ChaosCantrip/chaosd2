@@ -19,7 +19,7 @@ export default function LWLoot() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Last Wish"} subtitle={"Loot Table"} icon={BungieIcons.raids.lw} href={"chaosd2.com/lw/loot"}/>
+                <ImageHeader title={"Last Wish"} subtitle={"Loot Table"} icon={BungieIcons.raids.last_wish} href={"chaosd2.com/lw/loot"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

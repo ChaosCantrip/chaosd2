@@ -19,7 +19,7 @@ export default function VoGLoot() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Vault of Glass"} subtitle={"Loot Table"} icon={BungieIcons.raids.vog} href={"chaosd2.com/vog/Loot"}/>
+                <ImageHeader title={"Vault of Glass"} subtitle={"Loot Table"} icon={BungieIcons.raids.vault_of_glass} href={"chaosd2.com/vog/Loot"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

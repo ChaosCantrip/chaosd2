@@ -77,5 +77,5 @@ const data = {
 
 
 export default function GraspLoot() {
-    return <LootTable activity="Grasp of Avarice" href="chaosd2.com/grasp/loot" data={data} icon={BungieIcons.dungeons.goa} background={Background}/>
+    return <LootTable activity="Grasp of Avarice" href="chaosd2.com/grasp/loot" data={data} icon={BungieIcons.dungeons.grasp_of_avarice} background={Background}/>
 }

@@ -93,5 +93,5 @@ const data = {
 
 
 export default function DSCLoot() {
-    return <LootTable activity="Deep Stone Crypt" href="chaosd2.com/dsc/loot" data={data} icon={BungieIcons.raids.dsc} background={Background}/>
+    return <LootTable activity="Deep Stone Crypt" href="chaosd2.com/dsc/loot" data={data} icon={BungieIcons.raids.deep_stone_crypt} background={Background}/>
 }

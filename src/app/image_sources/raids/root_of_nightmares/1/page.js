@@ -19,7 +19,7 @@ export default function RootEncounter1() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Root of Nightmares"} subtitle={"Cataclysm"} icon={BungieIcons.raids.ron} href={"chaosd2.com/root/1"}/>
+                <ImageHeader title={"Root of Nightmares"} subtitle={"Cataclysm"} icon={BungieIcons.raids.root_of_nightmares} href={"chaosd2.com/root/1"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

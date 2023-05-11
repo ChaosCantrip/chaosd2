@@ -19,7 +19,7 @@ export default function VoGEncounter4() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Vault of Glass"} subtitle={"Gatekeepers"} icon={BungieIcons.raids.vog} href={"chaosd2.com/vog/4"}/>
+                <ImageHeader title={"Vault of Glass"} subtitle={"Gatekeepers"} icon={BungieIcons.raids.vault_of_glass} href={"chaosd2.com/vog/4"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

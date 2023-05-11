@@ -19,7 +19,7 @@ export default function LWEncounter3() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Last Wish"} subtitle={"Morgeth, the Spirekeeper"} icon={BungieIcons.raids.lw} href={"chaosd2.com/lw/3"}/>
+                <ImageHeader title={"Last Wish"} subtitle={"Morgeth, the Spirekeeper"} icon={BungieIcons.raids.last_wish} href={"chaosd2.com/lw/3"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

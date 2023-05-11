@@ -19,7 +19,7 @@ export default function KFEncounter3() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"King's Fall"} subtitle={"Golgoroth"} icon={BungieIcons.raids.kf} href={"chaosd2.com/kf/3"}/>
+                <ImageHeader title={"King's Fall"} subtitle={"Golgoroth"} icon={BungieIcons.raids.kings_fall} href={"chaosd2.com/kf/3"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

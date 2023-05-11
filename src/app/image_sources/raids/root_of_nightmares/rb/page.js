@@ -19,7 +19,7 @@ export default function RootRB() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Root of Nightmares"} subtitle={"Red Border Chest"} icon={BungieIcons.raids.ron} href={"chaosd2.com/root/rb"}/>
+                <ImageHeader title={"Root of Nightmares"} subtitle={"Red Border Chest"} icon={BungieIcons.raids.root_of_nightmares} href={"chaosd2.com/root/rb"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

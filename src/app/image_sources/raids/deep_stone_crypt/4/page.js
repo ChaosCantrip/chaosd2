@@ -19,7 +19,7 @@ export default function DSCEncounter4() {
         <body className={styles.main}>
             <Image src={Background} alt={""} className={styles.background}/>
             <div className={styles.wrapper}>
-                <ImageHeader title={"Deep Stone Crypt"} subtitle={"Taniks, the Abomination"} icon={BungieIcons.raids.dsc} href={"chaosd2.com/dsc/4"}/>
+                <ImageHeader title={"Deep Stone Crypt"} subtitle={"Taniks, the Abomination"} icon={BungieIcons.raids.deep_stone_crypt} href={"chaosd2.com/dsc/4"}/>
                 <div className={styles.content}>
                     <ImageUnderConstruction/>
                 </div>

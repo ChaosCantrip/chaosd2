@@ -19,7 +19,7 @@ export default function SpireEncounter2() {
         <body className={styles.main}>
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
-            <ImageHeader title={"Spire of the Watcher"} subtitle={"Silence the Spire"} icon={BungieIcons.dungeons.sotw} href={"chaosd2.com/spire/2"}/>
+            <ImageHeader title={"Spire of the Watcher"} subtitle={"Silence the Spire"} icon={BungieIcons.dungeons.spire_of_the_watcher} href={"chaosd2.com/spire/2"}/>
             <div className={styles.content}>
                 <ImageUnderConstruction/>
             </div>
