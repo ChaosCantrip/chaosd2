@@ -1,0 +1,48 @@
+.body {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 760px;
+    height: 1080px;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    height: 1080px;
+    filter: blur(8px);
+    z-index: -3;
+    /* center image */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.diagram {
+    margin-top: 1rem;
+    position: relative;
+    margin-inline: auto;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+.image_wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.image {
+    height: 100%;
+    width: auto;
+}

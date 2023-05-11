@@ -1,27 +1,29 @@
-import styles from "@image_components/LootTable.module.css";
+import custom from "./custom.module.css";
 import ImageHeader from "@image_components/ImageHeader";
 import Image from "next/image";
 import Background from "@backgrounds/kf.jpg";
-import {BungieIcons} from "@components/BungieIcons";
-import ImageUnderConstruction from "@image_components/ImageUnderConstruction";
+import Diagram from "./map.png";
 
 /* TODO: This is a placeholder page. */
 
+
 export const metadata = {
     other: {
-        width: 1920,
+        width: 760,
         height: 1080,
     }
 }
 
 export default function KFMaze() {
     return (
-        <body className={styles.main}>
-            <Image src={Background} alt={""} className={styles.background}/>
-            <div className={styles.wrapper}>
-                <ImageHeader title={"King's Fall"} subtitle={"Golgoroth's Cellar"} icon={BungieIcons.raids.kings_fall} href={"chaosd2.com/kf/maze"}/>
-                <div className={styles.content}>
-                    <ImageUnderConstruction/>
+        <body className={custom.body}>
+            <Image src={Background} alt={""} className={custom.background}/>
+            <div className={custom.main}>
+                <ImageHeader title={"King's Fall"} subtitle={"Golgoroth's Cellar"} icon={undefined} href={"chaosd2.com/kf/maze"}/>
+                <div className={custom.diagram}>
+                    <div className={custom.image_wrapper}>
+                        <Image src={Diagram} alt={""} className={custom.image}/>
+                    </div>
                 </div>
             </div>
         </body>
