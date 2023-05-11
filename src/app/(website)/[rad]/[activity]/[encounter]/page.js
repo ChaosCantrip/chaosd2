@@ -3,7 +3,7 @@ import Image from "next/image";
 import QuickLink from "@components/QuickLink";
 import Link from "next/link";
 
-export default function EncounterPage({ image_ql, encounter_name, map }) {
+export default function EncounterPage({ params }) {
     return (
         <div className={layout.encounter_page}>
             <h2 className={layout.page_subtitle}>{encounter_name}</h2>
