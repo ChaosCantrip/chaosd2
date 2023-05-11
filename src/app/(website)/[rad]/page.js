@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-    let title = undefined;
+    let title = "Guardians";
     if (params.rad === "raids") {
         title = "Raids";
     } else if (params.rad === "dungeons") {
@@ -24,6 +24,17 @@ export async function generateMetadata({ params }) {
     }
     return {
         title: title,
+        description: `Maps and guides for ${title} in Destiny 2.`,
+        twitter: {
+            card: 'summary',
+            title: `${title} | chaosd2`,
+            description: `Maps and guides for ${title} in Destiny 2.`,
+            creator: '@chaosd2dev'
+        },
+        openGraph: {
+            title: `${title} | chaosd2`,
+            description: `Maps and guides for ${title} in Destiny 2.`,
+        }
     }
 }
 

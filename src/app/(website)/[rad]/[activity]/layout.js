@@ -20,6 +20,25 @@ export async function generateStaticParams() {
     return params;
 }
 
+export async function generateMetadata({ params }) {
+    const { rad, activity } = params;
+    const data = PathConfig[rad][activity];
+    return {
+        title: data.name,
+        description: `Maps and guides for ${data.name} in Destiny 2.`,
+        twitter: {
+            card: 'summary',
+            title: `${data.name} | chaosd2`,
+            description: `Maps and guides for ${data.name} in Destiny 2.`,
+            creator: '@chaosd2dev'
+        },
+        openGraph: {
+            title: `${data.name} | chaosd2`,
+            description: `Maps and guides for ${data.name} in Destiny 2.`,
+        }
+    };
+}
+
 export default function ActivityLayout({ children, params }) {
     const { rad, activity } = params;
     const data = PathConfig[rad][activity];
