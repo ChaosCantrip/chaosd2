@@ -33,7 +33,7 @@ export default function Header() {
                         <div className={styles.sub_menu}>
                             <SubLink href={"/dungeons/spire_of_the_watcher"} icon={BungieIcons.dungeons.spire_of_the_watcher}>Spire of the Watcher</SubLink>
                             <SubLink href={"/dungeons/duality"} icon={BungieIcons.dungeons.duality}>Duality</SubLink>
-                            <SubLink href={"/dungeons/grasp_of_avarice"} icon={BungieIcons.dungeons.garden_of_salvation}>Grasp of Avarice</SubLink>
+                            <SubLink href={"/dungeons/grasp_of_avarice"} icon={BungieIcons.dungeons.grasp_of_avarice}>Grasp of Avarice</SubLink>
                             <SubLink href={"/dungeons/prophecy"} icon={BungieIcons.dungeons.prophecy}>Prophecy</SubLink>
                             <SubLink href={"/dungeons/pit_of_heresy"} icon={BungieIcons.dungeons.pit_of_heresy}>Pit of Heresy</SubLink>
                             <SubLink href={"/dungeons/shattered_throne"} icon={BungieIcons.dungeons.shattered_throne}>Shattered Throne</SubLink>
