@@ -125,13 +125,8 @@ function build_redirects() {
             })
             for (const shortcut of shortcuts) {
                 redirects.push({
-                    source: `/${shortcut}/:slug*`,
-                    destination: `/${type}/${activity}/:slug*`,
-                    permanent: true,
-                })
-                redirects.push({
-                    source: `/${type}/${shortcut}/:slug*`,
-                    destination: `/${type}/${activity}/:slug*`,
+                    source: `/:before*/${shortcut}/:after*`,
+                    destination: `/:before*/${activity}/:after*`,
                     permanent: true,
                 })
             }
@@ -142,8 +137,8 @@ function build_redirects() {
             for (const [encounter, shortcuts] of Object.entries(encounters)) {
                 for (const shortcut of shortcuts) {
                     redirects.push({
-                        source: `/${type}/${activity}/${shortcut}/:slug*`,
-                        destination: `/${type}/${activity}/${encounter}/:slug*`,
+                        source: `/:before*/${activity}/${shortcut}/:after*`,
+                        destination: `/:before*/${activity}/${encounter}/:after*`,
                         permanent: true,
                     })
                 }
@@ -169,23 +164,23 @@ const nextConfig = {
     async redirects() {
         return [
             {
-                source: "/r/:slug*",
-                destination: "/raids/:slug*",
+                source: "/:before*/r/:after*",
+                destination: "/:before*/raids/:after*",
                 permanent: true,
             },
             {
-                source: "/d/:slug*",
-                destination: "/dungeons/:slug*",
+                source: "/:before*/d/:after*",
+                destination: "/:before*/dungeons/:after*",
                 permanent: true,
             },
             {
-                source: "/raid/:slug*",
-                destination: "/raids/:slug*",
+                source: "/:before*/raid/:after*",
+                destination: "/:before*/raids/:after*",
                 permanent: true,
             },
             {
-                source: "/dungeon/:slug*",
-                destination: "/dungeons/:slug*",
+                source: "/:before*/dungeon/:after*",
+                destination: "/:before/dungeons/:after*",
                 permanent: true,
             },
             {
