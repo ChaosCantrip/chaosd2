@@ -185,7 +185,7 @@ export const PathConfig = {
                     ql: "/gos/3",
                 },
                 4: {
-                    name: "Consecrated Mind, Sol Inherent",
+                    name: "Sanctified Mind, Sol Inherent",
                     ql: "/gos/4",
                 },
                 loot: {
