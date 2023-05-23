@@ -1,22 +1,22 @@
 export const BungieIcons = {
-    raid_icon: "https://www.bungie.net/common/destiny2_content/icons/9230cd18bcb0dd87d47a554afb5edea8.png",
+    raid_icon: "https://www.bungie.net/common/destiny2_content/icons/9f7a4c302de91bade65119ce6c11021c.png",
     raids: {
-        root_of_nightmares: "https://www.bungie.net/common/destiny2_content/icons/9694158ef08d416ab091062629b6b7ec.png",
-        kings_fall: "https://www.bungie.net/common/destiny2_content/icons/bc809878e0c2ed8fd32feb62aaae690c.png",
-        vow_of_the_disciple: "https://www.bungie.net/common/destiny2_content/icons/5a90815a3600626978102d6c6ba3582f.png",
-        vault_of_glass: "https://www.bungie.net/common/destiny2_content/icons/6d091410227eef82138a162df73065b9.png",
-        deep_stone_crypt: "https://www.bungie.net/common/destiny2_content/icons/f71c1a6ab05d2c287352c8ee0aae644e.png",
-        garden_of_salvation: "https://www.bungie.net/common/destiny2_content/icons/6c13fd357e95348a3ab1892fc22ba3ac.png",
-        last_wish: "https://www.bungie.net/common/destiny2_content/icons/fc5791eb2406bf5e6b361f3d16596693.png",
+        root_of_nightmares: "https://www.bungie.net/common/destiny2_content/icons/f2b6ec58e14244e4972705897667c246.png",
+        kings_fall: "https://www.bungie.net/common/destiny2_content/icons/0e515c7cf25a2f2350b788e6f5b7f8eb.png",
+        vow_of_the_disciple: "https://www.bungie.net/common/destiny2_content/icons/b84b6ea72dd05de7123aa2ae87ba0d6a.png",
+        vault_of_glass: "https://www.bungie.net/common/destiny2_content/icons/6d2ba4628f33a6884b5d32d62eac6a32.png",
+        deep_stone_crypt: "https://www.bungie.net/common/destiny2_content/icons/9d6744eed9fa9b55f8190ce975f1872d.png",
+        garden_of_salvation: "https://www.bungie.net/common/destiny2_content/icons/e48d301e674a19f17c5cb249a2da0173.png",
+        last_wish: "https://www.bungie.net/common/destiny2_content/icons/597d5fe665eeb011ec0d74a5d9d8137e.png",
     },
-    dungeon_icon: "https://www.bungie.net/common/destiny2_content/icons/082c3d5e7a44343114b5d056c3006e4b.png",
+    dungeon_icon: "https://www.bungie.net/common/destiny2_content/icons/ec0cd75ba1d20333fe93f126046fc1d2.png",
     dungeons: {
-        spire_of_the_watcher: "https://www.bungie.net/common/destiny2_content/icons/32a269aa0b3cbfcc97c6e48ca7229e23.png",
-        duality: "https://www.bungie.net/common/destiny2_content/icons/dfc73de54b0ed12b55fdf09e1b3b9726.png",
-        grasp_of_avarice: "https://www.bungie.net/common/destiny2_content/icons/80362442a7f4bee0beca7ad100e5dbbf.png",
-        prophecy: "https://www.bungie.net/common/destiny2_content/icons/04f067d372547155bd699d8887c7ccf5.png",
-        pit_of_heresy: "https://www.bungie.net/common/destiny2_content/icons/58bf5b93ae8cfefc55852fe664179757.png",
-        shattered_throne: "https://www.bungie.net/common/destiny2_content/icons/43541be45952e7eec59b7b57a0bf15a3.png",
+        spire_of_the_watcher: "https://www.bungie.net/common/destiny2_content/icons/241785dc00e0bf32e30d0031e299cefd.png",
+        duality: "https://www.bungie.net/common/destiny2_content/icons/de980f8f4a07662455dd7fa1b3aa2169.png",
+        grasp_of_avarice: "https://www.bungie.net/common/destiny2_content/icons/ed7e19a3231e2eca90ae271960c1ed9c.png",
+        prophecy: "https://www.bungie.net/common/destiny2_content/icons/8a3f7ac8bedf90190a101bbfdc981742.png",
+        pit_of_heresy: "https://www.bungie.net/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
+        shattered_throne: "https://www.bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
     },
-    ghost_icon: "https://www.bungie.net/common/destiny2_content/icons/c0086ea0972fba6b6799c9c7afdbbe2e.png"
+    ghost_icon: "https://www.bungie.net/common/destiny2_content/icons/609656dd7584efe1d2406be18131102f.png"
 }
