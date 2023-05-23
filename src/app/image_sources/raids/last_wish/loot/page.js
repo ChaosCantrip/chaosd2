@@ -9,8 +9,6 @@ import ItemInsert from "@image_components/ItemInsert";
 import CombinedImage from "@image_components/CombinedImage";
 import {ClassIcons} from "@image_components/ClassIcons";
 
-/* TODO: This is a placeholder page. */
-
 export const metadata = {
     other: {
         width: 1920,
