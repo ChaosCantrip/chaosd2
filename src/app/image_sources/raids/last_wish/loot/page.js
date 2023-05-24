@@ -53,14 +53,13 @@ export default function LWLoot() {
                             <Encounter num={2} name={"Shuro Chi, the Corrupted"} item_hash={3885259140}/>
                             <Encounter num={3} name={"Morgeth, the Spirekeeper"} item_hash={70083888}/>
                             <Encounter num={4} name={"The Vault"} item_hash={3388655311}/>
-                            <Encounter num={5} name={"Riven of a Thousand Voices"} item_hash={501329015}/>
-                            <Encounter num={6} name={"Queenswalk"} item_hash={2069224589} curated={false}/>
+                            <Encounter num={"5 | 6"} name={"Riven of a Thousand Voices  |  Queenswalk"} item_hash={501329015} exotic={true}/>
                         </div>
                         <div className={custom.weird}>
                             <h1>Last Wish Loot is Weird</h1>
                             <div>
                                 <RandomIcon/>
-                                <p>Each encounter, aside from Queenswalk, has a chance to drop a random weapon or armour piece. These can be any legendary weapons or armour from the raid.</p>
+                                <p>Each encounter has a chance to drop a random weapon or armour piece. These can be any legendary weapons or armour from the raid.</p>
                             </div>
                             <div>
                                 <img src={"https://www.bungie.net/common/destiny2_content/icons/7428ebd2201189d429214a5f3d00ab96.jpg"} className={custom.rb}/>
@@ -97,20 +96,22 @@ export default function LWLoot() {
     );
 }
 
-async function Encounter({ num, name, item_hash, curated=true }) {
+async function Encounter({ num, name, item_hash, exotic=false }) {
     const item_definition = await get_item_definition(item_hash);
     return (
-        <div className={custom.encounter}>
+        <div className={`${custom.encounter} ${exotic ? custom.double : null}`}>
             <div className={custom.encounter_header}>
                 <p className={custom.encounter_num}>{num}</p>
                 <p className={custom.encounter_name}>{name}</p>
             </div>
             <div className={custom.encounter_items}>
-                <div className={curated ? custom.curated_icon : custom.normal_icon}>
+                <div className={custom.curated_icon}>
                     <CombinedImage item={item_definition}/>
                 </div>
                 <p>+</p>
                 <RandomIcon/>
+                {exotic ? <p>+</p> : null}
+                {exotic ? <CombinedImage item={await get_item_definition(2069224589)}/> : null}
             </div>
         </div>
     )

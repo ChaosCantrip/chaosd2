@@ -139,3 +139,7 @@
     border-radius: 0.5rem;
     border: 2px solid red;
 }
+
+.double {
+    grid-column: span 2;
+}
