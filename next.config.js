@@ -497,6 +497,11 @@ const nextConfig = {
                 destination: "/:path*/symbols",
                 permanent: true,
             },
+            {
+                source: "/:path*/m",
+                destination: "/:path*/maze",
+                permanent: true,
+            },
             ...build_redirects(),
             {
                 source: "/:path*/img",
