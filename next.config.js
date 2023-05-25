@@ -87,7 +87,8 @@ const encounter_dictionary = {
             "4": [
                 "nez",
                 "nezarec",
-                "boss"
+                "boss",
+                "nezzy"
             ],
         },
         kings_fall: {
