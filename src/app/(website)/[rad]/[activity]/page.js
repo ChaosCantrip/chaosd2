@@ -29,7 +29,7 @@ export default function ActivityPage({ params }) {
             {Object.keys(data.encounters).map((encounter_id) => {
                 const encounter = data.encounters[encounter_id];
                 return (
-                    <Dropdown title={encounter.name} href={encounter.ql} key={encounter_id}>
+                    <Dropdown title={encounter.name} href={encounter.ql} key={encounter_id} done={encounter.done}>
                         <div>
                             <QuickLink href={encounter.ql}/>
                             <Link href={`${encounter.ql}/i`}>
