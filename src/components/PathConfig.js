@@ -14,6 +14,7 @@ export const PathConfig = {
                 3: {
                     name: "Macrocosm",
                     ql: "/root/3",
+                    done: true,
                 },
                 4: {
                     name: "Nezarec, Final God of Pain",
@@ -22,6 +23,7 @@ export const PathConfig = {
                 loot: {
                     name: "Loot Table",
                     ql: "/root/loot",
+                    done: true,
                 },
                 rb: {
                     name: "Red Border Chest",
@@ -63,10 +65,12 @@ export const PathConfig = {
                 rb: {
                     name: "Red Border Chest",
                     ql: "/kf/rb",
+                    done: true,
                 },
                 maze: {
                     name: "Golgoroth's Cellar",
                     ql: "/kf/maze",
+                    done: true,
                 }
             }
         },
@@ -96,14 +100,17 @@ export const PathConfig = {
                 loot: {
                     name: "Loot Table",
                     ql: "/vow/loot",
+                    done: true,
                 },
                 rb: {
                     name: "Red Border Chest",
                     ql: "/vow/rb",
+                    done: true,
                 },
                 symbols: {
                     name: "Symbols",
                     ql: "/vow/symbols",
+                    done: true,
                 }
             }
         },
@@ -170,6 +177,7 @@ export const PathConfig = {
                 loot: {
                     name: "Loot Table",
                     ql: "/dsc/loot",
+                    done: true,
                 }
             }
         },
@@ -187,6 +195,7 @@ export const PathConfig = {
                 3: {
                     name: "Defeat the Consecrated Mind",
                     ql: "/gos/3",
+                    done: true,
                 },
                 4: {
                     name: "Sanctified Mind, Sol Inherent",
@@ -195,6 +204,7 @@ export const PathConfig = {
                 loot: {
                     name: "Loot Table",
                     ql: "/gos/loot",
+                    done: true,
                 }
             }
         },
@@ -228,10 +238,12 @@ export const PathConfig = {
                 loot: {
                     name: "Loot Table",
                     ql: "/lw/loot",
+                    done: true,
                 },
                 symbols: {
                     name: "Symbols",
                     ql: "/lw/symbols",
+                    done: true,
                 }
             }
         }
@@ -259,6 +271,7 @@ export const PathConfig = {
                 loot: {
                     name: "Loot Table",
                     ql: "/spire/loot",
+                    done: true,
                 }
             }
         },
@@ -268,6 +281,7 @@ export const PathConfig = {
                 1: {
                     name: "Nightmare of Gahlran",
                     ql: "/duality/1",
+                    done: true,
                 },
                 2: {
                     name: "Opening the Vault",
@@ -280,6 +294,7 @@ export const PathConfig = {
                 loot: {
                     name: "Loot Table",
                     ql: "/duality/loot",
+                    done: true,
                 },
                 statues: {
                     name: "Statues Puzzle",
@@ -305,6 +320,7 @@ export const PathConfig = {
                 loot: {
                     name: "Loot Table",
                     ql: "/grasp/loot",
+                    done: true,
                 }
             }
         },
@@ -326,6 +342,7 @@ export const PathConfig = {
                 loot: {
                     name: "Loot Table",
                     ql: "/prophecy/loot",
+                    done: true,
                 }
             }
         },
