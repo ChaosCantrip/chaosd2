@@ -10,6 +10,8 @@ import Title from "@components/Title";
 import {BungieIcons} from "@components/BungieIcons";
 import {useState} from "react";
 
+export const dynamic = true;
+
 export default function VotingPageWrapper() {
     return (
         <VotingPage/>
