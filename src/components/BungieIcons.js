@@ -1,4 +1,6 @@
 export const BungieIcons = {
+    deepsight: "https://www.bungie.net/common/destiny2_content/icons/7428ebd2201189d429214a5f3d00ab96.jpg",
+    question_mark: "https://www.bungie.net/common/destiny2_content/icons/ef1a8374c931321694d6d3d0d3e96247.png",
     social_icon: "https://www.bungie.net/common/destiny2_content/icons/a419d147309eea798a5ae740bd66dea0.png",
     raid_icon: "https://www.bungie.net/common/destiny2_content/icons/9f7a4c302de91bade65119ce6c11021c.png",
     raids: {

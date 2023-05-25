@@ -62,7 +62,7 @@ export default function LWLoot() {
                                 <p>Each encounter has a chance to drop a random weapon or armour piece. These can be any legendary weapons or armour from the raid.</p>
                             </div>
                             <div>
-                                <img src={"https://www.bungie.net/common/destiny2_content/icons/7428ebd2201189d429214a5f3d00ab96.jpg"} className={custom.rb}/>
+                                <img src={BungieIcons.deepsight} className={custom.rb}/>
                                     <p>Red Border Weapons can drop randomly as normal, but Hawthorne also sells a pursuit to complete all encounters of the raid, which will award guaranteed Last Wish pattern progress. Additionally, completing this pursuit allows you to purchase 1 additional Deepsight Weapon from Hawthorne.</p>
                             </div>
                         </div>
@@ -120,7 +120,7 @@ async function Encounter({ num, name, item_hash, exotic=false }) {
 function RandomIcon() {
     return (
         <div className={custom.random_item}>
-            <img src={"https://www.bungie.net/common/destiny2_content/icons/ef1a8374c931321694d6d3d0d3e96247.png"} className={custom.question_mark}/>
+            <img src={BungieIcons.question_mark} className={custom.question_mark}/>
         </div>
     )
 }

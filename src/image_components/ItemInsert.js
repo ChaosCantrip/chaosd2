@@ -2,6 +2,7 @@ import {get_item_definition} from "@lib/bungie/APIHandler";
 import styles from "./Inserts.module.css";
 import CombinedImage from "@image_components/CombinedImage";
 import ItemIcons from "@image_components/ItemIcons";
+import {BungieIcons} from "@components/BungieIcons";
 
 
 export default async function ItemInsert({ item_hash }) {
@@ -24,7 +25,7 @@ export default async function ItemInsert({ item_hash }) {
 function CraftableFlag() {
     return (
         <div className={styles.craftable_flag}>
-            <img src={"https://www.bungie.net/common/destiny2_content/icons/7428ebd2201189d429214a5f3d00ab96.jpg"} className={styles.craftable_icon} alt={""}/>
+            <img src={BungieIcons.deepsight} className={styles.craftable_icon} alt={""}/>
             <p className={styles.craftable_text}>Craftable</p>
         </div>
     )
