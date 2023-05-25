@@ -90,15 +90,220 @@ const encounter_dictionary = {
                 "boss"
             ],
         },
+        kings_fall: {
+            "0": [
+                "opening",
+                "open",
+                "door"
+            ],
+            "1": [
+                "totems",
+                "totem"
+            ],
+            "2": [
+                "warpriest",
+                "priest",
+                "wp"
+            ],
+            "3": [
+                "golgoroth",
+                "golgy",
+                "gol",
+                "ogre"
+            ],
+            "4": [
+                "daughters",
+                "daughter",
+                "sisters",
+                "sister",
+            ],
+            "5": [
+                "oryx",
+                "boss",
+                "final",
+                "king"
+            ],
+        },
         vow_of_the_disciple: {
+            "0": [
+                "opening",
+                "open",
+                "door",
+                "payload",
+            ],
+            "1": [
+                "acquisition",
+                "totems",
+                "vault"
+            ],
+            "2": [
+                "caretaker",
+                "ogre",
+                "care",
+            ],
+            "3": [
+                "exhibition",
+                "artifact",
+                "artifacts",
+                "corridor",
+                "relics",
+                "relic",
+            ],
+            "4": [
+                "rhulk",
+                "disciple",
+                "boss",
+                "final",
+            ],
             "symbols": [
                 "s",
                 "symbol",
                 "icon"
             ]
+        },
+        vault_of_glass: {
+            "0": [
+                "opening",
+                "open",
+                "door",
+                "spire",
+            ],
+            "1": [
+                "confluxes",
+                "conflux",
+            ],
+            "2": [
+                "oracles",
+                "oracle",
+            ],
+            "3": [
+                "templar",
+                "templars",
+            ],
+            "4": [
+                "gatekeeper",
+                "gatekeepers",
+                "gate",
+            ],
+            "5": [
+                "atheon",
+                "boss",
+                "final",
+            ],
+            "maze": [
+                "gorgons",
+                "gorgon",
+            ]
+        },
+        deep_stone_crypt: {
+            "0": [
+                "opening",
+                "open",
+                "sparrow",
+                "snow",
+                "frost",
+                "frostbite",
+                "snowstorm"
+            ],
+            "1": [
+                "crypt",
+                "sec",
+                "security",
+            ],
+            "2": [
+                "atraks-1",
+                "atraks",
+            ],
+            "3": [
+                "descent",
+                "nuclear",
+                "core",
+                "cores",
+            ],
+            "4": [
+                "taniks",
+                "boss",
+                "final",
+            ],
+        },
+        garden_of_salvation: {
+            "1": [
+                "embrace",
+                "egg",
+                "eggs",
+                "doors",
+            ],
+            "2": [
+                "flags",
+                "sacrifice",
+                "sacrifices",
+                "flag",
+                "diamond",
+            ],
+            "3": [
+                "consecrated",
+                "harpy",
+                "gambit",
+                "eyes",
+            ],
+            "4": [
+                "sanctified",
+                "boss",
+                "final",
+                "portals",
+            ]
+        },
+        last_wish: {
+            "1": [
+                "kalli",
+            ],
+            "2": [
+                "shuro",
+                "chi",
+            ],
+            "3": [
+                "morgeth",
+                "orge",
+                "strength",
+            ],
+            "4": [
+                "vault",
+            ],
+            "5": [
+                "riven",
+                "boss",
+            ],
+            "6": [
+                "queenswalk",
+                "heart",
+            ],
         }
     },
     dungeons: {
+        spire_of_the_watcher: {
+            "0": [
+                "opening",
+                "open",
+                "cables",
+                "cable",
+            ],
+            "1": [
+                "ascend",
+                "spire",
+                "tower",
+            ],
+            "2": [
+                "harpy",
+                "akelous",
+                "top",
+            ],
+            "3": [
+                "boss",
+                "final",
+                "persys",
+                "wyvern",
+            ],
+        },
         duality: {
             "1": [
                 "gahlran",
@@ -109,6 +314,85 @@ const encounter_dictionary = {
             "3": [
                 "boss",
                 "caiatl",
+            ],
+        },
+        grasp_of_avarice: {
+            "1": [
+                "phyrzia",
+                "ogre",
+            ],
+            "2": [
+                "shield",
+                "shields",
+                "servitors",
+                "servitor",
+            ],
+            "3": [
+                "boss",
+                "final",
+                "kell",
+                "captain",
+                "avarokk",
+                "avarok",
+            ],
+        },
+        prophecy: {
+            "1": [
+                "phalanx",
+                "platform",
+            ],
+            "2": [
+                "hexahedron",
+                "cube",
+                "hex",
+            ],
+            "3": [
+                "kell",
+                "echo",
+                "boss",
+                "final",
+            ],
+        },
+        pit_of_heresy: {
+            "1": [
+                "necropolis",
+            ],
+            "2": [
+                "tunnels",
+                "tunnel",
+                "ogres",
+                "ogre",
+            ],
+            "3": [
+                "chamber",
+                "suffering",
+            ],
+            "4": [
+                "harrow",
+                "maze",
+            ],
+            "5": [
+                "zulmak",
+                "boss",
+                "final",
+                "knight"
+            ],
+        },
+        shattered_throne: {
+            "1": [
+                "opening",
+                "open",
+            ],
+            "2": [
+                "vorgeth",
+                "ogre",
+            ],
+            "3": [
+                "dul",
+                "incaru",
+                "boss",
+                "final",
+                "wizard",
             ],
         }
     }
