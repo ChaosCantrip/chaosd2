@@ -1,68 +1,68 @@
 /** @type {import('next').NextConfig} */
 
 const activity_dictionary = {
-    "raids": {
-        "root_of_nightmares": [
+    raids: {
+        root_of_nightmares: [
             "ron",
             "rootofnightmares",
             "root",
         ],
-        "kings_fall": [
+        kings_fall: [
             "kf",
             "kingsfall",
             "kings",
             "king",
             "fall",
         ],
-        "vow_of_the_disciple": [
+        vow_of_the_disciple: [
             "votd",
             "vowofthedisciple",
             "vow",
         ],
-        "vault_of_glass": [
+        vault_of_glass: [
             "vog",
             "vaultofglass",
             "vault",
         ],
-        "deep_stone_crypt": [
+        deep_stone_crypt: [
             "dsc",
             "deepstonecrypt",
             "crypt",
         ],
-        "garden_of_salvation": [
+        garden_of_salvation: [
             "gos",
             "gardenofsalvation",
             "garden",
         ],
-        "last_wish": [
+        last_wish: [
             "lw",
             "lastwish",
             "wish",
         ]
     },
-    "dungeons": {
-        "spire_of_the_watcher": [
+    dungeons: {
+        spire_of_the_watcher: [
             "sotw",
             "spireofthewatcher",
             "spire",
         ],
-        "duality": [
+        duality: [
         ],
-        "grasp_of_avarice": [
+        grasp_of_avarice: [
             "goa",
             "graspofavarice",
             "grasp",
         ],
-        "prophecy": [
+        prophecy: [
             "p",
             "proph",
         ],
-        "pit_of_heresy": [
+        pit_of_heresy: [
             "poh",
             "pitofheresy",
             "pit",
         ],
-        "shattered_throne": [
+        shattered_throne: [
             "st",
             "shatteredthrone",
             "throne",
