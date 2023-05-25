@@ -1,4 +1,4 @@
-import { db } from "@vercel/postgres";
+import {db} from "@vercel/postgres";
 
 export async function get_votes() {
     const client = await db.connect();
@@ -8,4 +8,9 @@ export async function get_votes() {
         votes[row.ql] = row.votes;
     }
     return votes;
+}
+
+export async function add_vote(ql) {
+    const client = await db.connect();
+    return await client.query("UPDATE Voting SET votes = votes + 1 WHERE ql = $1", [ql]);
 }
