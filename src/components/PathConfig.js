@@ -147,6 +147,10 @@ export const PathConfig = {
         deep_stone_crypt: {
             name: "Deep Stone Crypt",
             encounters: {
+                0: {
+                    name: "Snowstorm",
+                    ql: "/dsc/0",
+                },
                 1: {
                     name: "Crypt Security",
                     ql: "/dsc/1",

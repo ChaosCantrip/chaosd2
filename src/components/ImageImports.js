@@ -33,6 +33,7 @@ import VoG5Image from "@images/raids/vault_of_glass/5.png";
 import VoGLootImage from "@images/raids/vault_of_glass/loot.png";
 import VoGMazeImage from "@images/raids/vault_of_glass/maze.png";
 import VoGBackground from "@images/backgrounds/vog.jpg";
+import DSC0Image from "@images/raids/deep_stone_crypt/0.png";
 import DSC1Image from "@images/raids/deep_stone_crypt/1.png";
 import DSC2Image from "@images/raids/deep_stone_crypt/2.png";
 import DSC3Image from "@images/raids/deep_stone_crypt/3.png";
@@ -153,6 +154,7 @@ export const image_sources = {
             maze: VoGMazeImage,
         },
         deep_stone_crypt: {
+            0: DSC0Image,
             1: DSC1Image,
             2: DSC2Image,
             3: DSC3Image,
