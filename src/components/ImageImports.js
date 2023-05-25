@@ -55,6 +55,12 @@ import LW6Image from "@images/raids/last_wish/6.png";
 import LWLootImage from "@images/raids/last_wish/loot.png";
 import LWSymbolsImage from "@images/raids/last_wish/symbols.png";
 import LWBackground from "@images/backgrounds/last_wish.jpg";
+import Ghosts0Image from "@images/dungeons/ghosts_of_the_deep/0.png";
+import Ghosts1Image from "@images/dungeons/ghosts_of_the_deep/1.png";
+import Ghosts2Image from "@images/dungeons/ghosts_of_the_deep/2.png";
+import Ghosts3Image from "@images/dungeons/ghosts_of_the_deep/3.png";
+import GhostsLootImage from "@images/dungeons/ghosts_of_the_deep/loot.png";
+import GhostsBackground from "@images/backgrounds/ghosts.jpg";
 import Spire0Image from "@images/dungeons/spire_of_the_watcher/0.png";
 import Spire1Image from "@images/dungeons/spire_of_the_watcher/1.png";
 import Spire2Image from "@images/dungeons/spire_of_the_watcher/2.png";
@@ -109,7 +115,8 @@ export const backgrounds = {
     spire_of_the_watcher: SpireBackground,
     shattered_throne: STBackground,
     vault_of_glass: VoGBackground,
-    vow_of_the_disciple: VowBackground
+    vow_of_the_disciple: VowBackground,
+    ghosts_of_the_deep: GhostsBackground
 }
 
 export const image_sources = {
@@ -180,6 +187,13 @@ export const image_sources = {
         }
     },
     dungeons: {
+        ghosts_of_the_deep: {
+            0: Ghosts0Image,
+            1: Ghosts1Image,
+            2: Ghosts2Image,
+            3: Ghosts3Image,
+            loot: GhostsLootImage,
+        },
         spire_of_the_watcher: {
             0: Spire0Image,
             1: Spire1Image,

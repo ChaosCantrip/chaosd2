@@ -31,6 +31,7 @@ export default function Header() {
                     <div>
                         <Link className={styles.link} href={"/dungeons"}>Dungeons</Link>
                         <div className={styles.sub_menu}>
+                            <SubLink href={"/dungeons/ghosts_of_the_deep"} icon={BungieIcons.dungeons.ghosts_of_the_deep}>Ghosts of the Deep</SubLink>
                             <SubLink href={"/dungeons/spire_of_the_watcher"} icon={BungieIcons.dungeons.spire_of_the_watcher}>Spire of the Watcher</SubLink>
                             <SubLink href={"/dungeons/duality"} icon={BungieIcons.dungeons.duality}>Duality</SubLink>
                             <SubLink href={"/dungeons/grasp_of_avarice"} icon={BungieIcons.dungeons.grasp_of_avarice}>Grasp of Avarice</SubLink>

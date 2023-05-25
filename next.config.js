@@ -41,6 +41,12 @@ const activity_dictionary = {
         ]
     },
     dungeons: {
+        ghosts_of_the_deep: [
+            "gotd",
+            "ghostsofthedeep",
+            "ghosts",
+            "deep"
+        ],
         spire_of_the_watcher: [
             "sotw",
             "spireofthewatcher",
@@ -281,6 +287,20 @@ const encounter_dictionary = {
         }
     },
     dungeons: {
+        ghosts_of_the_deep: {
+            "0": [
+
+            ],
+            "1": [
+
+            ],
+            "2": [
+
+            ],
+            "3": [
+
+            ],
+        },
         spire_of_the_watcher: {
             "0": [
                 "opening",

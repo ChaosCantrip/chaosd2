@@ -249,6 +249,31 @@ export const PathConfig = {
         }
     },
     dungeons: {
+        ghosts_of_the_deep: {
+            name: "Ghosts of the Deep",
+            encounters: {
+                0: {
+                    name: "Not Yet Released",
+                    ql: "/ghosts/0",
+                },
+                1: {
+                    name: "Not Yet Released",
+                    ql: "/ghosts/1",
+                },
+                2: {
+                    name: "Not Yet Released",
+                    ql: "/ghosts/2",
+                },
+                3: {
+                    name: "Not Yet Released",
+                    ql: "/ghosts/3",
+                },
+                loot: {
+                    name: "Loot Table",
+                    ql: "/ghosts/loot",
+                }
+            }
+        },
         spire_of_the_watcher: {
             name: "Spire of the Watcher",
             encounters: {
