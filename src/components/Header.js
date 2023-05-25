@@ -40,12 +40,13 @@ export default function Header() {
                         </div>
                     </div>
                     <div><Link className={styles.link} href={"/reference"}>Reference</Link></div>
-                    <div><Link className={styles.link} href={"/voting"}>Voting</Link></div>
                 </nav>
             </div>
         </header>
     )
 }
+
+// <div><Link className={styles.link} href={"/voting"}>Voting</Link></div>
 
 function SubLink({ href, icon, children }) {
     return (
