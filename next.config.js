@@ -71,8 +71,8 @@ const activity_dictionary = {
 }
 
 const encounter_dictionary = {
-    "raids": {
-        "root_of_nightmares": {
+    raids: {
+        root_of_nightmares: {
             "1": [
                 "cataclysm",
             ],
@@ -90,7 +90,7 @@ const encounter_dictionary = {
                 "boss"
             ],
         },
-        "vow_of_the_disciple": {
+        vow_of_the_disciple: {
             "symbols": [
                 "s",
                 "symbol",
@@ -98,8 +98,8 @@ const encounter_dictionary = {
             ]
         }
     },
-    "dungeons": {
-        "duality": {
+    dungeons: {
+        duality: {
             "1": [
                 "gahlran",
             ],
