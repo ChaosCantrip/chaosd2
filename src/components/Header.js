@@ -39,8 +39,8 @@ export default function Header() {
                             <SubLink href={"/dungeons/shattered_throne"} icon={BungieIcons.dungeons.shattered_throne}>Shattered Throne</SubLink>
                         </div>
                     </div>
-                    <div><Link href={"/reference"}>Reference</Link></div>
-                    <div><Link href={"/voting"}>Voting</Link></div>
+                    <div><Link className={styles.link} href={"/reference"}>Reference</Link></div>
+                    <div><Link className={styles.link} href={"/voting"}>Voting</Link></div>
                 </nav>
             </div>
         </header>
