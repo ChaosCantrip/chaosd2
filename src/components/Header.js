@@ -40,6 +40,7 @@ export default function Header() {
                         </div>
                     </div>
                     <div><Link href={"/reference"}>Reference</Link></div>
+                    <div><Link href={"/voting"}>Voting</Link></div>
                 </nav>
             </div>
         </header>
