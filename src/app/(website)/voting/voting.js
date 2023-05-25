@@ -9,6 +9,7 @@ export default async function Voting({ add_vote }) {
     const [selected_activity, set_selected_activity] = useState(["raids", "root_of_nightmares"]);
     return (
         <div>
+            <h3>Vote on which guide you want me to make next!</h3>
             <Selectors selected_activity={selected_activity} set_selected_activity={set_selected_activity}/>
             <VotingActivity add_vote={add_vote} name={PathConfig[selected_activity[0]][selected_activity[1]].name} encounters={PathConfig[selected_activity[0]][selected_activity[1]].encounters}/>
         </div>
@@ -29,7 +30,7 @@ async function Selectors({ selected_activity, set_selected_activity }) {
         row_elements.push(
             <div className={styles.selector_row} key={rad}>
                 <div className={styles.selector_title}>
-                    <h2>{rad}</h2>
+                    <h2>{rad.charAt(0).toUpperCase() + rad.slice(1)}</h2>
                 </div>
                 <div className={styles.selector_items}>
                     {rad_elements}
