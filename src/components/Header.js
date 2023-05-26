@@ -41,6 +41,7 @@ export default function Header() {
                         </div>
                     </div>
                     <div><Link className={styles.link} href={"/reference"}>Reference</Link></div>
+                    <div><Link className={styles.link} href={"/socials"}>Socials</Link></div>
                 </nav>
             </div>
         </header>
