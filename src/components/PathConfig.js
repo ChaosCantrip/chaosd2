@@ -271,6 +271,10 @@ export const PathConfig = {
                 loot: {
                     name: "Loot Table",
                     ql: "/ghosts/loot",
+                },
+                symbols: {
+                    name: "Symbols Table",
+                    ql: "/ghosts/symbols",
                 }
             }
         },
