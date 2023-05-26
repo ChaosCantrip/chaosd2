@@ -6,6 +6,7 @@ import { faChevronRight, faFile } from "@fortawesome/free-solid-svg-icons";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import WIPTag from "@components/WIPTag";
 
 export default function Dropdown({ title, href = null, done, children }) {
     const router = useRouter();
@@ -19,7 +20,7 @@ export default function Dropdown({ title, href = null, done, children }) {
                 <div className={styles.left} onClick={toggle_open}>
                     <FontAwesomeIcon icon={faChevronRight} className={`${styles.button} ${open ? styles.btn_open : styles.btn_closed}`} />
                     <h1 className={styles.title}>{title}</h1>
-                    { !done ? <div className={styles.wip}>Work in Progress</div> : null}
+                    { !done ? <WIPTag/> : null}
                 </div>
                 {
                     href && <FontAwesomeIcon icon={faFile} className={styles.link_icon} onClick={() => {router.push(href)}}/>
