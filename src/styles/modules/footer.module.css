@@ -18,3 +18,12 @@
 .link:hover {
     text-shadow: white 2px 2px 4px;
 }
+
+.wip {
+    display: inline;
+}
+
+.wip > * {
+    display: inline;
+    margin-left: 0.2rem !important;
+}
