@@ -4,6 +4,7 @@ import Image from "next/image";
 import Background from "@backgrounds/ghosts.jpg";
 import {BungieIcons} from "@components/BungieIcons";
 import ImageUnderConstruction from "@image_components/ImageUnderConstruction";
+import UnfinishedSubtitle from "@image_components/UnfinishedSubtitle";
 
 /* TODO: This is a placeholder page. */
 
@@ -20,6 +21,7 @@ export default function GhostsEncounter0() {
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
             <ImageHeader title={"Ghosts of the Deep"} subtitle={"Not Yet Released"} icon={BungieIcons.dungeons.ghosts_of_the_deep} href={"chaosd2.com/ghosts/0"}/>
+            <UnfinishedSubtitle/>
             <div className={styles.content}>
                 <ImageUnderConstruction/>
             </div>
