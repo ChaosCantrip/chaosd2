@@ -59,3 +59,23 @@
 .button:hover .tooltip {
     opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+
+    .text {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .tooltip {
+        display: none;
+    }
+
+    .link {
+        margin-inline: auto;
+        font-size: 0.8rem;
+    }
+}

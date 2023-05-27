@@ -13,6 +13,23 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .desktop_only {
+        display: none;
+    }
+
+    .logo_link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+}
+
 .logo {
     height: 5rem;
     width: 5rem;

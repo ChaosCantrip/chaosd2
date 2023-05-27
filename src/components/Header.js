@@ -8,11 +8,11 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.content}>
-                <div>
+                <div className={styles.logo_wrapper}>
                     <Link href={"/"} className={styles.logo_link}>
                         <Image src={logo} alt={""} className={styles.logo}/>
                     </Link>
-                    <img src={BungieIcons.ghost_icon} className={styles.ghost_icon} alt={""}/>
+                    <img src={BungieIcons.ghost_icon} className={`${styles.ghost_icon} ${styles.desktop_only}`} alt={""}/>
                 </div>
                 <nav className={styles.nav}>
                     <NavLink href={"/home"}>Home</NavLink>
@@ -34,8 +34,8 @@ export default function Header() {
                         <SubLink href={"/dungeons/pit_of_heresy"} icon={BungieIcons.dungeons.pit_of_heresy}>Pit of Heresy</SubLink>
                         <SubLink href={"/dungeons/shattered_throne"} icon={BungieIcons.dungeons.shattered_throne}>Shattered Throne</SubLink>
                     </SubMenu>
-                    <NavLink href={"/reference"}>Reference</NavLink>
-                    <NavLink href={"/socials"}>Socials</NavLink>
+                    <NavLink href={"/reference"} desktop_only={true}>Reference</NavLink>
+                    <NavLink href={"/socials"} desktop_only={true}>Socials</NavLink>
                 </nav>
             </div>
         </header>
@@ -44,9 +44,9 @@ export default function Header() {
 
 // <NavLink href={"/voting"}>Voting</NavLink>
 
-function NavLink({ href, preload=true, children }) {
+function NavLink({ href, preload=true, desktop_only=false, children }) {
     return (
-        <div>
+        <div className={`${desktop_only ? styles.desktop_only : null}`}>
             <Link className={styles.link} href={href}>{children}</Link>
         </div>
     )

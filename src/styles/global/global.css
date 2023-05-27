@@ -9,6 +9,10 @@ html, body {
     width: 100%;
 }
 
+html {
+    overflow: hidden;
+}
+
 body {
     display: flex;
     flex-direction: column;

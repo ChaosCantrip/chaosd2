@@ -7,6 +7,16 @@
     z-index: 10;
 }
 
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .desktop_only {
+        display: none;
+    }
+}
+
 .footer a {
     color: #ffffff;
 }

@@ -74,3 +74,19 @@
     font-size: small;
     font-family: Montserrat, sans-serif;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .open {
+        padding: 1rem;
+    }
+
+    .wip {
+        display: none;
+    }
+
+    .link_icon {
+        display: none;
+    }
+}
