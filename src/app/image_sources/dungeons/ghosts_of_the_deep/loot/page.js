@@ -1,12 +1,6 @@
-import styles from "@image_components/LootTable.module.css";
-import ImageHeader from "@image_components/ImageHeader";
-import Image from "next/image";
-import Background from "@backgrounds/ghosts.jpg";
+import LootTable from "@image_components/LootTable";
 import {BungieIcons} from "@components/BungieIcons";
-import ImageUnderConstruction from "@image_components/ImageUnderConstruction";
-import UnfinishedSubtitle from "@image_components/UnfinishedSubtitle";
-
-/* TODO: This is a placeholder page. */
+import Background from "@backgrounds/ghosts.jpg";
 
 export const metadata = {
     other: {
@@ -15,17 +9,77 @@ export const metadata = {
     }
 }
 
+const data = {
+    encounters: [
+        {
+            name: "Hive Ritual",
+            "items": [
+                "fake_no_survivors",
+                "fake_new_pacific_epitaph",
+                "fake_cold_comfort",
+            ],
+            "armour": [
+                "Head",
+                "Arms",
+                "Legs",
+            ]
+        },
+        {
+            name: "Ecthar, Shield of Savathûn",
+            "items": [
+                "fake_greasy_luck",
+                "fake_cold_comfort"
+            ],
+            "armour": [
+                "Arms",
+                "Chest",
+            ]
+        },
+        {
+            name: "Simmumah ur-Nokru",
+            "items": [
+                "any",
+                "fake_the_navigator"
+            ],
+            "armour": [
+                "Class Item",
+                "any"
+            ]
+        }
+    ],
+    armour: {
+        set: "Armor of the Taken King",
+        hashes: {
+            "Head": [
+                "tk_helm",
+                "tk_hood",
+                "tk_mask"
+            ],
+            "Arms": [
+                "tk_gauntlets",
+                "tk_gloves",
+                "tk_grasps"
+            ],
+            "Chest": [
+                "tk_plate",
+                "tk_vestement",
+                "tk_vest"
+            ],
+            "Legs": [
+                "tk_greaves",
+                "tk_boots",
+                "tk_strides"
+            ],
+            "Class Item": [
+                "tk_mark",
+                "tk_bond",
+                "tk_cloak"
+            ]
+        }
+    }
+}
+
+
 export default function GhostsLoot() {
-    return (
-        <body className={styles.main}>
-        <Image src={Background} alt={""} className={styles.background}/>
-        <div className={styles.wrapper}>
-            <ImageHeader title={"Ghosts of the Deep"} subtitle={"Loot Table"} icon={BungieIcons.dungeons.ghosts_of_the_deep} href={"chaosd2.com/ghosts/loot"}/>
-            <UnfinishedSubtitle/>
-            <div className={styles.content}>
-                <ImageUnderConstruction/>
-            </div>
-        </div>
-        </body>
-    );
+    return <LootTable activity="Ghosts of the Deep" href="chaosd2.com/ghosts/loot" data={data} icon={BungieIcons.dungeons.ghosts_of_the_deep} background={Background}/>
 }

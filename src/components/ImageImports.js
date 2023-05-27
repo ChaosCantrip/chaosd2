@@ -55,7 +55,6 @@ import LW6Image from "@images/raids/last_wish/6.png";
 import LWLootImage from "@images/raids/last_wish/loot.png";
 import LWSymbolsImage from "@images/raids/last_wish/symbols.png";
 import LWBackground from "@images/backgrounds/last_wish.jpg";
-import Ghosts0Image from "@images/dungeons/ghosts_of_the_deep/0.png";
 import Ghosts1Image from "@images/dungeons/ghosts_of_the_deep/1.png";
 import Ghosts2Image from "@images/dungeons/ghosts_of_the_deep/2.png";
 import Ghosts3Image from "@images/dungeons/ghosts_of_the_deep/3.png";
@@ -188,7 +187,6 @@ export const image_sources = {
     },
     dungeons: {
         ghosts_of_the_deep: {
-            0: Ghosts0Image,
             1: Ghosts1Image,
             2: Ghosts2Image,
             3: Ghosts3Image,

@@ -252,20 +252,16 @@ export const PathConfig = {
         ghosts_of_the_deep: {
             name: "Ghosts of the Deep",
             encounters: {
-                0: {
-                    name: "Not Yet Released",
-                    ql: "/ghosts/0",
-                },
                 1: {
-                    name: "Not Yet Released",
+                    name: "Hive Ritual",
                     ql: "/ghosts/1",
                 },
                 2: {
-                    name: "Not Yet Released",
+                    name: "Ecthar, Shield of Savathûn",
                     ql: "/ghosts/2",
                 },
                 3: {
-                    name: "Not Yet Released",
+                    name: "Simmumah ur-Nokru",
                     ql: "/ghosts/3",
                 },
                 loot: {

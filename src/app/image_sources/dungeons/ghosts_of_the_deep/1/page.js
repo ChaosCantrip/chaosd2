@@ -20,7 +20,7 @@ export default function GhostsEncounter1() {
         <body className={styles.main}>
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
-            <ImageHeader title={"Ghosts of the Deep"} subtitle={"Not Yet Released"} icon={BungieIcons.dungeons.ghosts_of_the_deep} href={"chaosd2.com/ghosts/1"}/>
+            <ImageHeader title={"Ghosts of the Deep"} subtitle={"Hive Ritual"} icon={BungieIcons.dungeons.ghosts_of_the_deep} href={"chaosd2.com/ghosts/1"}/>
             <UnfinishedSubtitle/>
             <div className={styles.content}>
                 <ImageUnderConstruction/>

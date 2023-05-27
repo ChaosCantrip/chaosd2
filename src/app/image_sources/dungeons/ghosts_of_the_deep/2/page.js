@@ -20,7 +20,7 @@ export default function GhostsEncounter2() {
         <body className={styles.main}>
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
-            <ImageHeader title={"Ghosts of the Deep"} subtitle={"Not Yet Released"} icon={BungieIcons.dungeons.ghosts_of_the_deep} href={"chaosd2.com/ghosts/2"}/>
+            <ImageHeader title={"Ghosts of the Deep"} subtitle={"Ecthar, Shield of Savathûn"} icon={BungieIcons.dungeons.ghosts_of_the_deep} href={"chaosd2.com/ghosts/2"}/>
             <UnfinishedSubtitle/>
             <div className={styles.content}>
                 <ImageUnderConstruction/>

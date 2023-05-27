@@ -288,17 +288,17 @@ const encounter_dictionary = {
     },
     dungeons: {
         ghosts_of_the_deep: {
-            "0": [
-
-            ],
             "1": [
-
+                "ritual"
             ],
             "2": [
-
+                "shield",
+                "knight"
             ],
             "3": [
-
+                "boss",
+                "final",
+                "wizard"
             ],
         },
         spire_of_the_watcher: {

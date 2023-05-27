@@ -20,7 +20,7 @@ export default function GhostsEncounter3() {
         <body className={styles.main}>
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
-            <ImageHeader title={"Ghosts of the Deep"} subtitle={"Not Yet Released"} icon={BungieIcons.dungeons.ghosts_of_the_deep} href={"chaosd2.com/ghosts/3"}/>
+            <ImageHeader title={"Ghosts of the Deep"} subtitle={"Simmumah ur-Nokru"} icon={BungieIcons.dungeons.ghosts_of_the_deep} href={"chaosd2.com/ghosts/3"}/>
             <UnfinishedSubtitle/>
             <div className={styles.content}>
                 <ImageUnderConstruction/>
