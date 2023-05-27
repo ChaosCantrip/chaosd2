@@ -33,6 +33,7 @@ const data = {
             "armour": [
                 "Arms",
                 "Chest",
+                "Class Item"
             ]
         },
         {
@@ -42,7 +43,6 @@ const data = {
                 "fake_the_navigator"
             ],
             "armour": [
-                "Class Item",
                 "any"
             ]
         }
