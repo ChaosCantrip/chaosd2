@@ -31,7 +31,7 @@ export default function DungeonsPage() {
                 <Title title={"Dungeons"} icon_url={BungieIcons.dungeon_icon} show_back_button={false}/>
                 <div className={layout.page_content}>
                     <div className={layout.activity_grid}>
-                        <ActivityGridItem href={"/dungeons/ghosts_of_the_deep"} name={"Ghosts of the Deep"} icon={BungieIcons.dungeons.ghosts_of_the_deep} banner={GhostsOfTheDeep} description={"Not Released Yet."}/>
+                        <ActivityGridItem href={"/dungeons/ghosts_of_the_deep"} name={"Ghosts of the Deep"} icon={BungieIcons.dungeons.ghosts_of_the_deep} banner={GhostsOfTheDeep} description={"Drown in the deep, or rise from it."}/>
                         <ActivityGridItem href={"/dungeons/spire_of_the_watcher"} name={"Spire of the Watcher"} icon={BungieIcons.dungeons.spire_of_the_watcher} banner={SpireOfTheWatcher} description={"Machinations run wild in this dust-ridden ruin. Bring them to heel."}/>
                         <ActivityGridItem href={"/dungeons/duality"} name={"Duality"} icon={BungieIcons.dungeons.duality} banner={Duality} description={"Dive into the depths of the exiled emperor's mind in search of dark secrets."}/>
                         <ActivityGridItem href={"/dungeons/grasp_of_avarice"} name={"Grasp of Avarice"} icon={BungieIcons.dungeons.grasp_of_avarice} banner={GraspOfAvarice} description={"A cautionary tale for adventurers willing to trade their humanity for riches."}/>
