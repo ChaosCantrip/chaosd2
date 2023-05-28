@@ -272,6 +272,7 @@ export const PathConfig = {
                 symbols: {
                     name: "Symbols Table",
                     ql: "/ghosts/symbols",
+                    done: true,
                 }
             }
         },
