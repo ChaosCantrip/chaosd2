@@ -15,7 +15,7 @@ export default function Header() {
                     <img src={BungieIcons.ghost_icon} className={`${styles.ghost_icon} ${styles.desktop_only}`} alt={""}/>
                 </div>
                 <nav className={styles.nav}>
-                    <NavLink href={"/home"}>Home</NavLink>
+                    <NavLink href={"/"}>Home</NavLink>
                     <SubMenu href={"/raids"} name={"Raids"}>
                         <SubLink href={"/raids/root_of_nightmares"} icon={BungieIcons.raids.root_of_nightmares}>Root of Nightmares</SubLink>
                         <SubLink href={"/raids/kings_fall"} icon={BungieIcons.raids.kings_fall}>King's Fall</SubLink>
