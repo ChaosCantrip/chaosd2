@@ -27,6 +27,7 @@ const data = {
         {
             name: "Ecthar, Shield of Savathûn",
             "items": [
+                "fake_no_survivors",
                 "fake_greasy_luck",
                 "fake_cold_comfort"
             ],
