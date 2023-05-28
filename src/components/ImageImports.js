@@ -59,6 +59,7 @@ import Ghosts1Image from "@images/dungeons/ghosts_of_the_deep/1.png";
 import Ghosts2Image from "@images/dungeons/ghosts_of_the_deep/2.png";
 import Ghosts3Image from "@images/dungeons/ghosts_of_the_deep/3.png";
 import GhostsLootImage from "@images/dungeons/ghosts_of_the_deep/loot.png";
+import GhostsSymbolsImage from "@images/dungeons/ghosts_of_the_deep/symbols.png";
 import GhostsBackground from "@images/backgrounds/ghosts.jpg";
 import Spire0Image from "@images/dungeons/spire_of_the_watcher/0.png";
 import Spire1Image from "@images/dungeons/spire_of_the_watcher/1.png";
@@ -191,6 +192,7 @@ export const image_sources = {
             2: Ghosts2Image,
             3: Ghosts3Image,
             loot: GhostsLootImage,
+            symbols: GhostsSymbolsImage
         },
         spire_of_the_watcher: {
             0: Spire0Image,
