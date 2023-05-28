@@ -28,10 +28,10 @@ export default function GhostsSymbolsPage() {
             <div className={custom.grid}>
                 <Symbol name={"A"} icon={GhostsSymbols.a}/>
                 <Symbol name={"Pizza"} icon={GhostsSymbols.pizza}/>
-                <Symbol name={"Sandwich"} icon={GhostsSymbols.sandwich}/>
+                <Symbol name={"Burger"} icon={GhostsSymbols.sandwich}/>
                 <Symbol name={"Spider"} icon={GhostsSymbols.spider}/>
                 <Symbol name={"Dot Spider"} icon={GhostsSymbols.dot_spider}/>
-                <Symbol name={"R"} icon={GhostsSymbols.r}/>
+                <Symbol name={"C"} icon={GhostsSymbols.r}/>
                 <Symbol name={"Dots Table"} icon={GhostsSymbols.dots_table}/>
                 <Symbol name={"Equals Table"} icon={GhostsSymbols.equals_table}/>
                 <Symbol name={"Divide"} icon={GhostsSymbols.divide}/>
