@@ -16,9 +16,9 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@vercel/analytics": "^1.0.1",
     "@vercel/postgres": "^0.3.0",
-    "next": "13.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "^13.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.33.0"
