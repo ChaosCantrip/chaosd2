@@ -45,10 +45,7 @@ export default function ActivityLayout({ children, params }) {
     return (
         <div className={layout.page_wrapper}>
             <BackgroundImage src={backgrounds[activity]}/>
-            <div className={layout.page}>
-                <Title title={data.name} icon_url={BungieIcons[rad][activity]}/>
-                {children}
-            </div>
+            {children}
         </div>
     )
 }

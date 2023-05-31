@@ -4,6 +4,8 @@ import QuickLink from "@components/QuickLink";
 import Link from "next/link";
 import {PathConfig} from "@components/PathConfig";
 import {image_sources} from "@components/ImageImports";
+import Title from "@components/Title";
+import {BungieIcons} from "@components/BungieIcons";
 
 export const dynamicParams = false;
 
@@ -44,17 +46,22 @@ export async function generateMetadata({ params }) {
 
 export default function EncounterPage({ params }) {
     const { rad, activity, encounter } = params;
-    const data = PathConfig[rad][activity].encounters[encounter];
+    const rad_data = PathConfig[rad];
+    const activity_data = rad_data[activity];
+    const data = activity_data.encounters[encounter];
     const image = image_sources[rad][activity][encounter];
     const { name, ql } = data;
     return (
-        <div className={layout.encounter_page}>
-            <h2 className={layout.page_subtitle}>{name}</h2>
-            <div className={layout.page_content}>
-                <QuickLink href={ql}/>
-                <Link href={ql + "/i"}>
-                    <Image className={layout.full_image} src={image} alt={"Image Link"} placeholder="blur"/>
-                </Link>
+        <div className={layout.page}>
+            <Title title={data.name} subtitle={activity_data.name} icon_url={BungieIcons[rad][activity]}/>
+            <div className={layout.encounter_page}>
+                <h2 className={layout.page_subtitle}>{name}</h2>
+                <div className={layout.page_content}>
+                    <QuickLink href={ql}/>
+                    <Link href={ql + "/i"}>
+                        <Image className={layout.full_image} src={image} alt={"Image Link"} placeholder="blur"/>
+                    </Link>
+                </div>
             </div>
         </div>
     )
