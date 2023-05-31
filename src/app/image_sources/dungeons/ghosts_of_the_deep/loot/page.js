@@ -14,9 +14,9 @@ const data = {
         {
             name: "Hive Ritual",
             "items": [
-                "fake_no_survivors",
-                "fake_new_pacific_epitaph",
-                "fake_cold_comfort",
+                "3262192268",
+                "1125217994",
+                "839786290",
             ],
             "armour": [
                 "Head",
@@ -27,9 +27,9 @@ const data = {
         {
             name: "Ecthar, Shield of Savathûn",
             "items": [
-                "fake_no_survivors",
-                "fake_greasy_luck",
-                "fake_cold_comfort"
+                "3262192268",
+                "1757202961",
+                "839786290"
             ],
             "armour": [
                 "Arms",
@@ -41,7 +41,7 @@ const data = {
             name: "Simmumah ur-Nokru",
             "items": [
                 "any",
-                "fake_the_navigator"
+                "1441805468"
             ],
             "armour": [
                 "any"
@@ -52,29 +52,29 @@ const data = {
         set: "Armor of the Taken King",
         hashes: {
             "Head": [
-                "tk_helm",
-                "tk_hood",
-                "tk_mask"
+                "2324998093",
+                "540625098",
+                "896458489"
             ],
             "Arms": [
-                "tk_gauntlets",
-                "tk_gloves",
-                "tk_grasps"
+                "2977663932",
+                "587762963",
+                "409820272"
             ],
             "Chest": [
-                "tk_plate",
-                "tk_vestement",
-                "tk_vest"
+                "2978918436",
+                "457617725",
+                "42941848"
             ],
             "Legs": [
-                "tk_greaves",
-                "tk_boots",
-                "tk_strides"
+                "2363472582",
+                "322717029",
+                "726878794"
             ],
             "Class Item": [
-                "tk_mark",
-                "tk_bond",
-                "tk_cloak"
+                "3722748537",
+                "1961182320",
+                "2733403573"
             ]
         }
     }
