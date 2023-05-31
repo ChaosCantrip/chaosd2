@@ -7,6 +7,7 @@ import {PathConfig} from "@components/PathConfig";
 import {image_sources} from "@components/ImageImports";
 import Title from "@components/Title";
 import {BungieIcons} from "@components/BungieIcons";
+import custom from "./custom.module.css";
 
 export const dynamicParams = false;
 
@@ -35,11 +36,13 @@ export default function ActivityPage({ params }) {
                     const encounter = data.encounters[encounter_id];
                     return (
                         <Dropdown title={encounter.name} href={encounter.ql} key={encounter_id} done={encounter.done}>
-                            <div>
+                            <div className={custom.dropdown_content}>
                                 <QuickLink href={encounter.ql}/>
-                                <Link href={`${encounter.ql}/i`}>
-                                    <Image src={image_sources[rad][activity][encounter_id]} alt={<a href={encounter.ql}>{encounter.name}</a>} className={layout.dropdown_image} placeholder="blur"/>
-                                </Link>
+                                <div className={custom.dropdown_image_wrapper}>
+                                    <Link href={`${encounter.ql}/i`} className={custom.image_link}>
+                                        <Image src={image_sources[rad][activity][encounter_id]} alt={<a href={encounter.ql}>{encounter.name}</a>} className={custom.dropdown_image} placeholder="blur"/>
+                                    </Link>
+                                </div>
                             </div>
                         </Dropdown>
                     )

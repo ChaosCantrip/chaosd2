@@ -6,6 +6,7 @@ import {PathConfig} from "@components/PathConfig";
 import {image_sources} from "@components/ImageImports";
 import Title from "@components/Title";
 import {BungieIcons} from "@components/BungieIcons";
+import custom from "./custom.module.css";
 
 export const dynamicParams = false;
 
@@ -58,9 +59,11 @@ export default function EncounterPage({ params }) {
                 <h2 className={layout.page_subtitle}>{name}</h2>
                 <div className={layout.page_content}>
                     <QuickLink href={ql}/>
-                    <Link href={ql + "/i"}>
-                        <Image className={layout.full_image} src={image} alt={"Image Link"} placeholder="blur"/>
-                    </Link>
+                    <div className={custom.image_wrapper}>
+                        <Link href={ql + "/i"} className={custom.image_link}>
+                            <Image className={custom.image} src={image} alt={"Image Link"} placeholder="blur"/>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>

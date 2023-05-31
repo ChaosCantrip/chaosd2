@@ -34,7 +34,7 @@
 
 .content {
     overflow: hidden;
-    transition: all 0.3s ease-in-out;
+    transition: max-height 0.3s ease-in-out;
 }
 
 .open {
@@ -44,7 +44,7 @@
 
 .closed {
     max-height: 0;
-    padding-left: 2rem;
+    padding: 0;
 }
 
 .link_icon {
