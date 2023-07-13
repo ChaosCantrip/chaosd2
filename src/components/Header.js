@@ -35,7 +35,7 @@ export default function Header() {
                         <SubLink href={"/dungeons/shattered_throne"} icon={BungieIcons.dungeons.shattered_throne}>Shattered Throne</SubLink>
                     </SubMenu>
                     <NavLink href={"/reference"} desktop_only={true}>Reference</NavLink>
-                    <NavLink href={"/socials"} desktop_only={true}>Socials</NavLink>
+                    <NavLink href={"/support"} desktop_only={true}>Support chaosd2</NavLink>
                 </nav>
             </div>
         </header>

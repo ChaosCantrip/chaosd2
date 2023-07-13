@@ -3,6 +3,7 @@ import Title from "@components/Title";
 import BackgroundImage from "@components/BackgroundImage";
 import layout from "@styles/modules/layout.module.css";
 import Background from "@backgrounds/home.jpg";
+import Link from "next/link";
 
 export const metadata = {
     "title": "Home",
@@ -22,6 +23,7 @@ export default function HomePage(){
                     <p>All images are also packed with metadata so Discord displays them nicely!</p>
                     <br/>
                     <p>Since the website is so new, I'm still working on making a lot of the images. I'll get around to them at some point!</p>
+                    <p>If you enjoy using the website, please consider helping me keep it going by <Link href={"/support"}>donating</Link>!</p>
                     <p>Thanks for dropping by!</p>
                 </div>
             </div>
