@@ -5,6 +5,7 @@ import Root4Image from "@images/raids/root_of_nightmares/4.png";
 import RootLootImage from "@images/raids/root_of_nightmares/loot.png";
 import RootRBImage from "@images/raids/root_of_nightmares/rb.png";
 import RootBackground from "@images/backgrounds/root.jpg";
+import RootChallengesImage from "@images/raids/root_of_nightmares/challenges.png";
 import KF0Image from "@images/raids/kings_fall/0.png";
 import KF1Image from "@images/raids/kings_fall/1.png";
 import KF2Image from "@images/raids/kings_fall/2.png";
@@ -15,6 +16,7 @@ import KFLootImage from "@images/raids/kings_fall/loot.png";
 import KFRBImage from "@images/raids/kings_fall/rb.png";
 import KFMazeImage from "@images/raids/kings_fall/maze.png";
 import KFBackground from "@images/backgrounds/kf.jpg";
+import KFChallengesImage from "@images/raids/kings_fall/challenges.png";
 import Vow0Image from "@images/raids/vow_of_the_disciple/0.png";
 import Vow1Image from "@images/raids/vow_of_the_disciple/1.png";
 import Vow2Image from "@images/raids/vow_of_the_disciple/2.png";
@@ -24,6 +26,7 @@ import VowLootImage from "@images/raids/vow_of_the_disciple/loot.png";
 import VowRBImage from "@images/raids/vow_of_the_disciple/rb.png";
 import VowSymbolsImage from "@images/raids/vow_of_the_disciple/symbols.png";
 import VowBackground from "@images/backgrounds/vow.jpg";
+import VowChallengesImage from "@images/raids/vow_of_the_disciple/challenges.png";
 import VoG0Image from "@images/raids/vault_of_glass/0.png";
 import VoG1Image from "@images/raids/vault_of_glass/1.png";
 import VoG2Image from "@images/raids/vault_of_glass/2.png";
@@ -33,6 +36,7 @@ import VoG5Image from "@images/raids/vault_of_glass/5.png";
 import VoGLootImage from "@images/raids/vault_of_glass/loot.png";
 import VoGMazeImage from "@images/raids/vault_of_glass/maze.png";
 import VoGBackground from "@images/backgrounds/vog.jpg";
+import VoGChallengesImage from "@images/raids/vault_of_glass/challenges.png";
 import DSC0Image from "@images/raids/deep_stone_crypt/0.png";
 import DSC1Image from "@images/raids/deep_stone_crypt/1.png";
 import DSC2Image from "@images/raids/deep_stone_crypt/2.png";
@@ -40,12 +44,14 @@ import DSC3Image from "@images/raids/deep_stone_crypt/3.png";
 import DSC4Image from "@images/raids/deep_stone_crypt/4.png";
 import DSCLootImage from "@images/raids/deep_stone_crypt/loot.png";
 import DSCBackground from "@images/backgrounds/dsc.jpg";
+import DSCChallengesImage from "@images/raids/deep_stone_crypt/challenges.png";
 import Garden1Image from "@images/raids/garden_of_salvation/1.png";
 import Garden2Image from "@images/raids/garden_of_salvation/2.png";
 import Garden3Image from "@images/raids/garden_of_salvation/3.png";
 import Garden4Image from "@images/raids/garden_of_salvation/4.png";
 import GardenLootImage from "@images/raids/garden_of_salvation/loot.png";
 import GardenBackground from "@images/backgrounds/garden.jpg";
+import GardenChallengesImage from "@images/raids/garden_of_salvation/challenges.png";
 import LW1Image from "@images/raids/last_wish/1.png";
 import LW2Image from "@images/raids/last_wish/2.png";
 import LW3Image from "@images/raids/last_wish/3.png";
@@ -55,6 +61,7 @@ import LW6Image from "@images/raids/last_wish/6.png";
 import LWLootImage from "@images/raids/last_wish/loot.png";
 import LWSymbolsImage from "@images/raids/last_wish/symbols.png";
 import LWBackground from "@images/backgrounds/last_wish.jpg";
+import LWChallengesImage from "@images/raids/last_wish/challenges.png";
 import Ghosts1Image from "@images/dungeons/ghosts_of_the_deep/1.png";
 import Ghosts2Image from "@images/dungeons/ghosts_of_the_deep/2.png";
 import Ghosts3Image from "@images/dungeons/ghosts_of_the_deep/3.png";
@@ -127,7 +134,8 @@ export const image_sources = {
             3: Root3Image,
             4: Root4Image,
             loot: RootLootImage,
-            rb: RootRBImage
+            rb: RootRBImage,
+            challenges: RootChallengesImage
         },
         kings_fall: {
             0: KF0Image,
@@ -138,7 +146,8 @@ export const image_sources = {
             5: KF5Image,
             loot: KFLootImage,
             rb: KFRBImage,
-            maze: KFMazeImage
+            maze: KFMazeImage,
+            challenges: KFChallengesImage
         },
         vow_of_the_disciple: {
             0: Vow0Image,
@@ -148,7 +157,8 @@ export const image_sources = {
             4: Vow4Image,
             loot: VowLootImage,
             rb: VowRBImage,
-            symbols: VowSymbolsImage
+            symbols: VowSymbolsImage,
+            challenges: VowChallengesImage
         },
         vault_of_glass: {
             0: VoG0Image,
@@ -159,6 +169,7 @@ export const image_sources = {
             5: VoG5Image,
             loot: VoGLootImage,
             maze: VoGMazeImage,
+            challenges: VoGChallengesImage
         },
         deep_stone_crypt: {
             0: DSC0Image,
@@ -167,6 +178,7 @@ export const image_sources = {
             3: DSC3Image,
             4: DSC4Image,
             loot: DSCLootImage,
+            challenges: DSCChallengesImage
         },
         garden_of_salvation: {
             1: Garden1Image,
@@ -174,6 +186,7 @@ export const image_sources = {
             3: Garden3Image,
             4: Garden4Image,
             loot: GardenLootImage,
+            challenges: GardenChallengesImage
         },
         last_wish: {
             1: LW1Image,
@@ -183,7 +196,8 @@ export const image_sources = {
             5: LW5Image,
             6: LW6Image,
             loot: LWLootImage,
-            symbols: LWSymbolsImage
+            symbols: LWSymbolsImage,
+            challenges: LWChallengesImage
         }
     },
     dungeons: {
