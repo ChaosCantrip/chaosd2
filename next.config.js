@@ -523,6 +523,31 @@ const nextConfig = {
                 destination: "/:path*/maze",
                 permanent: true,
             },
+            {
+                source: "/:path*/c",
+                destination: "/:path*/challenges",
+                permanent: true,
+            },
+            {
+                source: "/:path*/challenge",
+                destination: "/:path*/challenges",
+                permanent: true,
+            },
+            {
+                source: "/:path*/t",
+                destination: "/:path*/challenges",
+                permanent: true,
+            },
+            {
+                source: "/:path*/triumphs",
+                destination: "/:path*/challenges",
+                permanent: true,
+            },
+            {
+                source: "/:path*/triumph",
+                destination: "/:path*/challenges",
+                permanent: true,
+            },
             ...build_redirects(),
             {
                 source: "/:path*/img",

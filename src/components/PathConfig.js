@@ -28,6 +28,10 @@ export const PathConfig = {
                 rb: {
                     name: "Red Border Chest",
                     ql: "/root/rb",
+                },
+                challenges: {
+                    name: "Challenges and Triumphs",
+                    ql: "/root/c",
                 }
             }
         },
@@ -71,6 +75,10 @@ export const PathConfig = {
                     name: "Golgoroth's Cellar",
                     ql: "/kf/maze",
                     done: true,
+                },
+                challenges: {
+                    name: "Challenges and Triumphs",
+                    ql: "/kf/c",
                 }
             }
         },
@@ -111,6 +119,10 @@ export const PathConfig = {
                     name: "Symbols",
                     ql: "/vow/symbols",
                     done: true,
+                },
+                challenges: {
+                    name: "Challenges and Triumphs",
+                    ql: "/vow/c",
                 }
             }
         },
@@ -148,6 +160,10 @@ export const PathConfig = {
                 maze: {
                     name: "Gorgon's Labyrinth",
                     ql: "/vog/maze",
+                },
+                challenges: {
+                    name: "Challenges and Triumphs",
+                    ql: "/vog/c",
                 }
             }
         },
@@ -178,6 +194,10 @@ export const PathConfig = {
                     name: "Loot Table",
                     ql: "/dsc/loot",
                     done: true,
+                },
+                challenges: {
+                    name: "Challenges and Triumphs",
+                    ql: "/dsc/c",
                 }
             }
         },
@@ -205,6 +225,10 @@ export const PathConfig = {
                     name: "Loot Table",
                     ql: "/gos/loot",
                     done: true,
+                },
+                challenges: {
+                    name: "Challenges and Triumphs",
+                    ql: "/gos/c",
                 }
             }
         },
@@ -244,6 +268,10 @@ export const PathConfig = {
                     name: "Symbols",
                     ql: "/lw/symbols",
                     done: true,
+                },
+                challenges: {
+                    name: "Challenges and Triumphs",
+                    ql: "/lw/c",
                 }
             }
         }
