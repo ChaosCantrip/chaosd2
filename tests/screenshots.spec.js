@@ -21,7 +21,10 @@ test("screenshot", async ({ page }) => {
     console.log(list_of_paths);
 
     for (let i = 0; i < list_of_paths.length; i++) {
-        await page.goto(`http://localhost:3000/image_sources/${list_of_paths[i]}`);
+        const given_path = list_of_paths[i];
+        await page.goto(`http://localhost:3000/image_sources/${given_path}`);
+        const url = page.url();
+        const path = url.split("http://localhost:3000/image_sources/")[1];
         const metaWidth = await page.evaluate(() => {
             return parseInt(document.querySelector("meta[name=width]").content);
         });
@@ -29,7 +32,7 @@ test("screenshot", async ({ page }) => {
             return parseInt(document.querySelector("meta[name=height]").content);
         });
         await page.setViewportSize({width: metaWidth, height: metaHeight});
-        await page.screenshot({path: `public/images/${list_of_paths[i]}.png`, clip: {x: 0, y: 0, width: metaWidth, height: metaHeight}});
+        await page.screenshot({path: `public/images/${path}.png`, clip: {x: 0, y: 0, width: metaWidth, height: metaHeight}});
         console.log(`Screenshot taken for '${list_of_paths[i]}' (${metaWidth}x${metaHeight}) [${i+1}/${list_of_paths.length}]`)
     }
 });
