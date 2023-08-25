@@ -2,6 +2,13 @@
 
 const activity_dictionary = {
     raids: {
+        crotas_end: [
+            "ce",
+            "crotasend",
+            "crotas",
+            "crota",
+            "end"
+        ],
         root_of_nightmares: [
             "ron",
             "rootofnightmares",
@@ -78,6 +85,27 @@ const activity_dictionary = {
 
 const encounter_dictionary = {
     raids: {
+        crotas_end: {
+            "1": [
+                "pit",
+                "the_pit"
+            ],
+            "2": [
+                "bridge",
+                "the_bridge"
+            ],
+            "3": [
+                "ir_yut",
+                "ir",
+                "yut",
+                "deathsinger",
+            ],
+            "4": [
+                "crota",
+                "boss",
+                "final",
+            ]
+        },
         root_of_nightmares: {
             "1": [
                 "cataclysm",

@@ -1,5 +1,30 @@
 export const PathConfig = {
     raids: {
+        crotas_end: {
+            name: "Crota's End",
+            encounters: {
+                1: {
+                    name: "The Pit",
+                    ql: "/crota/1",
+                },
+                2: {
+                    name: "The Bridge",
+                    ql: "/crota/2",
+                },
+                3: {
+                    name: "Ir Yût, the Deathsinger",
+                    ql: "/crota/3",
+                },
+                4: {
+                    name: "Crota, Son of Oryx",
+                    ql: "/crota/4",
+                },
+                loot: {
+                    name: "Loot Table",
+                    ql: "/crota/loot",
+                }
+            }
+        },
         root_of_nightmares: {
             name: "Root of Nightmares",
             encounters: {
