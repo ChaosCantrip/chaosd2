@@ -1,3 +1,4 @@
+import CrotaBackground from "@images/backgrounds/crotas_end.jpg";
 import Root1Image from "@images/raids/root_of_nightmares/1.png";
 import Root2Image from "@images/raids/root_of_nightmares/2.png";
 import Root3Image from "@images/raids/root_of_nightmares/3.png";
@@ -123,7 +124,8 @@ export const backgrounds = {
     shattered_throne: STBackground,
     vault_of_glass: VoGBackground,
     vow_of_the_disciple: VowBackground,
-    ghosts_of_the_deep: GhostsBackground
+    ghosts_of_the_deep: GhostsBackground,
+    crotas_end: CrotaBackground,
 }
 
 export const image_sources = {
