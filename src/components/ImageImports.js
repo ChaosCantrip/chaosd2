@@ -1,3 +1,8 @@
+import Crota1Image from "@images/raids/crotas_end/1.png";
+import Crota2Image from "@images/raids/crotas_end/2.png";
+import Crota3Image from "@images/raids/crotas_end/3.png";
+import Crota4Image from "@images/raids/crotas_end/4.png";
+import CrotaLootImage from "@images/raids/crotas_end/loot.png";
 import CrotaBackground from "@images/backgrounds/crotas_end.jpg";
 import Root1Image from "@images/raids/root_of_nightmares/1.png";
 import Root2Image from "@images/raids/root_of_nightmares/2.png";
@@ -130,6 +135,13 @@ export const backgrounds = {
 
 export const image_sources = {
     raids: {
+        crotas_end: {
+            1: Crota1Image,
+            2: Crota2Image,
+            3: Crota3Image,
+            4: Crota4Image,
+            loot: CrotaLootImage
+        },
         root_of_nightmares: {
             1: Root1Image,
             2: Root2Image,
