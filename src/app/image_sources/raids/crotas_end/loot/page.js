@@ -4,7 +4,10 @@ import Background from "@backgrounds/crotas_end.jpg";
 import styles from "@image_components/LootTable.module.css";
 import Image from "next/image";
 import ImageHeader from "@image_components/ImageHeader";
+import tempstyles from "./tempstyles.module.css";
 import ImageUnderConstruction from "@image_components/ImageUnderConstruction";
+import ItemInsert from "@image_components/ItemInsert";
+import ArmourInsert from "@image_components/ArmourInsert";
 
 export const metadata = {
     other: {
@@ -13,83 +16,86 @@ export const metadata = {
     }
 }
 
+const items = {
+    "scout_rifle": "1432682459",
+    "shotgun": "3163900678",
+    "hand_cannon": "120706239",
+    "auto_rifle": "833898322",
+    "pulse_rifle": "1098171824",
+    "machine_gun": "2828278545",
+    "exotic": "1034055198",
+}
+
 const data = {
     encounters: [
         {
-            name: "Crypt Security",
+            name: "The Pit",
             "items": [
-                "1392919471",
+                "1432682459",
+                "3163900678"
             ],
             "armour": [
-                "Arms",
-                "Legs",
-                "Class Item"
             ]
         },
         {
-            name: "Atraks-1",
+            name: "The Bridge",
             "items": [
-                "4248569242",
-                "2990047042"
+                "120706239",
+                "833898322",
             ],
             "armour": [
-                "Arms",
-                "Legs",
-                "Class Item"
             ]
         },
         {
-            name: "Nuclear Descent",
+            name: "Ir Yût, the Deathsinger",
             "items": [
-                "3281285075",
+                "1098171824",
+                "2828278545"
             ],
             "armour": [
-                "Arms",
-                "Chest",
-                "Class Item"
             ]
         },
         {
-            name: "Taniks, the Abomination",
+            name: "Crota, Son of Oryx",
             "items": [
-                "3366545721",
-                "4230965989",
-                "2399110176"
+                "1034055198"
             ],
             "armour": [
                 "Head",
+                "Arms",
                 "Chest",
                 "Legs",
+                "Class Item"
             ]
         }
     ],
     armour: {
-        set: "Legacy's Oath",
+        set: "Crota's End",
         hashes: {
             "Head": [
-                "3015085684",
-                "893751566",
-                "1462908657"
+                "1328334240",
+                "859929450",
+                "1964816829"
             ],
             "Arms": [
-                "1887490701",
-                "2343515647",
-                "79460168"
+                "3189374833",
+                "441033139",
+                "427348780"
             ],
             "Chest": [
-                "751162931",
-                "4001862073",
-                "3975122240"
+                "1261894567",
+                "3714937821",
+                "1386180724"
             ],
             "Legs": [
-                "2558289743",
-                "1264765761",
-                "756445218"
+                "3020524483",
+                "175883909",
+                "1497538390"
             ],
             "Class Item": [
-                "2956588906",
-                "1021060724",
-                "2902277629"
+                "2401746614",
+                "1306415888",
+                "2130010697"
             ]
         }
     }
@@ -102,11 +108,26 @@ function temp() {
         <div className={styles.wrapper}>
             <ImageHeader title={"Crota's End"} subtitle={"Loot Table"} icon={BungieIcons.raids.crotas_end} href={"chaosd2.com/crota/loot"}/>
             <div className={styles.content}>
-                <ImageUnderConstruction/>
+                <h2 className={tempstyles.title}>Weapons</h2>
+                <div className={tempstyles.weapons}>
+                    {Object.keys(items).map((key) => {
+                        return (
+                            <ItemInsert key={key} item_hash={items[key]}/>
+                        )
+                    })}
+                </div>
+                <h2 className={tempstyles.title}>Armour</h2>
+                <div className={tempstyles.armour}>
+                    {Object.keys(data.armour.hashes).map((key) => {
+                        return (
+                            <ArmourInsert key={key} armour_hashes={data.armour.hashes[key]} slot_name={key} set_name={"Crota's End"}/>
+                        )
+                    })}
+                </div>
             </div>
         </div>
         </body>
-    );
+    )
 }
 
 export default function CrotaLoot() {
