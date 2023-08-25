@@ -19,7 +19,7 @@ export default function CrotaEncounter3() {
         <body className={styles.main}>
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
-            <ImageHeader title={"Crota's End"} subtitle={"Ir Yût, the Deathsinger"} icon={BungieIcons.raids.crotas_end} href={"chaosd2.com/crota/1"}/>
+            <ImageHeader title={"Crota's End"} subtitle={"Ir Yût, the Deathsinger"} icon={BungieIcons.raids.crotas_end} href={"chaosd2.com/crota/3"}/>
             <div className={styles.content}>
                 <ImageUnderConstruction/>
             </div>
