@@ -88,9 +88,13 @@ const encounter_dictionary = {
         crotas_end: {
             "1": [
                 "pit",
-                "the_pit"
+                "the_pit",
+                "abyss",
+                "the_abyss",
+                "enter"
             ],
             "2": [
+                "cross",
                 "bridge",
                 "the_bridge"
             ],

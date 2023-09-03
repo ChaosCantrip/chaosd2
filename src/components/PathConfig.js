@@ -4,11 +4,11 @@ export const PathConfig = {
             name: "Crota's End",
             encounters: {
                 1: {
-                    name: "The Pit",
+                    name: "Enter the Abyss",
                     ql: "/crota/1",
                 },
                 2: {
-                    name: "The Bridge",
+                    name: "Cross the Bridge",
                     ql: "/crota/2",
                 },
                 3: {
