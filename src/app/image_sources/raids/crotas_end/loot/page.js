@@ -76,7 +76,7 @@ const data = {
         }
     ],
     armour: {
-        set: "Crota's End",
+        set: "God-Knight Suit Willbreaker Suit Deathsinger Suit",
         hashes: {
             "Head": [
                 "1328334240",
