@@ -29,43 +29,49 @@ const items = {
 const data = {
     encounters: [
         {
-            name: "The Pit",
+            name: "Enter the Abyss",
             "items": [
-                "1432682459",
-                "3163900678"
+                items.scout_rifle,
+                items.auto_rifle,
+                items.machine_gun
             ],
             "armour": [
+                "Chest",
+                "Legs",
+                "Class Item"
             ]
         },
         {
-            name: "The Bridge",
+            name: "Cross the Bridge",
             "items": [
-                "120706239",
-                "833898322",
+                items.shotgun,
+                items.pulse_rifle,
+                items.scout_rifle
             ],
             "armour": [
+                "Arms",
+                "Chest"
             ]
         },
         {
             name: "Ir Yût, the Deathsinger",
             "items": [
-                "1098171824",
-                "2828278545"
+                items.pulse_rifle,
+                items.machine_gun
             ],
             "armour": [
+                "Arms",
+                "Chest"
             ]
         },
         {
             name: "Crota, Son of Oryx",
             "items": [
-                "1034055198"
+                items.hand_cannon,
+                items.auto_rifle
             ],
             "armour": [
                 "Head",
-                "Arms",
-                "Chest",
-                "Legs",
-                "Class Item"
             ]
         }
     ],
@@ -106,7 +112,7 @@ function temp() {
         <body className={styles.main}>
         <Image src={Background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
-            <ImageHeader title={"Crota's End"} subtitle={"Loot Table"} icon={BungieIcons.raids.crotas_end} href={"chaosd2.com/crota/loot"}/>
+            <ImageHeader title={"Crota's End"} subtitle={"Loot Table (Work in Progress)"} icon={BungieIcons.raids.crotas_end} href={"chaosd2.com/crota/loot"}/>
             <div className={styles.content}>
                 <h2 className={tempstyles.title}>Weapons</h2>
                 <div className={tempstyles.weapons}>
@@ -131,6 +137,5 @@ function temp() {
 }
 
 export default function CrotaLoot() {
-    return temp();
     return <LootTable activity="Crota's End" href="chaosd2.com/crota/loot" data={data} icon={BungieIcons.raids.crotas_end} background={Background}/>
 }
