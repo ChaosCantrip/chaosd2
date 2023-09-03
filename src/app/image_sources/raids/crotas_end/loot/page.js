@@ -73,6 +73,7 @@ const data = {
             ],
             "armour": [
                 "Head",
+                "Arms"
             ]
         }
     ],
