@@ -11,7 +11,7 @@ export const BungieIcons = {
         deep_stone_crypt: "https://www.bungie.net/common/destiny2_content/icons/9d6744eed9fa9b55f8190ce975f1872d.png",
         garden_of_salvation: "https://www.bungie.net/common/destiny2_content/icons/e48d301e674a19f17c5cb249a2da0173.png",
         last_wish: "https://www.bungie.net/common/destiny2_content/icons/597d5fe665eeb011ec0d74a5d9d8137e.png",
-        crotas_end: "https://www.bungie.net/common/destiny2_content/icons/ef1a8374c931321694d6d3d0d3e96247.png",
+        crotas_end: "https://www.bungie.net/common/destiny2_content/icons/9f7a4c302de91bade65119ce6c11021c.png",
     },
     dungeon_icon: "https://www.bungie.net/common/destiny2_content/icons/ec0cd75ba1d20333fe93f126046fc1d2.png",
     dungeons: {
