@@ -38,7 +38,7 @@ const static_definitions = {
         "damageTypeHashes": [
             damage.Strand
         ],
-        "itemTypeAndTierDisplayName": "Legendary Scout Rifle",
+        "itemTypeAndTierDisplayName": "Legendary Shotgun",
     },
     "1034055198": {
         "displayProperties": {

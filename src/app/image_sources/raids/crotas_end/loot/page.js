@@ -57,7 +57,8 @@ const data = {
             name: "Ir Yût, the Deathsinger",
             "items": [
                 items.pulse_rifle,
-                items.machine_gun
+                items.machine_gun,
+                items.hand_cannon
             ],
             "armour": [
                 "Arms",
