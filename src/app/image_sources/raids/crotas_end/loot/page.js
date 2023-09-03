@@ -69,7 +69,8 @@ const data = {
             name: "Crota, Son of Oryx",
             "items": [
                 items.hand_cannon,
-                items.auto_rifle
+                items.auto_rifle,
+                items.shotgun
             ],
             "armour": [
                 "Head",
