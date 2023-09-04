@@ -96,7 +96,7 @@ const static_definitions = {
             "recipeItemHash": 1
         },
         "equippingBlock": {
-            "ammoType": 2
+            "ammoType": 1
         },
         "damageTypeHashes": [
             damage.Arc
