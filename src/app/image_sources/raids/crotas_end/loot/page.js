@@ -1,13 +1,6 @@
 import LootTable from "@image_components/LootTable";
 import {BungieIcons} from "@components/BungieIcons";
 import Background from "@backgrounds/crotas_end.jpg";
-import styles from "@image_components/LootTable.module.css";
-import Image from "next/image";
-import ImageHeader from "@image_components/ImageHeader";
-import tempstyles from "./tempstyles.module.css";
-import ImageUnderConstruction from "@image_components/ImageUnderConstruction";
-import ItemInsert from "@image_components/ItemInsert";
-import ArmourInsert from "@image_components/ArmourInsert";
 
 export const metadata = {
     other: {
@@ -74,7 +67,8 @@ const data = {
             ],
             "armour": [
                 "Head",
-                "Arms"
+                "Arms",
+                "Class Item"
             ]
         }
     ],
@@ -108,35 +102,6 @@ const data = {
             ]
         }
     }
-}
-
-function temp() {
-    return (
-        <body className={styles.main}>
-        <Image src={Background} alt={""} className={styles.background}/>
-        <div className={styles.wrapper}>
-            <ImageHeader title={"Crota's End"} subtitle={"Loot Table (Work in Progress)"} icon={BungieIcons.raids.crotas_end} href={"chaosd2.com/crota/loot"}/>
-            <div className={styles.content}>
-                <h2 className={tempstyles.title}>Weapons</h2>
-                <div className={tempstyles.weapons}>
-                    {Object.keys(items).map((key) => {
-                        return (
-                            <ItemInsert key={key} item_hash={items[key]}/>
-                        )
-                    })}
-                </div>
-                <h2 className={tempstyles.title}>Armour</h2>
-                <div className={tempstyles.armour}>
-                    {Object.keys(data.armour.hashes).map((key) => {
-                        return (
-                            <ArmourInsert key={key} armour_hashes={data.armour.hashes[key]} slot_name={key} set_name={"Crota's End"}/>
-                        )
-                    })}
-                </div>
-            </div>
-        </div>
-        </body>
-    )
 }
 
 export default function CrotaLoot() {
