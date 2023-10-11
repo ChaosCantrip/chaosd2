@@ -314,6 +314,7 @@ const encounter_dictionary = {
             ],
             "6": [
                 "queenswalk",
+                "qw",
                 "heart",
             ],
         }
