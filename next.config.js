@@ -522,6 +522,26 @@ const nextConfig = {
                 permanent: true,
             },
             {
+                source: "/:before*/ls/:after*",
+                destination: "/:before*/lost_sectors/:after*",
+                permanent: true,
+            },
+            {
+                source: "/:before*/lostsector/:after*",
+                destination: "/:before*/lost_sectors/:after*",
+                permanent: true,
+            },
+            {
+                source: "/:before*/lost_sector/:after*",
+                destination: "/:before*/lost_sectors/:after*",
+                permanent: true,
+            },
+            {
+                source: "/:before*/lostsectors/:after*",
+                destination: "/:before*/lost_sectors/:after*",
+                permanent: true,
+            },
+            {
                 source: "/:path*/red_border",
                 destination: "/:path*/rb",
                 permanent: true,
