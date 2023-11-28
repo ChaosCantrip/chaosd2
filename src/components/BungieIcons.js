@@ -3,6 +3,7 @@ export const BungieIcons = {
     question_mark: "https://www.bungie.net/common/destiny2_content/icons/ef1a8374c931321694d6d3d0d3e96247.png",
     social_icon: "https://www.bungie.net/common/destiny2_content/icons/a419d147309eea798a5ae740bd66dea0.png",
     raid_icon: "https://www.bungie.net/common/destiny2_content/icons/9f7a4c302de91bade65119ce6c11021c.png",
+    lost_sectors_icon: "https://www.bungie.net/common/destiny2_content/icons/0e096fc6af03d3692950c8bf6e015b67.png",
     raids: {
         root_of_nightmares: "https://www.bungie.net/common/destiny2_content/icons/f2b6ec58e14244e4972705897667c246.png",
         kings_fall: "https://www.bungie.net/common/destiny2_content/icons/0e515c7cf25a2f2350b788e6f5b7f8eb.png",
