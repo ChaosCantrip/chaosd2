@@ -24,5 +24,12 @@ export const BungieIcons = {
         pit_of_heresy: "https://www.bungie.net/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
         shattered_throne: "https://www.bungie.net/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
     },
-    ghost_icon: "https://www.bungie.net/common/destiny2_content/icons/609656dd7584efe1d2406be18131102f.png"
+    ghost_icon: "https://www.bungie.net/common/destiny2_content/icons/609656dd7584efe1d2406be18131102f.png",
+    damage_types: {
+        Strand: "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_b2fe51a94f3533f97079dfa0d27a4096.png",
+        Solar: "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_2a1773e10968f2d088b97c22b22bba9e.png",
+        Arc: "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_092d066688b879c807c3b460afdd61e6.png",
+        Void: "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_ceb2f6197dccf3958bb31cc783eb97a0.png",
+        Stasis: "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_530c4c3e7981dc2aefd24fd3293482bf.png"
+    }
 }
