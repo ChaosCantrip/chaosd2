@@ -62,3 +62,7 @@ export async function get_item_definition(item_hash) {
 export async function get_damage_definition(damage_hash) {
     return await get_definition("DestinyDamageTypeDefinition", damage_hash);
 }
+
+export async function get_modifier_definition(modifier_hash) {
+    return await get_definition("DestinyActivityModifierDefinition", modifier_hash);
+}
