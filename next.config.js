@@ -518,7 +518,7 @@ const nextConfig = {
             },
             {
                 source: "/:before*/dungeon/:after*",
-                destination: "/:before/dungeons/:after*",
+                destination: "/:before*/dungeons/:after*",
                 permanent: true,
             },
             {
