@@ -7,7 +7,7 @@ import {get_modifier_definition} from "@lib/bungie/APIHandler";
 export default async function LostSector({ name, location, background, href, data }) {
     return (
         <body className={styles.main}>
-        <Image src={background} alt={""} className={styles.background}/>
+        <img src={background} alt={""} className={styles.background}/>
         <div className={styles.wrapper}>
             <ImageHeader title={name} subtitle={location} icon={BungieIcons.lost_sectors_icon} href={href}/>
             <div className={styles.content}>
