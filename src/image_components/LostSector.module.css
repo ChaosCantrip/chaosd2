@@ -172,3 +172,8 @@
 .section_header {
     font-family: var(--header-font-family);
 }
+
+.surges_comment {
+    font-size: 1.2rem;
+    font-style: italic;
+}
