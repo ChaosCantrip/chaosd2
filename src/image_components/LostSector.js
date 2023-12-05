@@ -78,16 +78,6 @@ function ChampionIcons({ champions }) {
 async function Modifiers({ modifiers }) {
     const modifier_definitions = []
     for (const modifier of modifiers) {
-        if (isNaN(modifier)) {
-            modifier_definitions.push({
-                "displayProperties": {
-                    "name": modifier,
-                    "description": "James Fix the API you dolt",
-                    "icon": BungieIcons.question_mark.slice(22,)
-                }
-            })
-            continue
-        }
         modifier_definitions.push(await get_modifier_definition(modifier))
     }
     return (
