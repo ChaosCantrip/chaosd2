@@ -88,7 +88,6 @@ async function Modifiers({ modifiers, surges }) {
     }
     return (
         <div className={styles.modifiers_wrapper}>
-            <p className={styles.section_header}>Modifiers</p>
             <div className={styles.modifiers_grid}>
                 {modifier_definitions.map((modifier, index) => {
                     const original_description = modifier.displayProperties.description
