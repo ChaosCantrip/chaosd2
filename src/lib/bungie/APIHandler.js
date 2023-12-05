@@ -63,6 +63,27 @@ export async function get_damage_definition(damage_hash) {
     return await get_definition("DestinyDamageTypeDefinition", damage_hash);
 }
 
+const static_modifiers = {
+    "Legend Modifiers": {
+        "displayProperties": {
+            "name": "Legend Modifiers",
+            "description": "Legend Modifiers",
+            "icon": "/common/destiny2_content/icons/91abb126d5f923d92d30e2bd2e11dce2.png"
+        }
+    },
+    "Master Modifiers": {
+        "displayProperties": {
+            "name": "Master Modifiers",
+            "description": "Master Modifiers",
+            "icon": "/common/destiny2_content/icons/2aec83801423335c14d6fd54d7b57c1d.png"
+        }
+    }
+}
+
 export async function get_modifier_definition(modifier_hash) {
+    if (modifier_hash in static_modifiers) {
+        console.log(`Using static definition for ${modifier_hash}`);
+        return static_modifiers[modifier_hash];
+    }
     return await get_definition("DestinyActivityModifierDefinition", modifier_hash);
 }
