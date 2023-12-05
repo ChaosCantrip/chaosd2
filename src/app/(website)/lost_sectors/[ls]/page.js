@@ -31,11 +31,13 @@ export async function generateMetadata({ params }) {
             card: 'summary',
             title: `${data.name} | chaosd2`,
             description: `Infographic for ${data.name} in Destiny 2.`,
-            creator: '@chaosd2dev'
+            creator: '@chaosd2dev',
+            images: [`${data.ql}/i`]
         },
         openGraph: {
             title: `${data.name} | chaosd2`,
             description: `Infographic for ${data.name} in Destiny 2.`,
+            images: [`${data.ql}/i`]
         }
     };
 }
