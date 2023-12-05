@@ -35,6 +35,7 @@ export default function Header() {
                         <SubLink href={"/dungeons/pit_of_heresy"} icon={BungieIcons.dungeons.pit_of_heresy}>Pit of Heresy</SubLink>
                         <SubLink href={"/dungeons/shattered_throne"} icon={BungieIcons.dungeons.shattered_throne}>Shattered Throne</SubLink>
                     </SubMenu>
+                    <NavLink href={"/lost_sectors"}>Lost Sectors</NavLink>
                     <NavLink href={"/reference"} desktop_only={true}>Reference</NavLink>
                     <NavLink href={"/support"} desktop_only={true}>Support chaosd2</NavLink>
                 </nav>
