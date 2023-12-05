@@ -475,5 +475,42 @@ export const PathConfig = {
                 }
             }
         }
+    },
+    lost_sectors: {
+        "aphelions_rest": {
+            name: "Aphelion's Rest",
+            location: "The Dreaming City",
+            ql: "/ls/aphelions_rest"
+        },
+        "bay_of_drowned_wishes": {
+            name: "Bay of Drowned Wishes",
+            location: "The Dreaming City",
+            ql: "/ls/bay_of_drowned_wishes"
+        },
+        "bunker_e15": {
+            name: "Bunker E15",
+            location: "Europa",
+            ql: "/ls/bunker_e15"
+        },
+        "chamber_of_starlight": {
+            name: "Chamber of Starlight",
+            location: "The Dreaming City",
+            ql: "/ls/chamber_of_starlight"
+        },
+        "concealed_void": {
+            name: "Concealed Void",
+            location: "Europa",
+            ql: "/ls/concealed_void"
+        },
+        "perdition": {
+            name: "Perdition",
+            location: "Europa",
+            ql: "/ls/perdition"
+        },
+        "thrilladrome": {
+            name: "Thrilladrome",
+            location: "Neomuna",
+            ql: "/ls/thrilladrome"
+        }
     }
 }
