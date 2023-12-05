@@ -19,7 +19,7 @@ export default async function LostSector({ name, location, background, href, dat
                     <div className={styles.card_content}>
                         <ShieldIcons shields={data.Legend.Shields}/>
                         <ChampionIcons champions={data.Legend.Champions}/>
-                        <Modifiers modifiers={data.Legend.Modifiers}/>
+                        <Modifiers modifiers={data.Legend.Modifiers} surges={data.Legend.Surges}/>
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -30,7 +30,7 @@ export default async function LostSector({ name, location, background, href, dat
                     <div className={styles.card_content}>
                         <ShieldIcons shields={data.Master.Shields}/>
                         <ChampionIcons champions={data.Master.Champions}/>
-                        <Modifiers modifiers={data.Master.Modifiers}/>
+                        <Modifiers modifiers={data.Master.Modifiers} surges={data.Master.Surges}/>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ function ChampionIcons({ champions }) {
     )
 }
 
-async function Modifiers({ modifiers }) {
+async function Modifiers({ modifiers, surges }) {
     const modifier_definitions = []
     for (const modifier of modifiers) {
         modifier_definitions.push(await get_modifier_definition(modifier))
@@ -103,6 +103,33 @@ async function Modifiers({ modifiers }) {
                         </div>
                     )
                 })}
+                <div className={styles.modifier_wrapper}>
+                    <div className={styles.modifier_icon_wrapper}>
+                        <img src={"https://www.bungie.net/common/destiny2_content/icons/fa272bcba4bd8a60291713907220da36.png"} alt={""} className={styles.modifier_icon}/>
+                    </div>
+                    <div className={styles.modifier_text_wrapper}>
+                        <p className={styles.modifier_name}>Elemental Surges</p>
+                        <p className={styles.modifier_description}>2 Surges of either {surges.map((surge, index) => {
+                            if (index === surges.length - 1) {
+                                return " or " + surge
+                            } else if (index === surges.length - 2) {
+                                return surge
+                            } else {
+                                return surge + ", "
+                            }
+                        })} will be active.</p>
+                        <div className={styles.surge_icons_wrapper}>
+                            <div className={styles.surge_icons}>
+                                {surges.map((surge, index) => {
+                                    return (
+                                        <img key={index} src={BungieIcons.damage_types[surge]} alt={""}
+                                             className={styles.surge_icon}/>
+                                    )
+                                })}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
