@@ -3,6 +3,8 @@
     flex-direction: column;
     color: white;
     overflow: hidden;
+    --header-font-family: 'Montserrat', sans-serif;
+    --text-font-family: 'Roboto', sans-serif;
 }
 
 .background {
