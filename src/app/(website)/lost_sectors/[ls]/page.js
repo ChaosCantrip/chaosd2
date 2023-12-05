@@ -28,7 +28,7 @@ export async function generateMetadata({ params }) {
         title: data.name,
         description: `Infographic for ${data.name} in Destiny 2.`,
         twitter: {
-            card: 'summary',
+            card: 'summary_large_image',
             title: `${data.name} | chaosd2`,
             description: `Infographic for ${data.name} in Destiny 2.`,
             creator: '@chaosd2dev',
