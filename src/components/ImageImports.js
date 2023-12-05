@@ -111,6 +111,13 @@ import STBackground from "@images/backgrounds/st.jpg";
 import RaidBackground from "@images/backgrounds/raid.jpg";
 import DungeonBackground from "@images/backgrounds/dungeon.jpg";
 import HomeBackground from "@images/backgrounds/home.jpg";
+import AphelionsRestImage from "@images/lost_sectors/aphelions_rest.png";
+import BayOfDrownedWishesImage from "@images/lost_sectors/bay_of_drowned_wishes.png";
+import BunkerE15Image from "@images/lost_sectors/bunker_e15.png";
+import ChamberOfStarlightImage from "@images/lost_sectors/chamber_of_starlight.png";
+import ConcealedVoidImage from "@images/lost_sectors/concealed_void.png";
+import PerditionImage from "@images/lost_sectors/perdition.png";
+import ThrilladromeImage from "@images/lost_sectors/thrilladrome.png";
 
 export const backgrounds = {
     raid: RaidBackground,
@@ -262,5 +269,14 @@ export const image_sources = {
             3: ST3Image,
             loot: STLootImage,
         }
+    },
+    lost_sectors: {
+        aphelions_rest: AphelionsRestImage,
+        bay_of_drowned_wishes: BayOfDrownedWishesImage,
+        bunker_e15: BunkerE15Image,
+        chamber_of_starlight: ChamberOfStarlightImage,
+        concealed_void: ConcealedVoidImage,
+        perdition: PerditionImage,
+        thrilladrome: ThrilladromeImage
     }
 }
