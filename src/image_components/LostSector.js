@@ -2,7 +2,7 @@ import styles from "./LostSector.module.css";
 import Image from "next/image";
 import ImageHeader from "@image_components/ImageHeader";
 import {BungieIcons} from "@components/BungieIcons";
-import {get_modifier_definition} from "@lib/bungie/APIHandler";
+import {get_modifier_definition, string_variables} from "@lib/bungie/APIHandler";
 
 export default async function LostSector({ name, location, background, href, data }) {
     return (
@@ -95,6 +95,12 @@ async function Modifiers({ modifiers }) {
             <p>Modifiers</p>
             <div className={styles.modifiers_grid}>
                 {modifier_definitions.map((modifier, index) => {
+                    const original_description = modifier.displayProperties.description
+                    // search for {var:[0-9]+} and replace with the corresponding value
+                    const description = original_description.replace(/{var:[0-9]+}/g, (match) => {
+                        const variable = match.slice(5, -1)
+                        return string_variables[variable]
+                    })
                     return (
                         <div key={index} className={styles.modifier_wrapper}>
                             <div className={styles.modifier_icon_wrapper}>
@@ -102,7 +108,7 @@ async function Modifiers({ modifiers }) {
                             </div>
                             <div className={styles.modifier_text_wrapper}>
                                 <p className={styles.modifier_name}>{modifier.displayProperties.name}</p>
-                                <p className={styles.modifier_description}>{modifier.displayProperties.description}</p>
+                                <p className={styles.modifier_description}>{description}</p>
                             </div>
                         </div>
                     )

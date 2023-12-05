@@ -87,3 +87,8 @@ export async function get_modifier_definition(modifier_hash) {
     }
     return await get_definition("DestinyActivityModifierDefinition", modifier_hash);
 }
+
+export const string_variables = {
+    4005007457: 25,
+    1027206613: 25
+}
