@@ -123,8 +123,8 @@
 }
 
 .modifier_icon {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
 }
 .modifier_text_wrapper {
     display: flex;
@@ -140,4 +140,18 @@
 .modifier_description {
     font-size: 1rem;
     font-style: italic;
+}
+
+.surge_icons_wrapper {
+}
+
+.surge_icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 1rem;
+}
+
+.surge_icon {
+    width: 1.5rem;
+    height: 1.5rem;
 }
