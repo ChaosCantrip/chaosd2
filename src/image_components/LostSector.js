@@ -14,7 +14,10 @@ export default async function LostSector({ name, location, background, href, dat
                 <div className={styles.card}>
                     <div className={styles.card_title}>
                         <h1>Legend</h1>
-                        <p className={styles.light_level}>69</p>
+                        <div className={styles.light_level_wrapper}>
+                            <p>Light Level</p>
+                            <p className={styles.light_level}>1830</p>
+                        </div>
                     </div>
                     <div className={styles.card_content}>
                         <ShieldIcons shields={data.Legend.Shields}/>
@@ -25,7 +28,10 @@ export default async function LostSector({ name, location, background, href, dat
                 <div className={styles.card}>
                     <div className={styles.card_title}>
                         <h1>Master</h1>
-                        <p className={styles.light_level}>420</p>
+                        <div className={styles.light_level_wrapper}>
+                            <p>Light Level</p>
+                            <p className={styles.light_level}>1840</p>
+                        </div>
                     </div>
                     <div className={styles.card_content}>
                         <ShieldIcons shields={data.Master.Shields}/>
@@ -42,7 +48,7 @@ export default async function LostSector({ name, location, background, href, dat
 function ShieldIcons({ shields }) {
     return (
         <div className={styles.foe_icons_wrapper}>
-            <p>Shields</p>
+            <p className={styles.section_header}>Shields</p>
             <div className={styles.foe_icons}>
                 {shields.map((shield, index) => {
                     return (
@@ -60,7 +66,7 @@ function ShieldIcons({ shields }) {
 function ChampionIcons({ champions }) {
     return (
         <div className={styles.foe_icons_wrapper}>
-            <p>Champions</p>
+            <p className={styles.section_header}>Champions</p>
             <div className={styles.foe_icons}>
                 {champions.map((champion, index) => {
                     return (
@@ -82,7 +88,7 @@ async function Modifiers({ modifiers, surges }) {
     }
     return (
         <div className={styles.modifiers_wrapper}>
-            <p>Modifiers</p>
+            <p className={styles.section_header}>Modifiers</p>
             <div className={styles.modifiers_grid}>
                 {modifier_definitions.map((modifier, index) => {
                     const original_description = modifier.displayProperties.description

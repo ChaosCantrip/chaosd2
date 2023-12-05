@@ -79,18 +79,20 @@
     align-items: center;
     justify-content: center;
     gap: 0.8rem;
-    padding: 0.6rem;
+    padding: 0.5rem 1rem;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 0.5rem;
 }
 
 .foe_icon {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .foe_icon_text {
     font-size: 1.2rem;
+    font-weight: bold;
+    font-family: var(--header-font-family);
 }
 
 .modifiers_wrapper {
@@ -133,8 +135,9 @@
 }
 
 .modifier_name {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
+    font-family: var(--header-font-family);
 }
 
 .modifier_description {
@@ -154,4 +157,21 @@
 .surge_icon {
     width: 1.5rem;
     height: 1.5rem;
+}
+
+.light_level_wrapper {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.light_level_wrapper > p {
+    font-family: var(--header-font-family);
+}
+
+.section_header {
+    font-family: var(--header-font-family);
 }
