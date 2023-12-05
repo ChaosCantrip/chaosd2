@@ -1,5 +1,4 @@
 import styles from "./LostSector.module.css";
-import Image from "next/image";
 import ImageHeader from "@image_components/ImageHeader";
 import {BungieIcons} from "@components/BungieIcons";
 import {get_modifier_definition, string_variables} from "@lib/bungie/APIHandler";
@@ -91,7 +90,6 @@ async function Modifiers({ modifiers }) {
             <div className={styles.modifiers_grid}>
                 {modifier_definitions.map((modifier, index) => {
                     const original_description = modifier.displayProperties.description
-                    // search for {var:[0-9]+} and replace with the corresponding value
                     const description = original_description.replace(/{var:[0-9]+}/g, (match) => {
                         const variable = match.slice(5, -1)
                         return string_variables[variable]
