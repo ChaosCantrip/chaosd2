@@ -1,6 +1,6 @@
 import layout from "@styles/modules/layout.module.css";
 import BackgroundImage from "@components/BackgroundImage";
-import Background from "@backgrounds/raid.jpg";
+import Background from "@backgrounds/home.jpg";
 import Title from "@components/Title";
 import {BungieIcons} from "@components/BungieIcons";
 import Image from "next/image";
