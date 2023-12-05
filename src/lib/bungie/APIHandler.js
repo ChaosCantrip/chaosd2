@@ -67,14 +67,14 @@ const static_modifiers = {
     "Legend Modifiers": {
         "displayProperties": {
             "name": "Legend Modifiers",
-            "description": "Legend Modifiers",
+            "description": "Locked Loadout, Extra Shields, Limited Revives",
             "icon": "/common/destiny2_content/icons/91abb126d5f923d92d30e2bd2e11dce2.png"
         }
     },
     "Master Modifiers": {
         "displayProperties": {
             "name": "Master Modifiers",
-            "description": "Master Modifiers",
+            "description": "Locked Loadout, Extra Shields, Extra Champions, Limited Revives",
             "icon": "/common/destiny2_content/icons/2aec83801423335c14d6fd54d7b57c1d.png"
         }
     }
