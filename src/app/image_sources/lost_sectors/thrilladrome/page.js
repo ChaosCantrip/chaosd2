@@ -1,7 +1,5 @@
 import LostSector from "@image_components/LostSector";
 
-/* TODO: This is a placeholder page. */
-
 const data = {
     "Background": "https://www.bungie.net/img/destiny_content/pgcr/neomuna_lost_sector_thrilladrome.jpg",
     "Legend": {

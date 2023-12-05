@@ -1,7 +1,5 @@
 import LostSector from "@image_components/LostSector";
 
-/* TODO: This is a placeholder page. */
-
 const data = {
     "Background": "https://www.bungie.net/img/destiny_content/pgcr/dreaming_city_aphelions_rest.jpg",
     "Legend": {
