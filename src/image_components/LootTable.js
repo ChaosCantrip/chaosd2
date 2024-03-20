@@ -6,6 +6,7 @@ import Image from "next/image";
 import AnyItemInsert from "@image_components/AnyItemInsert";
 import {ItemExtra} from "@image_components/ItemExtra";
 import ImageHeader from "@image_components/ImageHeader";
+import KeepAlive from "@image_components/KeepAlive";
 
 export default async function LootTable({ activity, icon, background, href, data }) {
     return (
@@ -65,6 +66,7 @@ export default async function LootTable({ activity, icon, background, href, data
                     </div>
                 </div>
             </div>
+        <KeepAlive />
         </body>
     )
 }
