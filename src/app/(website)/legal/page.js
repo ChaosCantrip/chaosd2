@@ -1,9 +1,12 @@
 import layout from '@styles/modules/layout.module.css';
 import Title from "@components/Title";
+import BackgroundImage from "@components/BackgroundImage";
+import Background from "@backgrounds/home.jpg";
 
 export default function LegalPage() {
     return (
         <div className={layout.page}>
+            <BackgroundImage src={Background}/>
             <Title title={"The Legal Stuff"} show_back_button={false}/>
             <p>idk much about legal stuff I'm just some dude</p>
             <p>I'm not associated with Destiny 2 or Bungie in any way</p>
