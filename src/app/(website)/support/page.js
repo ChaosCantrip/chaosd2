@@ -17,24 +17,27 @@ export default function SupportPage(){
                     <div className={styles.top}>
                         <div className={styles.text}>
                             <p>
+                                I might have to close down the site soon! Sadly I don't really have the money to be able
+                                to keep this site alive or the time to work on new guides. The domain runs out soon, and
+                                this sadly means the site will go down. If you enjoy using the website, please consider
+                                donating to help pay for the hosting costs of the website, and help me keep chaosd2
+                                alive!
+                            </p>
+                            <p>
                                 chaosd2 is a passion project I created to try and make it easier to share guides and
                                 maps for Destiny 2. I'm not a professional graphic designer, but I try my best to make
                                 the images look good and be easy to understand. I'm always looking for feedback on how
                                 to improve the website, so if you have any suggestions, please let me know!
                             </p>
                             <p>
-                                I work on the website in my spare time, so it's not always easy to find the time to
-                                work on it. If you'd like to support the website, you can do so by donating! This will
-                                help me pay for the hosting costs of the website, and any extra will go towards development
-                                and creating new images.
-                            </p>
-                            <p>
                                 Thank you for your support!
                             </p>
                         </div>
                         <div className={styles.link}>
-                            <p>If you'd like to support the website, you can do so by donating and help me to keep the lights on. You have no idea how much I appreciate it!</p>
-                            <a href="https://donate.stripe.com/bIY8xC4c1ezmc806oo" target="_blank" rel="noopener noreferrer" className={styles.button}>Click here to donate!</a>
+                            <p>If you'd like to support the website, you can do so by donating and help me to keep the
+                                lights on. You have no idea how much I appreciate it!</p>
+                            <a href="https://donate.stripe.com/bIY8xC4c1ezmc806oo" target="_blank"
+                               rel="noopener noreferrer" className={styles.button}>Click here to donate!</a>
                         </div>
                     </div>
                     <div>
