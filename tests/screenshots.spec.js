@@ -19,7 +19,7 @@ test("screenshot", async ({ page }) => {
         });
         fs.readdirSync('src/app/image_sources/lost_sectors').forEach(dir => {
             fs.readdirSync(`src/app/image_sources/lost_sectors/${dir}`).forEach(file => {
-                list_of_paths.push(`lost_sectors/${dir}/${file}`);
+                list_of_paths.push(`lost_sectors/${dir}`);
             });
         });
     }
