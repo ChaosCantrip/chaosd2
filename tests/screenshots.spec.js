@@ -1,54 +1,44 @@
 import { test } from "@playwright/test";
 const fs = require('fs');
 
-const list_of_paths = [
+const regexes = [
+    ".*/.*/loot"
 ];
 
 test("screenshot", async ({ page }) => {
     test.setTimeout(1200000);
-    if (list_of_paths.length === 0) {
-        fs.readdirSync('src/app/image_sources/dungeons').forEach(dir => {
-            fs.readdirSync(`src/app/image_sources/dungeons/${dir}`).forEach(file => {
-                list_of_paths.push(`dungeons/${dir}/${file}`);
-            });
+    const possible_paths = []
+    fs.readdirSync('src/app/image_sources/dungeons').forEach(dir => {
+        fs.readdirSync(`src/app/image_sources/dungeons/${dir}`).forEach(file => {
+            possible_paths.push(`dungeons/${dir}/${file}`);
         });
-        fs.readdirSync('src/app/image_sources/raids').forEach(dir => {
-            fs.readdirSync(`src/app/image_sources/raids/${dir}`).forEach(file => {
-                list_of_paths.push(`raids/${dir}/${file}`);
-            });
+    });
+    fs.readdirSync('src/app/image_sources/raids').forEach(dir => {
+        fs.readdirSync(`src/app/image_sources/raids/${dir}`).forEach(file => {
+            possible_paths.push(`raids/${dir}/${file}`);
         });
-        fs.readdirSync('src/app/image_sources/lost_sectors').forEach(dir => {
-            list_of_paths.push(`lost_sectors/${dir}`);
-        });
-    }
-    console.log(list_of_paths);
+    });
+    fs.readdirSync('src/app/image_sources/lost_sectors').forEach(dir => {
+        possible_paths.push(`lost_sectors/${dir}`);
+    });
 
-    const to_add = [];
-    const to_remove = [];
+    const list_of_paths = [];
 
-    for (let i = 0; i < list_of_paths.length; i++) {
-        const given_path = list_of_paths[i];
-        if (given_path.endsWith("*")) {
-            const path = given_path.split("*")[0];
-            const files = fs.readdirSync(`src/app/image_sources/${path}`);
-            for (let j = 0; j < files.length; j++) {
-                to_add.push(`${path}${files[j]}`);
+    for (let i = 0; i < possible_paths.length; i++) {
+        // check against regex in regexes
+        let add = false;
+        for (let j = 0; j < regexes.length; j++) {
+            if (possible_paths[i].match(regexes[j])) {
+                add = true;
+                break;
             }
-            to_remove.push(given_path);
+        }
+        if (add) {
+            list_of_paths.push(possible_paths[i]);
         }
     }
 
-    for (let i = 0; i < to_remove.length; i++) {
-        list_of_paths.splice(list_of_paths.indexOf(to_remove[i]), 1);
-    }
-
-    for (let i = 0; i < to_add.length; i++) {
-        list_of_paths.push(to_add[i]);
-    }
-
-    if (to_add.length > 0) {
-        console.log(list_of_paths);
-    }
+    console.log(list_of_paths);
 
     for (let i = 0; i < list_of_paths.length; i++) {
         const given_path = list_of_paths[i];
