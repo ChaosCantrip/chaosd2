@@ -1,5 +1,4 @@
 import styles from "./ImageUnderConstruction.module.css";
-import KeepAlive from "@image_components/KeepAlive";
 
 export default function ImageUnderConstruction() {
     return (
@@ -11,7 +10,6 @@ export default function ImageUnderConstruction() {
                 <p>I am prioritising those encounters that I feel require a guide or map more so than the others.</p>
                 <p>Please be patient, and I will get around to completing this one eventually.</p>
             </div>
-            <KeepAlive />
         </div>
     )
 }
