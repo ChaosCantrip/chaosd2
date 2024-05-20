@@ -2,7 +2,6 @@ import styles from "./LostSector.module.css";
 import ImageHeader from "@image_components/ImageHeader";
 import {BungieIcons} from "@components/BungieIcons";
 import {get_modifier_definition, string_variables} from "@lib/bungie/APIHandler";
-import KeepAlive from "@image_components/KeepAlive";
 
 export default async function LostSector({ name, location, background, href, data }) {
     return (
@@ -41,7 +40,6 @@ export default async function LostSector({ name, location, background, href, dat
                 </div>
             </div>
         </div>
-        <KeepAlive />
         </body>
     )
 }
