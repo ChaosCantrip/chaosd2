@@ -8,7 +8,6 @@ import {get_item_definition} from "@lib/bungie/APIHandler";
 import ItemInsert from "@image_components/ItemInsert";
 import CombinedImage from "@image_components/CombinedImage";
 import {ClassIcons} from "@image_components/ClassIcons";
-import KeepAlive from "@image_components/KeepAlive";
 
 export const metadata = {
     other: {
@@ -93,7 +92,6 @@ export default function LWLoot() {
                     </div>
                 </div>
             </div>
-        <KeepAlive />
         </body>
     );
 }
