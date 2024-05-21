@@ -16,6 +16,7 @@ export const BungieIcons = {
     },
     dungeon_icon: "https://www.bungie.net/common/destiny2_content/icons/ec0cd75ba1d20333fe93f126046fc1d2.png",
     dungeons: {
+        warlords_ruin: "https://www.bungie.net/common/destiny2_content/icons/e5f919f084ce74b117a52e6c6becc98d.png",
         ghosts_of_the_deep: "https://www.bungie.net/common/destiny2_content/icons/1c5f3bb19ecd178dca654e29667dead8.png",
         spire_of_the_watcher: "https://www.bungie.net/common/destiny2_content/icons/241785dc00e0bf32e30d0031e299cefd.png",
         duality: "https://www.bungie.net/common/destiny2_content/icons/de980f8f4a07662455dd7fa1b3aa2169.png",
