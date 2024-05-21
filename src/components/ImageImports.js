@@ -68,6 +68,11 @@ import LWLootImage from "@images/raids/last_wish/loot.png";
 import LWSymbolsImage from "@images/raids/last_wish/symbols.png";
 import LWBackground from "@images/backgrounds/last_wish.jpg";
 import LWChallengesImage from "@images/raids/last_wish/challenges.png";
+import Warlords1Image from "@images/dungeons/warlords_ruin/1.png";
+import Warlords2Image from "@images/dungeons/warlords_ruin/2.png";
+import Warlords3Image from "@images/dungeons/warlords_ruin/3.png";
+import WarlordsLootImage from "@images/dungeons/warlords_ruin/loot.png";
+import WarlordsBackground from "@images/backgrounds/warlords_ruin.jpg";
 import Ghosts1Image from "@images/dungeons/ghosts_of_the_deep/1.png";
 import Ghosts2Image from "@images/dungeons/ghosts_of_the_deep/2.png";
 import Ghosts3Image from "@images/dungeons/ghosts_of_the_deep/3.png";
@@ -222,6 +227,12 @@ export const image_sources = {
         }
     },
     dungeons: {
+        warlords_ruin: {
+            1: Warlords1Image,
+            2: Warlords2Image,
+            3: Warlords3Image,
+            loot: WarlordsLootImage
+        },
         ghosts_of_the_deep: {
             1: Ghosts1Image,
             2: Ghosts2Image,
