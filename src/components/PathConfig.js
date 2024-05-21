@@ -302,6 +302,27 @@ export const PathConfig = {
         }
     },
     dungeons: {
+        warlords_ruin: {
+            name: "Warlord's Ruin",
+            encounters: {
+                1: {
+                    name: "Rathl, First Broken Knight of Fikrul",
+                    ql: "/wr/1",
+                },
+                2: {
+                    name: "Locus of Wailing Grief",
+                    ql: "/wr/2",
+                },
+                3: {
+                    name: "Hefnid's Vengeance, Blighted Chimera",
+                    ql: "/wr/3",
+                },
+                loot: {
+                    name: "Loot Table",
+                    ql: "/wr/loot",
+                }
+            }
+        },
         ghosts_of_the_deep: {
             name: "Ghosts of the Deep",
             encounters: {

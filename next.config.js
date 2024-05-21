@@ -79,6 +79,12 @@ const activity_dictionary = {
             "st",
             "shatteredthrone",
             "throne",
+        ],
+        warlords_ruin: [
+            "wr",
+            "warlord",
+            "warlords",
+            "ruin"
         ]
     }
 }
@@ -320,6 +326,23 @@ const encounter_dictionary = {
         }
     },
     dungeons: {
+        warlords_ruin: {
+            "1": [
+                "rasthl",
+                "knight",
+                "fikrul"
+            ],
+            "2": [
+                "locus",
+                "grief"
+            ],
+            "3": [
+                "hefnid",
+                "chimera",
+                "blight",
+                "boss"
+            ]
+        },
         ghosts_of_the_deep: {
             "1": [
                 "ritual"
