@@ -35,16 +35,17 @@ export default function ActivityPage({ params }) {
                 {Object.keys(data.encounters).map((encounter_id) => {
                     const encounter = data.encounters[encounter_id];
                     return (
-                        <Dropdown title={encounter.name} href={encounter.ql} key={encounter_id} done={encounter.done}>
-                            <div className={custom.dropdown_content}>
+                        <div key={encounter_id} className={custom.encounter}>
+                            <div className={custom.encounter_title}>
+                                <h1 className={custom.encounter_name}>{encounter.name}</h1>
                                 <QuickLink href={encounter.ql}/>
-                                <div className={custom.dropdown_image_wrapper}>
-                                    <Link href={`${encounter.ql}/i`} className={custom.image_link}>
-                                        <Image src={image_sources[rad][activity][encounter_id]} alt={<a href={encounter.ql}>{encounter.name}</a>} className={custom.dropdown_image} placeholder="blur"/>
-                                    </Link>
-                                </div>
                             </div>
-                        </Dropdown>
+                            <div className={custom.image_wrapper}>
+                                <Link href={`${encounter.ql}/i`} className={custom.image_link}>
+                                    <Image src={image_sources[rad][activity][encounter_id]} alt={<a href={encounter.ql}>{encounter.name}</a>} className={custom.dropdown_image} placeholder="blur"/>
+                                </Link>
+                            </div>
+                        </div>
                     )
                 })}
             </div>

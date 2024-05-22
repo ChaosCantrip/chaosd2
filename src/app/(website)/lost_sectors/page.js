@@ -36,16 +36,19 @@ export default function LostSectorsPage() {
                     {Object.keys(PathConfig.lost_sectors).map((lost_sector_id) => {
                         const lost_sector = PathConfig.lost_sectors[lost_sector_id];
                         return (
-                            <Dropdown title={`${lost_sector.name}, ${lost_sector.location}`} href={lost_sector.ql} key={lost_sector_id} done={true}>
-                                <div className={custom.dropdown_content}>
+                            <div key={lost_sector_id} className={custom.encounter}>
+                                <div className={custom.encounter_title}>
+                                    <h1 className={custom.encounter_name}>{lost_sector.name}</h1>
                                     <QuickLink href={lost_sector.ql}/>
-                                    <div className={custom.dropdown_image_wrapper}>
-                                        <Link href={`${lost_sector.ql}/i`} className={custom.image_link}>
-                                            <Image src={image_sources.lost_sectors[lost_sector_id]} alt={<a href={lost_sector.ql}>{lost_sector.name}</a>} className={custom.dropdown_image} placeholder="blur"/>
-                                        </Link>
-                                    </div>
                                 </div>
-                            </Dropdown>
+                                <div className={custom.image_wrapper}>
+                                    <Link href={`${lost_sector.ql}/i`} className={custom.image_link}>
+                                        <Image src={image_sources["lost_sectors"][lost_sector_id]}
+                                               alt={<a href={lost_sector.ql}>{lost_sector.name}</a>}
+                                               className={custom.dropdown_image} placeholder="blur"/>
+                                    </Link>
+                                </div>
+                            </div>
                         )
                     })}
                 </div>

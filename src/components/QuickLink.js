@@ -32,7 +32,6 @@ export default function QuickLink({ href }) {
     }
     return (
         <div className={styles.wrapper}>
-            <p className={styles.text}>Quick Link: </p>
             <a href={href} className={styles.link}>https://chaosd2.com{href}</a>
             <button onClick={copy_link} className={styles.button}>
                 <FontAwesomeIcon icon={get_icon()} />

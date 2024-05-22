@@ -7,11 +7,12 @@
     justify-content: center;
 }
 
-.dropdown_image_wrapper {
+.image_wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 2rem;
 }
 
 .image_link {
@@ -21,4 +22,17 @@
 .dropdown_image {
     width: 100%;
     height: auto;
+}
+
+.encounter {
+    margin-block: 2rem;
+    padding-inline: 2rem;
+}
+
+.encounter_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    margin-bottom: 1rem;
 }
