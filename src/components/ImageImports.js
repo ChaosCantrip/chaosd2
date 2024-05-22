@@ -143,6 +143,7 @@ export const backgrounds = {
     vow_of_the_disciple: VowBackground,
     ghosts_of_the_deep: GhostsBackground,
     crotas_end: CrotaBackground,
+    warlords_ruin: WarlordsBackground
 }
 
 export const image_sources = {
