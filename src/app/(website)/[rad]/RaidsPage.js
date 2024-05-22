@@ -32,7 +32,7 @@ export default function RaidsPage() {
                 <Title title={"Raids"} icon_url={BungieIcons.raid_icon} show_back_button={false}/>
                 <div className={layout.page_content}>
                     <div className={layout.activity_grid}>
-                        <ActivityGridItem href={"/raids/crotas_end"} name={"Crota's End"} icon={BungieIcons.raids.crotas_end} banner={CrotasEnd} description={"Keep it secret. Keep it safe."}/>
+                        <ActivityGridItem href={"/raids/crotas_end"} name={"Crota's End"} icon={BungieIcons.raids.crotas_end} banner={CrotasEnd} description={"He waits in the dark below."}/>
                         <ActivityGridItem href={"/raids/root_of_nightmares"} name={"Root of Nightmares"} icon={BungieIcons.raids.root_of_nightmares} banner={RootOfNightmares} description={"A sinister threat has taken root."}/>
                         <ActivityGridItem href={"/raids/kings_fall"} name={"King's Fall"} icon={BungieIcons.raids.kings_fall} banner={KingsFall} description={"Long live the King."}/>
                         <ActivityGridItem href={"/raids/vow_of_the_disciple"} name={"Vow of the Disciple"} icon={BungieIcons.raids.vow_of_the_disciple} banner={VowOfTheDisciple} description={"The Disciple beckons."}/>
