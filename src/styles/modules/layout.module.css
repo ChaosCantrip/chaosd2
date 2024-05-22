@@ -1,7 +1,9 @@
 .page {
     max-width: 60%;
+    height: 100%;
     margin: 0 auto;
     padding: 2rem;
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .full_image {
