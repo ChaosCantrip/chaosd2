@@ -33,10 +33,21 @@ export default function LostSectorsPage() {
             <div className={layout.page}>
                 <Title title={"Lost Sectors"} icon_url={BungieIcons.lost_sectors_icon} show_back_button={false}/>
                 <div className={layout.page_content}>
+                    <p className={custom.jump_label}>Jump to:</p>
+                    <div className={custom.jump_buttons}>
+                        {Object.keys(PathConfig.lost_sectors).map((lost_sector_id) => {
+                            const lost_sector = PathConfig.lost_sectors[lost_sector_id];
+                            return (
+                                <a key={lost_sector_id} className={custom.jump_button} href={`#${lost_sector_id}`}>
+                                    {lost_sector.name}
+                                </a>
+                            )
+                        })}
+                    </div>
                     {Object.keys(PathConfig.lost_sectors).map((lost_sector_id) => {
                         const lost_sector = PathConfig.lost_sectors[lost_sector_id];
                         return (
-                            <div key={lost_sector_id} className={custom.encounter}>
+                            <div key={lost_sector_id} className={custom.encounter} id={lost_sector_id}>
                                 <div className={custom.encounter_title}>
                                     <h1 className={custom.encounter_name}>{lost_sector.name}</h1>
                                     <QuickLink href={lost_sector.ql}/>

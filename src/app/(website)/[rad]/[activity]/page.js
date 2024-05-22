@@ -32,10 +32,21 @@ export default function ActivityPage({ params }) {
         <div className={layout.page}>
             <Title title={data.name} subtitle={rad_data.name} icon_url={BungieIcons[rad][activity]}/>
             <div className={layout.page_content}>
+                <p className={custom.jump_label}>Jump to:</p>
+                <div className={custom.jump_buttons}>
+                    {Object.keys(data.encounters).map((encounter_id) => {
+                        const encounter = data.encounters[encounter_id];
+                        return (
+                            <a key={encounter_id} className={custom.jump_button} href={`#${encounter_id}`}>
+                                {encounter.name}
+                            </a>
+                        )
+                    })}
+                </div>
                 {Object.keys(data.encounters).map((encounter_id) => {
                     const encounter = data.encounters[encounter_id];
                     return (
-                        <div key={encounter_id} className={custom.encounter}>
+                        <div key={encounter_id} className={custom.encounter} id={encounter_id}>
                             <div className={custom.encounter_title}>
                                 <h1 className={custom.encounter_name}>{encounter.name}</h1>
                                 <QuickLink href={encounter.ql}/>

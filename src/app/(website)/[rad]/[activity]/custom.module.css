@@ -36,3 +36,23 @@
     border-bottom: 1px solid white;
     margin-bottom: 1rem;
 }
+
+.jump_buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.jump_button {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--header-font-family);
+}
+
+.jump_label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+}
