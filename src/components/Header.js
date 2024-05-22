@@ -27,6 +27,7 @@ export default function Header() {
                         <SubLink href={"/raids/last_wish"} icon={BungieIcons.raids.last_wish}>Last Wish</SubLink>
                     </SubMenu>
                     <SubMenu href={"/dungeons"} name={"Dungeons"}>
+                        <SubLink href={"/dungeons/warlords_ruin"} icon={BungieIcons.dungeons.warlords_ruin}>Warlord's Ruin</SubLink>
                         <SubLink href={"/dungeons/ghosts_of_the_deep"} icon={BungieIcons.dungeons.ghosts_of_the_deep}>Ghosts of the Deep</SubLink>
                         <SubLink href={"/dungeons/spire_of_the_watcher"} icon={BungieIcons.dungeons.spire_of_the_watcher}>Spire of the Watcher</SubLink>
                         <SubLink href={"/dungeons/duality"} icon={BungieIcons.dungeons.duality}>Duality</SubLink>
