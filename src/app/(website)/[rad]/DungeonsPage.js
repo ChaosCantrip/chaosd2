@@ -6,6 +6,7 @@ import BackgroundImage from "@components/BackgroundImage";
 import Background from "@backgrounds/dungeon.jpg";
 import ActivityGridItem from "@components/ActivityGridItem";
 
+import WarlordsRuin from "@backgrounds/warlords_ruin.jpg";
 import GhostsOfTheDeep from "@backgrounds/ghosts.jpg";
 import SpireOfTheWatcher from "@backgrounds/spire.jpg";
 import Duality from "@backgrounds/duality.jpg";
@@ -15,6 +16,8 @@ import PitOfHeresy from "@backgrounds/pit.jpg";
 import ShatteredThrone from "@backgrounds/st.jpg";
 
 /*
+Warlord's Ruin
+Ghosts of the Deep
 Spire of the Watcher
 Duality
 Grasp of Avarice
@@ -31,7 +34,7 @@ export default function DungeonsPage() {
                 <Title title={"Dungeons"} icon_url={BungieIcons.dungeon_icon} show_back_button={false}/>
                 <div className={layout.page_content}>
                     <div className={layout.activity_grid}>
-                        <ActivityGridItem href={"/dungeons/warlords_ruin"} name={"Warlord's Ruin"} icon={BungieIcons.dungeons.warlords_ruin} banner={GhostsOfTheDeep} description={"A blighted vengeance festers deep in the mountains of the EDZ."}/>
+                        <ActivityGridItem href={"/dungeons/warlords_ruin"} name={"Warlord's Ruin"} icon={BungieIcons.dungeons.warlords_ruin} banner={WarlordsRuin} description={"A blighted vengeance festers deep in the mountains of the EDZ."}/>
                         <ActivityGridItem href={"/dungeons/ghosts_of_the_deep"} name={"Ghosts of the Deep"} icon={BungieIcons.dungeons.ghosts_of_the_deep} banner={GhostsOfTheDeep} description={"Drown in the deep, or rise from it."}/>
                         <ActivityGridItem href={"/dungeons/spire_of_the_watcher"} name={"Spire of the Watcher"} icon={BungieIcons.dungeons.spire_of_the_watcher} banner={SpireOfTheWatcher} description={"Machinations run wild in this dust-ridden ruin. Bring them to heel."}/>
                         <ActivityGridItem href={"/dungeons/duality"} name={"Duality"} icon={BungieIcons.dungeons.duality} banner={Duality} description={"Dive into the depths of the exiled emperor's mind in search of dark secrets."}/>
