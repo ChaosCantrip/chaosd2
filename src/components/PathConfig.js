@@ -1,5 +1,34 @@
 export const PathConfig = {
     raids: {
+        salvations_edge: {
+            name: "Salvation's Edge",
+            encounters: {
+                1: {
+                    name: "Encounter 1",
+                    ql: "/se/1",
+                },
+                2: {
+                    name: "Encounter 2",
+                    ql: "/se/2",
+                },
+                3: {
+                    name: "Encounter 3",
+                    ql: "/se/3",
+                },
+                4: {
+                    name: "Encounter 4",
+                    ql: "/se/4",
+                },
+                5: {
+                    name: "Encounter 5",
+                    ql: "/se/5",
+                },
+                loot: {
+                    name: "Loot Table",
+                    ql: "/se/loot",
+                }
+            }
+        },
         crotas_end: {
             name: "Crota's End",
             encounters: {
