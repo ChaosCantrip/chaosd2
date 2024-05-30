@@ -24,6 +24,16 @@
     grid-row: 2;
 }
 
+.unknown_item {
+    border: 2px solid white;
+    padding-left: 1rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 2;
+}
+
 .icons_wrapper {
     display: grid;
     grid-template-columns: repeat(5, 1fr);

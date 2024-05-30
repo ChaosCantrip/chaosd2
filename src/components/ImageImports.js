@@ -1,3 +1,10 @@
+import Salvation1Image from "@images/raids/salvations_edge/1.png";
+import Salvation2Image from "@images/raids/salvations_edge/2.png";
+import Salvation3Image from "@images/raids/salvations_edge/3.png";
+import Salvation4Image from "@images/raids/salvations_edge/4.png";
+import Salvation5Image from "@images/raids/salvations_edge/5.png";
+import SalvationLootImage from "@images/raids/salvations_edge/loot.png";
+import SalvationBackground from "@images/backgrounds/salvations_edge.jpg";
 import Crota1Image from "@images/raids/crotas_end/1.png";
 import Crota2Image from "@images/raids/crotas_end/2.png";
 import Crota3Image from "@images/raids/crotas_end/3.png";
@@ -143,11 +150,20 @@ export const backgrounds = {
     vow_of_the_disciple: VowBackground,
     ghosts_of_the_deep: GhostsBackground,
     crotas_end: CrotaBackground,
-    warlords_ruin: WarlordsBackground
+    warlords_ruin: WarlordsBackground,
+    salvations_edge: SalvationBackground
 }
 
 export const image_sources = {
     raids: {
+        salvations_edge: {
+            1: Salvation1Image,
+            2: Salvation2Image,
+            3: Salvation3Image,
+            4: Salvation4Image,
+            5: Salvation5Image,
+            loot: SalvationLootImage
+        },
         crotas_end: {
             1: Crota1Image,
             2: Crota2Image,

@@ -2,6 +2,13 @@
 
 const activity_dictionary = {
     raids: {
+        salvations_edge: [
+            "se",
+            "salvationsedge",
+            "salvations",
+            "salvation",
+            "edge"
+        ],
         crotas_end: [
             "ce",
             "crotasend",
@@ -91,6 +98,23 @@ const activity_dictionary = {
 
 const encounter_dictionary = {
     raids: {
+        salvations_edge: {
+            "1": [
+
+            ],
+            "2": [
+
+            ],
+            "3": [
+
+            ],
+            "4": [
+
+            ],
+            "5": [
+
+            ]
+        },
         crotas_end: {
             "1": [
                 "pit",
