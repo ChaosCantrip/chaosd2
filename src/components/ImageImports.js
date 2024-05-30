@@ -1,3 +1,4 @@
+import SalvationBackground from "@images/backgrounds/salvations_edge.jpg";
 import Crota1Image from "@images/raids/crotas_end/1.png";
 import Crota2Image from "@images/raids/crotas_end/2.png";
 import Crota3Image from "@images/raids/crotas_end/3.png";
@@ -143,7 +144,8 @@ export const backgrounds = {
     vow_of_the_disciple: VowBackground,
     ghosts_of_the_deep: GhostsBackground,
     crotas_end: CrotaBackground,
-    warlords_ruin: WarlordsBackground
+    warlords_ruin: WarlordsBackground,
+    salvations_edge: SalvationBackground
 }
 
 export const image_sources = {
