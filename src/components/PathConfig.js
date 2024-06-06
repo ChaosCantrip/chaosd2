@@ -527,6 +527,21 @@ export const PathConfig = {
         }
     },
     lost_sectors: {
+        "the_forgotten_deep": {
+            name: "The Forgotten Deep",
+            location: "The Pale Heart",
+            ql: "/ls/the_forgotten_deep"
+        },
+        "the_blooming_deep": {
+            name: "The Blooming Deep",
+            location: "The Pale Heart",
+            ql: "/ls/the_blooming_deep"
+        },
+        "the_broken_deep": {
+            name: "The Broken Deep",
+            location: "The Pale Heart",
+            ql: "/ls/the_broken_deep"
+        },
         "aphelions_rest": {
             name: "Aphelion's Rest",
             location: "The Dreaming City",
@@ -561,6 +576,6 @@ export const PathConfig = {
             name: "Thrilladrome",
             location: "Neomuna",
             ql: "/ls/thrilladrome"
-        }
+        },
     }
 }

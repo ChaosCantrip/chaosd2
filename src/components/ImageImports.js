@@ -130,6 +130,9 @@ import ChamberOfStarlightImage from "@images/lost_sectors/chamber_of_starlight.p
 import ConcealedVoidImage from "@images/lost_sectors/concealed_void.png";
 import PerditionImage from "@images/lost_sectors/perdition.png";
 import ThrilladromeImage from "@images/lost_sectors/thrilladrome.png";
+import ForgottenDeepImage from "@images/lost_sectors/the_forgotten_deep.png";
+import BloomingDeepImage from "@images/lost_sectors/the_blooming_deep.png";
+import BrokenDeepImage from "@images/lost_sectors/the_broken_deep.png";
 
 export const backgrounds = {
     raid: RaidBackground,
@@ -305,6 +308,9 @@ export const image_sources = {
         chamber_of_starlight: ChamberOfStarlightImage,
         concealed_void: ConcealedVoidImage,
         perdition: PerditionImage,
-        thrilladrome: ThrilladromeImage
+        thrilladrome: ThrilladromeImage,
+        the_forgotten_deep: ForgottenDeepImage,
+        the_blooming_deep: BloomingDeepImage,
+        the_broken_deep: BrokenDeepImage
     }
 }

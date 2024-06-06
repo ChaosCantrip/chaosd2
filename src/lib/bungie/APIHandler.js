@@ -8,7 +8,118 @@ const damage = {
 }
 
 const static_definitions = {
-
+    "edge_pulse_rifle": {
+        "displayProperties": {
+            "name": "Nullify",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/ef1a8374c931321694d6d3d0d3e96247.png",
+        },
+        "inventory": {
+            "recipeItemHash": 1
+        },
+        "equippingBlock": {
+            "ammoType": 1
+        },
+        "damageTypeHashes": [
+            damage.Solar
+        ],
+        "itemTypeAndTierDisplayName": "Legendary Pulse Rifle",
+    },
+    "edge_smg": {
+        "displayProperties": {
+            "name": "Imminence",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/ef1a8374c931321694d6d3d0d3e96247.png",
+        },
+        "inventory": {
+            "recipeItemHash": 1
+        },
+        "equippingBlock": {
+            "ammoType": 1
+        },
+        "damageTypeHashes": [
+            damage.Strand
+        ],
+        "itemTypeAndTierDisplayName": "Legendary Submachine Gun",
+    },
+    "edge_bow": {
+        "displayProperties": {
+            "name": "Non-Denouement",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/ef1a8374c931321694d6d3d0d3e96247.png",
+        },
+        "inventory": {
+            "recipeItemHash": 1
+        },
+        "equippingBlock": {
+            "ammoType": 1
+        },
+        "damageTypeHashes": [
+            damage.Arc
+        ],
+        "itemTypeAndTierDisplayName": "Legendary Bow",
+    },
+    "edge_sword": {
+        "displayProperties": {
+            "name": "Summum Bonum",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/ef1a8374c931321694d6d3d0d3e96247.png",
+        },
+        "inventory": {
+            "recipeItemHash": 1
+        },
+        "equippingBlock": {
+            "ammoType": 3
+        },
+        "damageTypeHashes": [
+            damage.Arc
+        ],
+        "itemTypeAndTierDisplayName": "Legendary Sword",
+    },
+    "edge_glaive": {
+        "displayProperties": {
+            "name": "Forthcoming Deviance",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/ef1a8374c931321694d6d3d0d3e96247.png",
+        },
+        "inventory": {
+            "recipeItemHash": 1
+        },
+        "equippingBlock": {
+            "ammoType": 2
+        },
+        "damageTypeHashes": [
+            damage.Void
+        ],
+        "itemTypeAndTierDisplayName": "Legendary Glaive",
+    },
+    "edge_sniper_rifle": {
+        "displayProperties": {
+            "name": "Critical Anomaly",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/ef1a8374c931321694d6d3d0d3e96247.png",
+        },
+        "inventory": {
+            "recipeItemHash": 1
+        },
+        "equippingBlock": {
+            "ammoType": 2
+        },
+        "damageTypeHashes": [
+            damage.Stasis
+        ],
+        "itemTypeAndTierDisplayName": "Legendary Sniper Rifle",
+    },
+    "edge_lfr": {
+        "displayProperties": {
+            "name": "Euphony",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/ef1a8374c931321694d6d3d0d3e96247.png",
+        },
+        "inventory": {
+            "recipeItemHash": 1
+        },
+        "equippingBlock": {
+            "ammoType": 3
+        },
+        "damageTypeHashes": [
+            damage.Strand
+        ],
+        "itemTypeAndTierDisplayName": "Exotic Linear Fusion Rifle",
+    }
 }
 
 function generate_unknown_item(item_hash) {
@@ -66,16 +177,16 @@ export async function get_damage_definition(damage_hash) {
 const static_modifiers = {
     "Legend Modifiers": {
         "displayProperties": {
-            "name": "Legend Modifiers",
+            "name": "Expert Modifiers",
             "description": "Locked Loadout, Extra Shields, Limited Revives",
-            "icon": "/common/destiny2_content/icons/91abb126d5f923d92d30e2bd2e11dce2.png"
+            "icon": "/common/destiny2_content/icons/fd69e40400a3be51626434863ed24c2f.png"
         }
     },
     "Master Modifiers": {
         "displayProperties": {
             "name": "Master Modifiers",
             "description": "Locked Loadout, Extra Shields, Extra Champions, Limited Revives",
-            "icon": "/common/destiny2_content/icons/2aec83801423335c14d6fd54d7b57c1d.png"
+            "icon": "/common/destiny2_content/icons/0d70d8becedacd79922e1a43c0052f4a.png"
         }
     }
 }

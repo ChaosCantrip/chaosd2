@@ -10,13 +10,13 @@ export const metadata = {
 }
 
 const items = {
-    "scout_rifle": "1432682459",
-    "shotgun": "3163900678",
-    "hand_cannon": "120706239",
-    "auto_rifle": "833898322",
-    "pulse_rifle": "1098171824",
-    "machine_gun": "2828278545",
-    "exotic": "1034055198",
+    "pulse_rifle": "fake_edge_pulse_rifle",
+    "smg": "fake_edge_smg",
+    "bow": "fake_edge_bow",
+    "sword": "fake_edge_sword",
+    "glaive": "fake_edge_glaive",
+    "sniper_rifle": "fake_edge_sniper_rifle",
+    "lfr": "fake_edge_lfr",
 }
 
 const data = {
@@ -68,7 +68,7 @@ const data = {
         },
     ],
     armour: {
-        set: "God-Knight Suit Willbreaker Suit Deathsinger Suit",
+        set: "Promised Armor",
         hashes: {
             "Head": [
                 "1328334240",
