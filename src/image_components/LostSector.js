@@ -12,10 +12,10 @@ export default async function LostSector({ name, location, background, href, dat
             <div className={styles.content}>
                 <div className={styles.card}>
                     <div className={styles.card_title}>
-                        <h1>Legend</h1>
+                        <h1>Expert</h1>
                         <div className={styles.light_level_wrapper}>
                             <p>Light Level</p>
-                            <p className={styles.light_level}>1830</p>
+                            <p className={styles.light_level}>2005</p>
                         </div>
                     </div>
                     <div className={styles.card_content}>
@@ -29,7 +29,7 @@ export default async function LostSector({ name, location, background, href, dat
                         <h1>Master</h1>
                         <div className={styles.light_level_wrapper}>
                             <p>Light Level</p>
-                            <p className={styles.light_level}>1840</p>
+                            <p className={styles.light_level}>2010</p>
                         </div>
                     </div>
                     <div className={styles.card_content}>
