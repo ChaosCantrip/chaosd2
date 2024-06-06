@@ -177,16 +177,16 @@ export async function get_damage_definition(damage_hash) {
 const static_modifiers = {
     "Legend Modifiers": {
         "displayProperties": {
-            "name": "Legend Modifiers",
+            "name": "Expert Modifiers",
             "description": "Locked Loadout, Extra Shields, Limited Revives",
-            "icon": "/common/destiny2_content/icons/91abb126d5f923d92d30e2bd2e11dce2.png"
+            "icon": "/common/destiny2_content/icons/fd69e40400a3be51626434863ed24c2f.png"
         }
     },
     "Master Modifiers": {
         "displayProperties": {
             "name": "Master Modifiers",
             "description": "Locked Loadout, Extra Shields, Extra Champions, Limited Revives",
-            "icon": "/common/destiny2_content/icons/2aec83801423335c14d6fd54d7b57c1d.png"
+            "icon": "/common/destiny2_content/icons/0d70d8becedacd79922e1a43c0052f4a.png"
         }
     }
 }
